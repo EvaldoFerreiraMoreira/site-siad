@@ -1,21 +1,40 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import Link from "next/link";
 
-const BannerRight = () => {
+interface BannerRightProps {
+    title: String,
+    description: String,
+    img: String,
+    colorTitle: String,
+    colorDescription: String;
+}
+
+const BannerRight = ({ title, description, img, colorTitle, colorDescription }: BannerRightProps) => {
+
+    const imagem = "/" + img;
+    const colortitle = "#" + colorTitle;
+    const colordescription = "#" + colorDescription;
     return (
         <div>
             <div className="flex flex-col text-center">
-                <h1 className="text-[#303666] text-2xl font-bold">Lorem Ipsum</h1>
-                <p className="text-sm mt-5 text-[#68686F]"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type </p>
+                <h1 className="text-2xl font-bold" style={{
+                    color: colortitle,
+                }}>{title}</h1>
+                <p className="text-sm mt-5" style={{
+                    color: colordescription,
+                }}> {description} </p>
             </div>
             <div className="flex mt-8 justify-center">
-                <Button className="bg-[#26B547]">
-                    Experimente
-                </Button>
+                <Link href="/planos">
+                    <Button className="bg-[#26B547]">
+                        Experimente
+                    </Button>
+                </Link>
             </div>
             <div className="mt-14">
-            <Image
-                    src="/IMG-01.png"
+                <Image
+                    src={imagem}
                     alt="Compiuter"
                     width={0}
                     height={0}

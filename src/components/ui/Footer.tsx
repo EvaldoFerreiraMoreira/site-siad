@@ -1,11 +1,19 @@
-import { Mail, MapPin, Phone, Smartphone } from "lucide-react";
+import {
+  Facebook,
+  FacebookIcon,
+  Instagram,
+  Mail,
+  MapPin,
+  Phone,
+  Smartphone,
+} from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { Separator } from "./separator";
 
 const Footer = () => {
   return (
-    <div className="bg-[#F1F4F9] h-96 p-5">
+    <div className="bg-[#F1F4F9] h-1/2 p-5">
       <div className="relative h-40 w-48">
         <Link href="/">
           <Image
@@ -55,6 +63,23 @@ const Footer = () => {
             </p>
           </div>
         </div>
+      </div>
+      <div className="mt-5">
+        <Separator className="bg-black" />
+      </div>
+      <div className="flex gap-10 font-medium text-[#242858] justify-center p-5">
+        <Link href="https://www.facebook.com/siadsistemasbr">
+          <p className="flex gap-1">
+            <Facebook />
+            @siadsistemasbr
+          </p>
+        </Link>
+        <Link href="https://www.instagram.com/siad_sistemas/">
+          <p className="flex gap-1">
+            <Instagram />
+            @siad_sistemas
+          </p>
+        </Link>
       </div>
     </div>
   );

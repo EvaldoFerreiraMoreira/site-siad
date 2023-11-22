@@ -1,11 +1,12 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Inter, Oxygen } from 'next/font/google'
 import './globals.css'
 import Header from '@/components/ui/Header'
 import Footer from '@/components/ui/Footer'
 import FixedBar from '@/components/ui/FixedBar'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ['latin'] });
+const oxygem = Oxygen({weight: ["300", "400", "700"], subsets: ["latin"]});
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -19,10 +20,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={inter.className}> {/*  outra opção de fonte {cn(oxygem.className, "min-h-screen flex flex-col")}*/ }
         <Header />
-
+      
         {children}
+        
 
         <Footer />
         <FixedBar />

@@ -47,7 +47,7 @@ const Footer = () => {
           <div className="mt-5 text-xs">
             <p className="flex gap-1">
               <MapPin size={30} />
-              Av. Brasil, 114 - 1º andar - Lacê, Colatina - ES, 29703-032{" "}
+              Av. Brasil, 114 - 3º andar - Lacê, Colatina - ES, 29703-032{" "}
             </p>
             <p className="flex gap-1">
               <Phone size={15} />

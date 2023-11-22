@@ -1,5 +1,5 @@
 import Banner from "./components/Banner";
-import MobilePesentation from "./components/MobilePesentation";
+import MobilePesentation from "./components/MobilePresentation";
 import TextCenter from "./components/TextCenter";
 
 export default function Home() {

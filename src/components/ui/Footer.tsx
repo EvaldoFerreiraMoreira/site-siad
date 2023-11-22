@@ -13,7 +13,7 @@ import { Separator } from "./separator";
 
 const Footer = () => {
   return (
-    <div className="bg-[#F1F4F9] h-1/2 p-5">
+    <div className="bg-[#F1F4F9] h-2/3 p-5 pb-20">
       <div className="relative h-40 w-48">
         <Link href="/">
           <Image

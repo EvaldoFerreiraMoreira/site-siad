@@ -21,7 +21,7 @@ import { NavigationMenuSegmento } from "./NavigationMenu";
 
 const Header = () => {
   return (
-    <div className="container mx-auto p-5 py-0 h-[93px] flex justify-between items-center" id="header">
+    <div className="fixed bg-white container shadow-md mx-auto p-5 top-0 h-[93px] flex justify-between items-center" id="header">
       <div className="relative h-[95px] w-[200px]">
         <Link href="/">
           <Image

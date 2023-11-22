@@ -58,7 +58,7 @@ export function NavigationMenuSegmento() {
         <NavigationMenu>
             <NavigationMenuList>
                 <NavigationMenuItem>
-                    <NavigationMenuTrigger className="flex gap-2 w-[205%] border">
+                    <NavigationMenuTrigger className="w-full justify-start w-60 gap-2 border">
                         <Briefcase size={16} className="left-10"/>
                         Segmentos
                     </NavigationMenuTrigger>

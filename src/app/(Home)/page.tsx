@@ -1,4 +1,5 @@
 import Banner from "./components/Banner";
+import BannerRight from "./components/BannerRight";
 
 export default function Home() {
   return (
@@ -9,8 +10,8 @@ export default function Home() {
       <div className="border h-96">
 
       </div>
-      <div className="border h-96">
-
+      <div className="flex w-full p-10  border  ">
+      <BannerRight/>
       </div>
       <div className="border h-96">
 

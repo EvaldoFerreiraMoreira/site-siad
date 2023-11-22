@@ -32,10 +32,10 @@ const BannerRight = ({ title, description, img, colorTitle, colorDescription }: 
                     </Button>
                 </Link>
             </div>
-            <div className="mt-14">
+            <div className="flex mt-14 h-56 justify-center">
                 <Image
                     src={imagem}
-                    alt="Compiuter"
+                    alt="Imagem"
                     width={0}
                     height={0}
                     sizes="100vw"

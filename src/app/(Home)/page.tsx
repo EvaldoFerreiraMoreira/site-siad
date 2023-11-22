@@ -1,4 +1,6 @@
 import Banner from "./components/Banner";
+import MobilePesentation from "./components/MobilePesentation";
+import TextCenter from "./components/TextCenter";
 
 export default function Home() {
   return (
@@ -6,8 +8,8 @@ export default function Home() {
       <div className="flex w-full p-10">
         <Banner />
       </div>
-      <div className="border h-96">
-
+      <div className=" flex w-full p-10 border h-96">
+      <TextCenter/>
       </div>
       <div className="border h-96">
 
@@ -21,8 +23,8 @@ export default function Home() {
       <div className="border bg-[#3D5685] h-96">
 
       </div>
-      <div className="border bg-[#f1f4f9] h-96">
-
+      <div className=" flex w-full p-10 border h-96 border bg-[#f1f4f9] h-96">
+      <MobilePesentation/>
       </div>
       <div className="border bg-[#3D5685] h-96">
 

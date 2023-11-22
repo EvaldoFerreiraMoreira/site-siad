@@ -1,4 +1,5 @@
 import Banner from "./components/Banner";
+import BannerRight from "./components/BannerLeft";
 
 export default function Home() {
   return (
@@ -12,8 +13,8 @@ export default function Home() {
       <div className="border h-96">
 
       </div>
-      <div className="border h-96">
-
+      <div className="flex w-full p-10">
+          <BannerRight />
       </div>
       <div className="border bg-[#3D5685] h-96">
 

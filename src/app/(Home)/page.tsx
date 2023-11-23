@@ -23,7 +23,7 @@ export default function Home() {
       <div className="border bg-[#3D5685] h-96">
 
       </div>
-      <div className=" flex w-full p-10 border h-96 border bg-[#f1f4f9] h-96">
+      <div className=" flex w-full p-10  h-96 border bg-[#f1f4f9] ">
       <MobilePesentation/>
       </div>
       <div className="border bg-[#3D5685] h-96">

@@ -23,7 +23,7 @@ const CarrosselFotos = () => {
             <div className='flex mt-5 justify-center gap-2 pb-5 '>
 
                 <Image
-                    src={"/carrosel01.png"}
+                    src={"/carrossel01.png"}
                     alt="Imagem"
                     width={0}
                     height={0}

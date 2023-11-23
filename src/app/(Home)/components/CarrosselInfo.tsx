@@ -79,7 +79,7 @@ const CarrosselInfo = () => {
                 <h1>Lorem Ipsum</h1>
                 <p className='text-sm'>Lorem Ipsum is simplydummy text of the printing</p>
             </div>
-            <div className='text-white'>
+            <div className="z-0">
                 <AliceCarousel
                     mouseTracking
                     keyboardNavigation

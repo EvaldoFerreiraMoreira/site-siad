@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const MobilePresentation = () => {
     return (
-        <div className=" flex text-[#A7A7A7]">
+        <div className=" flex text-[#A7A7A7] justify-center ">
             <div className="flex flex-col  ">
                 <div className="flex w-56 font-bold text-2xl">
                     <h1 className="text-[#3D5685]">Lorem Ipsum  </h1>
@@ -40,17 +40,17 @@ const MobilePresentation = () => {
                 </div>
             </div>
 
-            <div className="flex">
-                <div className="flex mt-10 h-72 w-52">
+            <div className="pr-20">
+                <div className="flex mt-16 h-36 w-52 ">
                     <Image
                         src="/Iphone-mobile.png"
-                        alt="Compiuter"
+                        alt="SMARTPHONE"
                         width={0}
                         height={0}
                         sizes="100vw"
-                        className="h-auto w-auto max-w-[100%] max-h-[90%]"
+                        className="h-auto w-auto max-w-[100%] max-h-[100%]"
                         style={{
-                            objectFit: "contain",
+                            objectFit: "cover",
                         }}
                     />
                 </div>

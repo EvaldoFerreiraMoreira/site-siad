@@ -4,6 +4,7 @@ import BannerLeft from "./components/BannerLeft";
 import MobilePresentation from "./components/MobilePresentation";
 import TextCenter from "./components/TextCenter";
 import CarrosselInfo from "./components/CarrosselInfo";
+import BannerConsultant from "./components/BannerConsultant";
 
 export default function Home() {
   return (
@@ -26,14 +27,14 @@ export default function Home() {
       <div className="flex w-full p-10 bg-[#3D5685] ">
         <BannerLeft title={"Lorem Ipsum"} description={"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type "} img={"IMG-01.png"} colorTitle={"FFFF"} colorDescription={"FFFF"} />
       </div>
-      <div className=" flex w-full p-10 border bg-[#f1f4f9]">
+      <div className=" flex w-full p-10  bg-[#F1F4F9]">
         <MobilePresentation />
       </div>
       <div className="border bg-[#3D5685]">
           <CarrosselInfo />
       </div>
-      <div className="border bg-[#f1f4f9] h-96">
-
+      <div className="p-10 bg-[#F1F4F9]">
+        <BannerConsultant/>
       </div>
     </div>
   )

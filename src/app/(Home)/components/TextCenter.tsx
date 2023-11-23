@@ -1,7 +1,7 @@
 const TextCenter = () => {
     return (
         <div className="text-[#A7A7A7]">
-            <div className="flez mt-10 font-semibold text-2xl">
+            <div className="mt-10 font-semibold text-2xl">
                 <h1 className="text-center font-bold text-[#3D5685]">Lorem Ipsum</h1>
             </div>
             <div  className="mt-10 text-sm text-center">

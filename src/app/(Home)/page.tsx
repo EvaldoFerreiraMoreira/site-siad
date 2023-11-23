@@ -29,7 +29,7 @@ export default function Home() {
       <div className=" flex w-full p-10 border bg-[#f1f4f9]">
         <MobilePesentation />
       </div>
-      <div className="border bg-[#3D5685] ">
+      <div className="border bg-[#3D5685]">
           <CarrosselInfo />
       </div>
       <div className="border bg-[#f1f4f9] h-96">

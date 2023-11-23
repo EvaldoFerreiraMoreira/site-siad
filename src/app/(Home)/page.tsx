@@ -5,6 +5,7 @@ import MobilePresentation from "./components/MobilePresentation";
 import TextCenter from "./components/TextCenter";
 import CarrosselInfo from "./components/CarrosselInfo";
 import BannerConsultant from "./components/BannerConsultant";
+import CarrosselFotos from "./components/CarrosselFotos";
 
 export default function Home() {
   return (
@@ -35,6 +36,9 @@ export default function Home() {
       </div>
       <div className="p-10 bg-[#F1F4F9]">
         <BannerConsultant/>
+      </div>
+      <div className="border bg-[#3D5685]">
+      <CarrosselFotos/>
       </div>
     </div>
   )

@@ -3,7 +3,7 @@ import { Smartphone } from "lucide-react";
 import Image from "next/image";
 
 
-const MobilePesentation = () => {
+const MobilePresentation = () => {
     return (
         <div className=" flex text-[#A7A7A7]">
             <div className="flex flex-col  ">
@@ -59,4 +59,4 @@ const MobilePesentation = () => {
     );
 }
 
-export default MobilePesentation;
+export default MobilePresentation;

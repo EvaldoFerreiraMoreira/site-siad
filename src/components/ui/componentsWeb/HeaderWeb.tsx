@@ -1,21 +1,9 @@
 // Código específico para a web
 import React from "react";
 import Image from "next/image";
-import {
-  Sheet,
-  SheetClose,
-  SheetContent,
-  SheetHeader,
-  SheetTrigger,
-} from "../sheet";
 import { Button } from "../button";
 import {
-  MenuIcon,
-  HomeIcon,
-  GanttChartSquare,
-  Laptop2,
   Smartphone,
-  Phone,
 } from "lucide-react";
 import { Separator } from "../separator";
 import Link from "next/link";

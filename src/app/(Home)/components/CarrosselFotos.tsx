@@ -20,7 +20,7 @@ const CarrosselFotos = () => {
 
     const items = [
         <div className="item" data-value="1" key={0}>
-            <div className='flex mt-5 justify-center gap-2'>
+            <div className='flex mt-5 justify-center gap-2 pb-5 '>
 
                 <Image
                     src={"/carrosel01.png"}
@@ -28,9 +28,11 @@ const CarrosselFotos = () => {
                     width={0}
                     height={0}
                     sizes="auto"
-                    className="h-44 w-auto max-w-[200%] max-h-[200%] rounded-3xl"
+                    className="h-44 w-auto max-w-[200%] max-h-[200%] rounded-3xl shadow-lg shadow-[#23314C]"
                     style={{
                         objectFit: "contain",
+                        
+                        
                     }}
                 />
 
@@ -40,7 +42,7 @@ const CarrosselFotos = () => {
                     width={0}
                     height={0}
                     sizes="auto"
-                    className="h-44 w-auto max-w-[100%] max-h-[100%] rounded-3xl"
+                    className="h-44 w-auto max-w-[100%] max-h-[100%] rounded-3xl shadow-lg shadow-[#23314C]"
                     style={{
                         objectFit: "contain",
                     }}
@@ -58,7 +60,7 @@ const CarrosselFotos = () => {
                     width={0}
                     height={0}
                     sizes="auto"
-                    className="h-44 w-auto max-w-[100%] max-h-[100%] rounded-3xl"
+                    className="h-44 w-auto max-w-[100%] max-h-[100%] rounded-3xl shadow-lg shadow-[#23314C]"
                     style={{
                         objectFit: "fill",
                     }}
@@ -70,7 +72,7 @@ const CarrosselFotos = () => {
                     width={0}
                     height={0}
                     sizes="auto"
-                    className="h-44 w-auto max-w-[100%] max-h-[100%] rounded-3xl"
+                    className="h-44 w-auto max-w-[100%] max-h-[100%] rounded-3xl shadow-lg shadow-[#23314C]"
                     style={{
                         objectFit: "contain",
                     }}

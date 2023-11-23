@@ -1,27 +1,27 @@
-import { Smartphone } from "lucide-react";
-import Image from "next/image";
-import Link from "next/link";
-import { Button } from "./button";
+"use client";
+
+import { useEffect, useState } from "react";
+import FixedBarMobile from "./FixedBarMobile";
+import FixedBarWeb from "./FixedBarWeb";
 
 const FixedBar = () => {
-    return (
-        <div className="fixed bg-[#5576B3] container shadow-md mx-auto p-5 bottom-0 h-[85px] flex items-center text-white">
-            <div className="flex items-center ">
-                <Smartphone size={50} />
-            </div>
-            <div>
-                <p className="text-sm w-36 text-center font-semibold">
-                    Fale com a gente no
+  const [isMobile, setIsMobile] = useState(false);
 
-                    Whatsapp
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 860);
+    };
 
-                </p>
-            </div>
-            <div className="flex w-2 h-4 left-full r">
-              
-            </div>
-        </div>
-    );
-}
+    window.addEventListener("resize", handleResize);
+
+    handleResize();
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
+  return isMobile ? <FixedBarMobile /> : <FixedBarWeb />;
+};
 
 export default FixedBar;

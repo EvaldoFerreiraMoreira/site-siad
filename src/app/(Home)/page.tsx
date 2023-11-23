@@ -4,6 +4,7 @@ import BannerLeft from "./components/BannerLeft";
 import MobilePesentation from "./components/MobilePesentation";
 import TextCenter from "./components/TextCenter";
 import CarrosselInfo from "./components/CarrosselInfo";
+import CarrosselFotos from "./components/CarrosselFotos";
 
 export default function Home() {
   return (
@@ -34,6 +35,9 @@ export default function Home() {
       </div>
       <div className="border bg-[#f1f4f9] h-96">
 
+      </div>
+      <div className="border bg-[#3D5685]">
+      <CarrosselFotos/>
       </div>
     </div>
   )

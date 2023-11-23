@@ -5,6 +5,7 @@ import { CheckSquare } from 'lucide-react';
 import Link from 'next/link';
 import React from 'react';
 import AliceCarousel, { EventObject } from 'react-alice-carousel';
+import 'react-alice-carousel/lib/alice-carousel.css';
 
 
 const CarrosselInfo = () => {
@@ -73,30 +74,27 @@ const CarrosselInfo = () => {
 
 
     return (
-        <>
+        <div className='flex flex-col h-auto'>
             <div className='flex flex-col text-xl items-center text-justify my-6 font-bold text-white'>
                 <h1>Lorem Ipsum</h1>
                 <p className='text-sm'>Lorem Ipsum is simplydummy text of the printing</p>
             </div>
-            <div className='z-0'>
-
-                <AliceCarousel
-                    mouseTracking
-                    keyboardNavigation
-                    items={items}
-                    responsive={responsive}
-                    onSlideChange={onSlideChange}
-                    onSlideChanged={onSlideChanged}
-                />
-            </div>
+            <AliceCarousel
+                mouseTracking
+                keyboardNavigation
+                items={items}
+                responsive={responsive}
+                onSlideChange={onSlideChange}
+                onSlideChanged={onSlideChanged}
+            />
             <div className='flex justify-center mb-10'>
                 <Link href='/planos'>
-                    <Button className='bg-[#26B547]'>
-                        Experimente
-                    </Button>
+                <Button className='bg-[#26B547]'>
+                    Experimente
+                </Button>
                 </Link>
             </div>
-        </>
+        </div>
     );
 }
 

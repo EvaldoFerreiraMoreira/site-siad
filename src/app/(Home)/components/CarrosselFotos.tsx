@@ -31,8 +31,8 @@ const CarrosselFotos = () => {
                     className="h-44 w-auto max-w-[200%] max-h-[200%] rounded-3xl shadow-lg shadow-[#23314C]"
                     style={{
                         objectFit: "contain",
-                        
-                        
+
+
                     }}
                 />
 
@@ -52,9 +52,9 @@ const CarrosselFotos = () => {
             </div>
         </div>,
         <div className="item" data-value="2" key={1}>
-            <div className='flex mt-5 justify-center gap-5'>
+            <div className='flex mt-5 justify-center gap-2 pb-5'>
 
-            <Image
+                <Image
                     src={"/carrossel03.png"}
                     alt="Imagem"
                     width={0}
@@ -79,7 +79,7 @@ const CarrosselFotos = () => {
                 />
             </div>
         </div>,
-     
+
 
     ];
 
@@ -97,8 +97,8 @@ const CarrosselFotos = () => {
             <div className='flex text-xl items-start text-justify my-1 font-bold mt-6 ml-3 gap-2 text-white'>
                 <h1>Acompanhe nossas</h1> <span className='text-black'> Redes</span>
             </div>
-            <div  className='flex items-start text-justify my-1 font-medium  ml-3 text-white'>
-            <p className='text-xs'>Conecte-se conosco, explore nossas redes e esteja sempre atualizado!</p>
+            <div className='flex items-start text-justify my-1 font-medium  ml-3 text-white'>
+                <p className='text-xs'>Conecte-se conosco, explore nossas redes e esteja sempre atualizado!</p>
             </div>
             <AliceCarousel
                 mouseTracking

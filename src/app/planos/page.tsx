@@ -32,8 +32,8 @@ const Planos = () => {
             <div className="bg-[#f1f4f9] h-auto">
                 <BannerCarrossel/>
             </div>
-            <div className=" flex w-full p-10 bg-[#f1f4f9]">
-                <CommonQuestion/>
+            <div className=" flex w-full p-10 bg-white">
+                <CommonQuestion />
             </div>
             <div className=" flex w-full p-10 bg-[#f1f4f9]">
                 <FuncSiadBanner />

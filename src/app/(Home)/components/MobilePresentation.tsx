@@ -8,28 +8,28 @@ const MobilePresentation = () => {
         <div className=" flex text-[#A7A7A7] justify-center ">
             <div className="flex flex-col  ">
                 <div className="flex w-56 font-bold text-2xl">
-                    <h1 className="text-[#3D5685]">Lorem Ipsum  </h1>
+                    <h1 className="text-[#3D5685]">Gestor Mobile</h1>
                 </div>
-                <div className="flex mt-2 w-56 font-semibold text-xl">
-                    <span className="text-[#3D5685]">Lorem Ipsum is simply</span>
+                <div className="flex mt-2 w-56 font-semibold text-xs">
+                    <span className="text-[#3D5685]">Confira a nossa solução mobile com os principais resultados da sua empresa</span>
                 </div>
                 <div className="flex flex-col  gap-2 mt-3 text-[#3D5685] text-sm" >
                     <ul className="w-full justify-start gap-2" >
                         <li className="flex gap-1 ">
                             <Smartphone size={25} />
-                            <p> Lorem Ipsum is </p>
+                            <p> Melhor horário das vendas</p>
                         </li>
                         <li className="flex gap-1 mt-2">
                             <Smartphone size={25} />
-                            <p>simplydummy text of the </p>
+                            <p>mês a mês</p>
                         </li>
                         <li className="flex gap-1 mt-2">
                             <Smartphone size={25} />
-                            <p>printing and typesetting</p>
+                            <p>pranking de vendas</p>
                         </li>
                         <li className="flex gap-1 mt-2" >
                             <Smartphone size={25} />
-                            <p>industry. Lorem Ipsum h</p>
+                            <p>formas de pagamentos e vendedores</p>
                         </li>
                     </ul>
                 </div>

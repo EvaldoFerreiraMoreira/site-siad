@@ -3,6 +3,7 @@ import CardGratis from "./components/CardGratis";
 import CarrosselPlanos from "./components/CarrosselPlanos";
 import FuncSiadBanner from "./components/FuncSiadBanner";
 import CommonQuestion from "./components/CommonQuestion";
+import BannerCarrossel from "./components/BannerCarrossel";
 
 
 const Planos = () => {
@@ -27,10 +28,15 @@ const Planos = () => {
 
             </div>
             <div className=" flex w-full p-10  bg-[#f1f4f9] h-96 ">
-
             </div>
-            <div className=" flex w-full p-10 bg-white h-96 ">
-                <CommonQuestion />
+            <div className=" flex w-full p-10  bg-[#f1f4f9] h-96 ">
+                <CardGratis/>
+            </div>
+            <div className="bg-[#f1f4f9]">
+                <BannerCarrossel/>
+            </div>
+            <div className=" flex w-full p-10 bg-[#f1f4f9]">
+                <CommonQuestion/>
             </div>
             <div className=" flex w-full p-10 bg-[#f1f4f9]">
                 <FuncSiadBanner />

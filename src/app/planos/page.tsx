@@ -1,5 +1,6 @@
 import BannerPlanos from "./components/BannerPlanos";
 import CarrosselPlanos from "./components/CarrosselPlanos";
+import CommonQuestion from "./components/CommonQuestion";
 
 
 const Planos = () => {
@@ -18,7 +19,7 @@ const Planos = () => {
 
             </div>
             <div className=" flex w-full p-10 bg-[#f1f4f9] h-96 ">
-
+                <CommonQuestion/>
             </div>
             <div className=" flex w-full p-10 bg-[#f1f4f9] h-96 ">
 

@@ -1,12 +1,13 @@
 // Código específico para dispositivos móveis
 import React from 'react';
 import Image from 'next/image';
-import { Sheet, SheetClose, SheetContent, SheetHeader, SheetTrigger } from '../sheet';
+import { Sheet, SheetClose, SheetContent, SheetDescription, SheetHeader, SheetTrigger } from '../sheet';
 import { Button } from '../button';
 import { MenuIcon, HomeIcon, GanttChartSquare, Smartphone } from 'lucide-react';
 import { Separator } from '../separator';
 import Link from 'next/link';
 import { NavigationMenuSegmentoMobile } from './NavigationMenuMobile';
+import Formulario from '@/components/Formulario';
 
 const HeaderMobile = () => {
     return (
@@ -76,6 +77,11 @@ const HeaderMobile = () => {
                       </Button>
                     </Link>
                   </SheetClose>
+                   <SheetDescription>
+                 
+                      <Formulario/>
+                  
+                  </SheetDescription>
                   <NavigationMenuSegmentoMobile/>
                 </div>
               </SheetContent>

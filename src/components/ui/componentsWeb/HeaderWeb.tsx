@@ -8,6 +8,7 @@ import {
 import { Separator } from "../separator";
 import Link from "next/link";
 import { NavigationMenuSegmentoWeb } from "./NavigationMenuWeb";
+import Formulario from "@/components/Formulario";
 
 
 const HeaderWeb = () => {
@@ -37,13 +38,14 @@ const HeaderWeb = () => {
       </div>
       <div className="flex gap-20">
         <div>
-          <Button
+          {/* <Button
             variant={"default"}
             size={"lg"}
             className="bg-[#5576B3] rounded-3xl"
           >
             Demonstração
-          </Button>
+          </Button> */}
+          <Formulario/>
         </div>
         <div className="flex flex-col font-bold">
           <h1>Fale Conosco</h1>

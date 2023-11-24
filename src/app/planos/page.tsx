@@ -2,6 +2,7 @@ import BannerPlanos from "./components/BannerPlanos";
 import CardGratis from "./components/CardGratis";
 import CarrosselPlanos from "./components/CarrosselPlanos";
 import FuncSiadBanner from "./components/FuncSiadBanner";
+import CommonQuestion from "./components/CommonQuestion";
 
 
 const Planos = () => {
@@ -20,7 +21,7 @@ const Planos = () => {
                 <CardGratis/>
             </div>
             <div className=" flex w-full p-10 bg-white h-96 ">
-
+                <CommonQuestion/>
             </div>
             <div className=" flex w-full p-10 bg-[#f1f4f9]">
                 <FuncSiadBanner />

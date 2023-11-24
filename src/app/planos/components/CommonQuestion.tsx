@@ -1,0 +1,34 @@
+import {
+    Accordion,
+    AccordionContent,
+    AccordionItem,
+    AccordionTrigger,
+} from "@/components/ui/accordion"
+
+
+const CommonQuestion = () => {
+    return (
+        <div >
+            <div className="flex w-72 font-bold text-2xl">
+                <h1 className="text-[#3D5685]">Perguntas Frequentes</h1>
+            </div>
+            <div className=" mt-5 text-[#A7A7A7]">
+                <Accordion type="single" collapsible>
+                    <AccordionItem value="item-1">
+                        <AccordionTrigger className="font-bold text-md text-left hover:text-[#3D5685]"
+                        >
+                            Lorem Ipsum is simply dummy text of the printing and typesetting?
+                        </AccordionTrigger>
+                        <AccordionContent className="font-medium text-sm  text-[#737373]">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting lorem Ipsum is simply dummy text of the printing and typesetting
+                        </AccordionContent>
+                    </AccordionItem>
+                    
+                </Accordion>
+
+            </div>
+        </div>
+    );
+}
+
+export default CommonQuestion;

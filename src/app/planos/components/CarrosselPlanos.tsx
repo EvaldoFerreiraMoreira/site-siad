@@ -77,7 +77,7 @@ const CarrosselPlanos = () => {
 
 
     return (
-        <div className='flex flex-col'>
+        <div className='flex flex-col' id="carrosselPlanos">
 
             <div className='text-white'>
                 <AliceCarousel
@@ -89,13 +89,7 @@ const CarrosselPlanos = () => {
                     onSlideChanged={onSlideChanged}
                 />
             </div>
-            <div className='flex justify-center mb-10'>
-                <Link href='/planos'>
-                    <Button className='bg-[#26B547]'>
-                        Experimente
-                    </Button>
-                </Link>
-            </div>
+         
         </div>
     );
 }

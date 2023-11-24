@@ -24,15 +24,11 @@ const Planos = () => {
                     </div>
                 </div>
             </div>
-            <div className=" flex w-full p-10 bg-[#f1f4f9] ">
+            <div className=" flex w-full p-10 bg-[#f1f4f9] h-56 ">
 
             </div>
-            <div className=" flex w-full p-10  bg-[#f1f4f9] h-96 ">
-            </div>
-            <div className=" flex w-full p-10  bg-[#f1f4f9] h-96 ">
-                <CardGratis/>
-            </div>
-            <div className="bg-[#f1f4f9]">
+        
+            <div className="bg-[#f1f4f9] h-auto">
                 <BannerCarrossel/>
             </div>
             <div className=" flex w-full p-10 bg-[#f1f4f9]">

@@ -96,7 +96,7 @@ const BannerCarrossel = () => {
         <div className='flex'>
             <AliceCarousel
                 mouseTracking
-                keyboardNavigation
+                disableButtonsControls
                 items={items}
                 responsive={responsive}
                 onSlideChange={onSlideChange}

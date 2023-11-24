@@ -1,5 +1,6 @@
 import BannerPlanos from "./components/BannerPlanos";
 import CarrosselPlanos from "./components/CarrosselPlanos";
+import FuncSiadBanner from "./components/FuncSiadBanner";
 
 
 const Planos = () => {
@@ -17,14 +18,11 @@ const Planos = () => {
             <div className=" flex w-full p-10  bg-[#f1f4f9] h-96 ">
 
             </div>
-            <div className=" flex w-full p-10 bg-[#f1f4f9] h-96 ">
+            <div className=" flex w-full p-10 bg-white h-96 ">
 
             </div>
-            <div className=" flex w-full p-10 bg-[#f1f4f9] h-96 ">
-
-            </div>
-            <div className=" flex w-full p-10 bg-[#f1f4f9] h-96 ">
-
+            <div className=" flex w-full p-10 bg-[#f1f4f9]">
+                <FuncSiadBanner />
             </div>
             <div className="flex w-full p-10 bg-[#3D5685] h-96 ">
 

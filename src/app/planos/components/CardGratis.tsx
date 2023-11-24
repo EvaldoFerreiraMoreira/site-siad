@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const CardGratis = () => {
     return (
-        <div className="flex flex-col items-center text-center gap-8 h-96">
+        <div className="flex flex-col items-center text-center gap-8 h-96 z-8">
 
             <div className="flex flex-col items-center text-center bg-white w-80 h-60 rounded-3xl shadow-lg shadow-[#888B8D] ">
                 <div className="flex flex-col mt-6 justify-center ml-6 mr-6 ">

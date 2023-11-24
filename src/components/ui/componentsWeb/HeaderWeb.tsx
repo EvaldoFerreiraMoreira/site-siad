@@ -13,7 +13,7 @@ import { NavigationMenuSegmentoWeb } from "./NavigationMenuWeb";
 const HeaderWeb = () => {
   return (
     <div
-      className="fixed bg-white shadow-md mx-auto w-full p-5 h-[110px] flex justify-between items-center z-10"
+      className="fixed bg-white shadow-md mx-auto w-full p-5 h-[110px] flex justify-between items-center z-20"
       id="header"
     >
       <div className="relative h-[95px] w-[200px]">

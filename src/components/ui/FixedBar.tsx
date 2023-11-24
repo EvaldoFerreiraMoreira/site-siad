@@ -1,8 +1,8 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import FixedBarMobile from "./FixedBarMobile";
-import FixedBarWeb from "./FixedBarWeb";
+import FixedBarMobile from "./componentsMobile/FixedBarMobile";
+import FixedBarWeb from "./componentsWeb/FixedBarWeb";
 
 const FixedBar = () => {
   const [isMobile, setIsMobile] = useState(false);

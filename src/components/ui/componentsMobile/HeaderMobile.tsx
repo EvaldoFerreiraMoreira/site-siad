@@ -10,7 +10,7 @@ import { NavigationMenuSegmentoMobile } from './NavigationMenuMobile';
 
 const HeaderMobile = () => {
     return (
-        <div className="fixed bg-white container shadow-md mx-auto p-5 top-0 h-[93px] flex justify-between items-center z-10" id="header">
+        <div className="fixed bg-white container shadow-md mx-auto p-5 top-0 h-[93px] flex justify-between items-center z-20" id="header">
           <div className="relative h-[95px] w-[200px]">
             <Link href="/">
               <Image

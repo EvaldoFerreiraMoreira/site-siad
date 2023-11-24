@@ -1,4 +1,5 @@
 import BannerPlanos from "./components/BannerPlanos";
+import CardGratis from "./components/CardGratis";
 import CarrosselPlanos from "./components/CarrosselPlanos";
 
 
@@ -15,9 +16,9 @@ const Planos = () => {
                 <CarrosselPlanos />
             </div>
             <div className=" flex w-full p-10  bg-[#f1f4f9] h-96 ">
-
+                <CardGratis/>
             </div>
-            <div className=" flex w-full p-10 bg-[#f1f4f9] h-96 ">
+            <div className=" flex w-full p-10 bg-[#f1f4f9]  ">
 
             </div>
             <div className=" flex w-full p-10 bg-[#f1f4f9] h-96 ">

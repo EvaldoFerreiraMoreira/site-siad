@@ -1,3 +1,4 @@
+import BannerContato from "./components/BannerContato";
 import BannerPlanos from "./components/BannerPlanos";
 import CardGratis from "./components/CardGratis";
 import CarrosselPlanos from "./components/CarrosselPlanos";
@@ -25,8 +26,9 @@ const Planos = () => {
             <div className=" flex w-full p-10 bg-[#f1f4f9]">
                 <FuncSiadBanner />
             </div>
-            <div className="flex w-full p-10 bg-[#3D5685] h-96 ">
-
+            
+            <div className="flex w-full p-10 bg-[#3D5685]  ">
+                <BannerContato/>
             </div>
         </div>
     );

@@ -95,10 +95,10 @@ const CarrosselFotos = () => {
     return (
         <div className='flex flex-col h-auto'>
             <div className='flex text-xl items-start text-justify my-1 font-bold mt-6 ml-3 gap-2 text-white'>
-                <h1>Lorem</h1> <span className='text-black'> Ipsum</span>
+                <h1>Acompanhe nossas</h1> <span className='text-black'> Redes</span>
             </div>
-            <div  className='flex text-xl items-start text-justify my-1 font-bold  ml-3 text-white'>
-            <p className='text-sm'>Lorem Ipsum is simplydummy text of the printing</p>
+            <div  className='flex items-start text-justify my-1 font-medium  ml-3 text-white'>
+            <p className='text-xs'>Conecte-se conosco, explore nossas redes e esteja sempre atualizado!</p>
             </div>
             <AliceCarousel
                 mouseTracking

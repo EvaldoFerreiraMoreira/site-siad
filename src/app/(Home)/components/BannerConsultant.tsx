@@ -4,10 +4,10 @@ const BannerConsultant = () => {
     return ( 
         <div>
             <div className=" flex font-semibold text-2xl">
-                <h1 className="text-center font-bold text-[#3D5685]">Lorem Ipsum is symplydummy text of the printing?</h1>
+                <h1 className="text-center font-bold text-[#3D5685]">Como a SIAD pode ajudar o seu negócio?</h1>
             </div>
             <div className=" flex  justify-center mt-10 text-sm text-center">
-                <p className="text-center font-semibold text-[#3D5685]">Lorem Ipsum is simplydummy text of the printing</p>
+                <p className="text-center font-semibold text-[#3D5685]">Estamos prontos para ajudar.</p>
             </div>
             <div className="flex mt-10 justify-center">
                 <Button 

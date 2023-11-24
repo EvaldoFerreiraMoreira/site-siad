@@ -3,11 +3,11 @@ import Image from "next/image";
 const Banner = () => {
     return (
         <div className="text-[#A7A7A7]">
-            <div className="flex w-56 font-semibold text-2xl">
-                <h1>Lorem <span className="text-[#3D5685]">Ipsum </span>is simply <span className="text-[#3D5685]">dummy </span>text of <span className="text-[#3D5685]">the </span> printing </h1>
+            <div className="flex w-60 font-semibold text-2xl">
+                <h1><span className="text-[#3D5685]">Nota fiscal</span> eletrônica</h1>
             </div>
             <div className="mt-6 text-sm text-justify">
-                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry s standard dummy text ever since the 1500s, when an unknown printer took a galley of type  </p>
+                <p> Emita suas notas fiscais de forma simples e rápida e sem limite de NF-e e NFC-e, enviando o xml e o pdf para seu cliente sem dificuldade.  </p>
             </div>
             <div className="flex mt-10 h-56 justify-center">
                 <Image

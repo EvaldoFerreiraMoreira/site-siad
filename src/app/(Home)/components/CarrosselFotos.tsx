@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import CarrosselFotosMobile from "./componentsMobile/CarrosselFotosMobile";
+import CarrosselFotosWeb from "./componentsWeb/CarrosselFotosWeb";
 
 
 const CarrosselFotos = () => {
@@ -21,7 +22,7 @@ const CarrosselFotos = () => {
     };
   }, []);
 
-  return isMobile ? <CarrosselFotosMobile /> : " ";
+  return isMobile ? <CarrosselFotosMobile /> :<CarrosselFotosWeb/>;
 };
 
 export default CarrosselFotos;

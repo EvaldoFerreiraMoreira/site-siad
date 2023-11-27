@@ -1,9 +1,6 @@
 "use client"
 
 import { Button } from '@/components/ui/button';
-import { Switch } from '@/components/ui/switch';
-import { CheckSquare } from 'lucide-react';
-import Link from 'next/link';
 import React, { useState } from 'react';
 import AliceCarousel, { EventObject } from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
@@ -28,6 +25,9 @@ const CarrosselPlanosMobile = () => {
                         </div>
                         <div className='flex flex-col'>
                             <h1 className='text-lg font-bold text-black'>Teste Grátis</h1>
+                            <p className='text-xs text-center font-semibold text-red-600'>
+                                7 Dias
+                            </p>
                         </div>
                         <Button className='bg-[#26B547] rounded-3xl'>
                             Obter
@@ -42,15 +42,15 @@ const CarrosselPlanosMobile = () => {
                         </div>
                         <div className='flex flex-col mr-9'>
                             <p className='text-xs left-10 text-red-600 line-through'>
-                            {activeSection === "mensal"
-                                ? "199,99"
-                                : "2.399,88"
+                                {activeSection === "mensal"
+                                    ? "199,99"
+                                    : "2.399,88"
                                 }
                             </p>
                             <h1 className='text-lg font-bold text-black'>
-                            {activeSection === "mensal"
-                                ? "89,99"
-                                : "1.079,88"
+                                {activeSection === "mensal"
+                                    ? "89,99"
+                                    : "1.079,88"
                                 }
                             </h1>
                         </div>

@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import BannerMobile from "./componentsMobile/BannerMobile";
+import BannerWeb from "./componentsWeb/BannerWeb";
 
 
 const Banner = () => {
@@ -21,7 +22,7 @@ const Banner = () => {
     };
   }, []);
 
-  return isMobile ? <BannerMobile /> : " ";
+  return isMobile ? <BannerMobile /> : <BannerWeb />;
 };
 
 export default Banner;

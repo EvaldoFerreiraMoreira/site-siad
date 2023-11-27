@@ -14,10 +14,10 @@ import Formulario from "@/components/ui/Formulario";
 const HeaderWeb = () => {
   return (
     <div
-      className="fixed bg-white shadow-md mx-auto w-full p-5 h-[110px] flex justify-between items-center z-20"
+      className="fixed bg-white shadow-md mx-auto w-full p-5 h-[75px] flex justify-evenly items-center z-20"
       id="header"
     >
-      <div className="relative h-[95px] w-[200px]">
+      <div className="relative h-[75px] w-[175px] ">
         <Link href="/">
           <Image
             src="/logo.png"
@@ -37,14 +37,7 @@ const HeaderWeb = () => {
         <NavigationMenuSegmentoWeb />
       </div>
       <div className="flex gap-20">
-        <div>
-          {/* <Button
-            variant={"default"}
-            size={"lg"}
-            className="bg-[#5576B3] rounded-3xl"
-          >
-            Demonstração
-          </Button> */}
+        <div className="flex items-center">
           <Formulario/>
         </div>
         <div className="flex flex-col font-bold">

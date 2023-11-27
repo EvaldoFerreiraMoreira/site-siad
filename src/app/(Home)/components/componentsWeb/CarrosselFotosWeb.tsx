@@ -118,11 +118,11 @@ const CarrosselFotosWeb = () => {
 
 
     return (
-        <div className='flex flex-col justify-center mx-64'>
-            <div className='flex text-2xl items-start text-justify my-1 font-bold mt-6 ml-3 gap-2 text-white'>
+        <div className='flex flex-col justify-center  mx-64'>
+            <div className='flex text-2xl items-start text-justify my-1 font-bold mt-6 ml-10 gap-2 text-white '>
                 <h1>Explorando possibilidades, </h1> <span className='text-black'> elevando resultados </span>
             </div>
-            <div className='flex items-start text-justify my-1 font-medium  ml-3 text-white'>
+            <div className='flex items-start text-justify my-1 font-medium  ml-10 text-white'>
                 <p className='text-sm'>Descubra como nossa tecnologia impulsiona o sucesso em múltiplos setores</p>
             </div>
             <div className='ml-6 items-center'>

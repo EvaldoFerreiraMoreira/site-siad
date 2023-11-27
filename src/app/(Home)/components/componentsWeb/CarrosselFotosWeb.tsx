@@ -28,7 +28,7 @@ const CarrosselFotosWeb = () => {
                     width={0}
                     height={0}
                     sizes="auto"
-                    className="h-52 w-auto max-w-[100%] max-h-[100%] rounded-3xl shadow-lg shadow-[#23314C]"
+                    className="h-60 w-auto max-w-[100%] max-h-[100%] rounded-3xl shadow-lg shadow-[#23314C]"
                     style={{
                         objectFit: "contain",
 
@@ -42,7 +42,7 @@ const CarrosselFotosWeb = () => {
                     width={0}
                     height={0}
                     sizes="auto"
-                    className="h-52 w-auto max-w-[100%] max-h-[100%] rounded-3xl shadow-lg shadow-[#23314C]"
+                    className="h-60 w-auto max-w-[100%] max-h-[100%] rounded-3xl shadow-lg shadow-[#23314C]"
                     style={{
                         objectFit: "contain",
                     }}
@@ -54,7 +54,7 @@ const CarrosselFotosWeb = () => {
                     width={0}
                     height={0}
                     sizes="auto"
-                    className="h-52 w-auto max-w-[100%] max-h-[100%] rounded-3xl shadow-lg shadow-[#23314C]"
+                    className="h-60 w-auto max-w-[100%] max-h-[100%] rounded-3xl shadow-lg shadow-[#23314C]"
                     style={{
                         objectFit: "contain",
                     }}
@@ -73,7 +73,7 @@ const CarrosselFotosWeb = () => {
                     width={0}
                     height={0}
                     sizes="auto"
-                    className="h-52 w-auto max-w-[100%] max-h-[100%] rounded-3xl shadow-lg shadow-[#23314C]"
+                    className="h-60 w-auto max-w-[100%] max-h-[100%] rounded-3xl shadow-lg shadow-[#23314C]"
                     style={{
                         objectFit: "fill",
                     }}
@@ -85,7 +85,7 @@ const CarrosselFotosWeb = () => {
                     width={0}
                     height={0}
                     sizes="auto"
-                    className="h-52 w-auto max-w-[100%] max-h-[100%] rounded-3xl shadow-lg shadow-[#23314C]"
+                    className="h-60 w-auto max-w-[100%] max-h-[100%] rounded-3xl shadow-lg shadow-[#23314C]"
                     style={{
                         objectFit: "contain",
                     }}
@@ -97,7 +97,7 @@ const CarrosselFotosWeb = () => {
                     width={0}
                     height={0}
                     sizes="auto"
-                    className="h-52 w-auto max-w-[100%] max-h-[100%] rounded-3xl shadow-lg shadow-[#23314C]"
+                    className="h-60 w-auto max-w-[100%] max-h-[100%] rounded-3xl shadow-lg shadow-[#23314C]"
                     style={{
                         objectFit: "contain",
                     }}

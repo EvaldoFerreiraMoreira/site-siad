@@ -11,8 +11,8 @@ import {
 } from "@/components/ui/dialog"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
-import { Textarea } from "./ui/textarea";
-import { Form, FormControl, FormDescription, FormField, FormItem, FormLabel, FormMessage } from "./ui/form";
+import { Textarea } from "./textarea";
+import { Form, FormControl, FormDescription, FormField, FormItem, FormLabel, FormMessage } from "./form";
 import { useForm } from "react-hook-form";
 import * as z from "zod"
 import { zodResolver } from "@hookform/resolvers/zod"
@@ -39,7 +39,7 @@ const Formulario = () => {
     return (
         <Dialog>
             <DialogTrigger asChild>
-                <Button variant="outline">Demonstração</Button>
+                <Button variant="outline" className="bg-[#7AA4F1] text-white rounded-3xl">Demonstração</Button>
             </DialogTrigger>
             
             <DialogContent className="sm:max-w-[425px] bg-gradient-to-b from-[#E4F0FC] via-[#F1F4F9] to-[#FFFF]">

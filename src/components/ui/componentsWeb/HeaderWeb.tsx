@@ -8,7 +8,7 @@ import {
 import { Separator } from "../separator";
 import Link from "next/link";
 import { NavigationMenuSegmentoWeb } from "./NavigationMenuWeb";
-import Formulario from "@/components/Formulario";
+import Formulario from "@/components/ui/Formulario";
 
 
 const HeaderWeb = () => {

@@ -62,18 +62,34 @@ export function NavigationMenuSegmentoWeb() {
                         Segmentos
                     </NavigationMenuTrigger>
                     <NavigationMenuContent>
-                        <ul className="grid gap-3 p-6 w-[500px]">
-                            <div className="grid grid-cols-4">
-
-                                <ListItem href="/" title="Introduction" />
-                                <ListItem href="/" title="Introduction1" />
-                                <ListItem href="/" title="Introduction2" />
-                                <ListItem href="/" title="Introduction3" />
-                                <ListItem href="/" title="Introduction4" />
-                                <ListItem href="/" title="Introduction5" />
-
+                        <ul className="grid gap-3 p-6 w-[500px] text-xs">
+                            <div className="grid grid-cols-5">
+                                <ListItem href="/" title="Casa de Ração" />
+                                <ListItem href="/" title="Loja de Roupas" />
+                                <ListItem href="/" title="Padarias" />
+                                <ListItem href="/" title="Funerárias" />
+                                <ListItem href="/" title="Material de Construção" />
+                                <ListItem href="/" title="Oficinas" />
+                                <ListItem href="/" title="Bares" />
+                                <ListItem href="/" title="Madeireiras" />
+                                <ListItem href="/" title="Marmorarias" />
+                                <ListItem href="/" title="Supermercados" />
+                                <ListItem href="/" title="Mercearias" />
+                                <ListItem href="/" title="Lojas de Roupas e Acessórios" />
+                                <ListItem href="/" title="Loja de Calçados" />
+                                <ListItem href="/" title="Funerárias" />
+                                <ListItem href="/" title="Material de Construção" />
+                                <ListItem href="/" title="Eletrodomésticos e Eletrônicos" />
+                                <ListItem href="/" title="Móveis e Decoração" />
+                                <ListItem href="/" title="Papelarias" />
+                                <ListItem href="/" title="Óticas" />
+                                <ListItem href="/" title="Joalherias" />
+                                <ListItem href="/" title="Restaurantes" />
+                                <ListItem href="/" title="Distribuidora" />
+                                <ListItem href="/" title="Açougues" />
+                                <ListItem href="/" title="Atacado em Geral" />
+                                <ListItem href="/" title="Joalherias" />
                             </div>
-
                         </ul>
                     </NavigationMenuContent>
                 </NavigationMenuItem>

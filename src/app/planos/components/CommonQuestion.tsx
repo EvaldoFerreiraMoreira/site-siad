@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import CommonQuestionMobile from "./componentsMobile/CommonQuestionMonbile";
+import CommonQuestionWeb from "./componentsWeb/CommonQuestionWeb";
 
 
 
@@ -22,7 +23,7 @@ const TextCenter = () => {
     };
   }, []);
 
-  return isMobile ? <CommonQuestionMobile /> : " ";
+  return isMobile ? <CommonQuestionMobile /> : <CommonQuestionWeb/>;
 };
 
 export default TextCenter;

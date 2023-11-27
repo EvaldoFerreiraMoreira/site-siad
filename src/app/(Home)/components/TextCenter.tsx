@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import TextCenterMobile from "./componentsMobile/TextCenterMobile";
+import TextCenterWeb from "./componentsWeb/TextCenterWeb";
 
 
 const TextCenter = () => {
@@ -21,7 +22,7 @@ const TextCenter = () => {
     };
   }, []);
 
-  return isMobile ? <TextCenterMobile /> : " ";
+  return isMobile ? <TextCenterMobile /> : <TextCenterWeb/>;
 };
 
 export default TextCenter;

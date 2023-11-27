@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import BannerCarrosselMobile from "./componentsMobile/BannerCarrosselMobile";
+import BannerCarrosselWeb from "./componentsWeb/BannerCarrosselWeb";
 
 
 
@@ -22,7 +23,7 @@ const TextCenter = () => {
     };
   }, []);
 
-  return isMobile ? <BannerCarrosselMobile /> : " ";
+  return isMobile ? <BannerCarrosselMobile /> : <BannerCarrosselWeb/>;
 };
 
 export default TextCenter;

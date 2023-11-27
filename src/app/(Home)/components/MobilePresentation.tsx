@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import MobilePresentationMobile from "./componentsMobile/MobilePresentationMobile";
+import MobilePresentationWeb from "./componentsWeb/MobilePresentationWeb";
 
 
 const MobilePresentation = () => {
@@ -21,7 +22,7 @@ const MobilePresentation = () => {
     };
   }, []);
 
-  return isMobile ? <MobilePresentationMobile /> : " ";
+  return isMobile ? <MobilePresentationMobile /> : <MobilePresentationWeb/>;
 };
 
 export default MobilePresentation;

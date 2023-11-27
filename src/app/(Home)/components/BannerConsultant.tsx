@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import BannerConsultantMobile from "./componentsMobile/BannerConsultantMobile";
+import BannerConsultantWeb from "./componentsWeb/BannerConsultantWeb";
 
 
 const BannerConsultant = () => {
@@ -21,7 +22,7 @@ const BannerConsultant = () => {
     };
   }, []);
 
-  return isMobile ? <BannerConsultantMobile /> : " ";
+  return isMobile ? <BannerConsultantMobile /> : <BannerConsultantWeb/>;
 };
 
 export default BannerConsultant;

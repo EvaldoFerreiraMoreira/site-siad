@@ -21,28 +21,25 @@ const BannerRightWeb = ({ title, description, img, colortitle, colordescription,
 
 
     return (
-        <div className=" flex justify-evenly items-center gap-10 mx-64">
+        <div className=" flex justify-between items-center gap-10 mx-64">
             <div className="flex flex-col text-left ml-0  w-[50%] " style={{ color: colordescription2 }}>
                 <h1 className="font-bold text-2xl" style={{ color: colortitle2 }}>{title}</h1>
-
                 <p className="text-sm mt-5 ">{description}</p>
-
-           
                 <Link href="/planos">
                     <Button className="bg-[#26B547] mt-6">
                         {button}
                     </Button>
                 </Link>
             </div>
-        
-            <div className=" w-[50%] align-top  ">
+
+            <div className="flex w-[50%] justify-end">
                 <Image
                     src={imagem}
                     alt="Imagem"
                     width={0}
                     height={0}
                     sizes="100vw"
-                    className="h-auto w-auto max-w-[300%] max-h-[300%]"
+                    className="h-auto w-auto max-w-[80%] max-h-[80%]"
                     style={{
                         objectFit: "contain",
                     }}

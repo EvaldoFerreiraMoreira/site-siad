@@ -1,21 +1,27 @@
+"use client";
+
+import React, { useState, useEffect } from "react";
+import TextCenterMobile from "./componentsMobile/TextCenterMobile";
+
+
 const TextCenter = () => {
-    return (
-        <div className="text-[#A7A7A7]">
-            <div className="mt-10 font-semibold text-2xl">
-                <h1 className="text-center font-bold text-[#3D5685]">
-                    Quer um jeito fácil, rápido, prático e seguro de emitir suas notas fiscais ?
-                </h1>
-            </div>
-            <div className="mt-10 text-sm text-center">
-                <p>
-                Um sistema de gestão completo, que permite emitir de forma descomplicada 
-                diversos tipos de notas fiscais eletrônicas, seja NFe ou NFCe. 
-                E as vantagens não param por aqui! Você não precisa perder tempo calculando 
-                impostos: o sistema armazena os dados e faz isso automaticamente ! 
-                </p>
-            </div>
-        </div>
-    );
-}
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 860);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    handleResize();
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
+  return isMobile ? <TextCenterMobile /> : " ";
+};
 
 export default TextCenter;

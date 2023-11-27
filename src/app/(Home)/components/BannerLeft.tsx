@@ -1,8 +1,9 @@
-import { Button } from "@/components/ui/button";
-import Image from "next/image";
-import Link from "next/link";
+"use client";
 
-interface BannerRightProps {
+import React, { useState, useEffect } from "react";
+import BannerLeftMobile from "./componentsMobile/BannerLeftMobile";
+
+interface BannerLeftProps {
     title: String,
     description: String,
     img: String,
@@ -10,43 +11,24 @@ interface BannerRightProps {
     colorDescription: String;
 }
 
-const BannerRight = ({ title, description, img, colorTitle, colorDescription }: BannerRightProps) => {
+const BannerLeft = ({ title, description, img, colorTitle, colorDescription }: BannerLeftProps) => {
+  const [isMobile, setIsMobile] = useState(false);
 
-    const imagem = "/" + img;
-    const colortitle = "#" + colorTitle;
-    const colordescription = "#" + colorDescription;
-    return (
-        <div>
-            <div className="flex flex-col text-center">
-                <h1 className="text-2xl font-bold" style={{
-                    color: colortitle,
-                }}>{title}</h1>
-                <p className="text-sm mt-5" style={{
-                    color: colordescription,
-                }}> {description} </p>
-            </div>
-            <div className="flex mt-8 justify-center">
-                <Link href="/planos">
-                    <Button className="bg-[#26B547]">
-                        Experimente
-                    </Button>
-                </Link>
-            </div>
-            <div className="flex mt-14 h-56 justify-center">
-                <Image
-                    src={imagem}
-                    alt="Imagem"
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                    className="h-auto w-auto max-w-[100%] max-h-[90%]"
-                    style={{
-                        objectFit: "contain",
-                    }}
-                />
-            </div>
-        </div>
-    );
-}
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 860);
+    };
 
-export default BannerRight;
+    window.addEventListener("resize", handleResize);
+
+    handleResize();
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
+  return isMobile ? <BannerLeftMobile title={title} description={description} img={img} colorTitle={colorTitle} colorDescription={colorDescription} /> : " ";
+};
+
+export default BannerLeft;

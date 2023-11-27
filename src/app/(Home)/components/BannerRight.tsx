@@ -1,8 +1,7 @@
-import { Button } from "@/components/ui/button";
-import { Description } from "@radix-ui/react-dialog";
-import Image from "next/image";
+"use client";
 
-import Link from "next/link";
+import React, { useState, useEffect } from "react";
+import BannerRightMobile from "./componentsMobile/BannerRightMobile";
 
 interface BannerRightProps {
     title: String,
@@ -14,42 +13,23 @@ interface BannerRightProps {
 }
 
 const BannerRight = ({ title, description, img, colortitle, colordescription, button }: BannerRightProps) => {
+  const [isMobile, setIsMobile] = useState(false);
 
-    const imagem = "/" + img;
-    const colortitle2 = "#" + colortitle;
-    const colordescription2 = "#" + colordescription;
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 860);
+    };
 
+    window.addEventListener("resize", handleResize);
 
-    return (
-        <div>
-            <div className="flex flex-col text-center" style={{ color: colordescription2 }}>
-                <h1 className="font-bold text-2xl" style={{ color: colortitle2 }}>{title}</h1>
+    handleResize();
 
-                <p className="text-sm mt-5 ">{description}</p>
-            </div>
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
-            <div className="flex justify-center mt-8">
-                <Link href="/planos">
-                    <Button className="bg-[#26B547]">
-                        {button}
-                    </Button>
-                </Link>
-            </div>
-            <div className="flex mt-14 h-56 justify-center">
-                <Image
-                    src={imagem}
-                    alt="Imagem"
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                    className="h-auto w-auto max-w-[100%] max-h-[90%]"
-                    style={{
-                        objectFit: "contain",
-                    }}
-                />
-            </div>
-        </div>
-    );
-}
+  return isMobile ? <BannerRightMobile title={title} description={description} img={img} colortitle={colortitle} colordescription={colordescription} button={button} /> : " ";
+};
 
 export default BannerRight;

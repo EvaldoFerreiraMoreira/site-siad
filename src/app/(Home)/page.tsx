@@ -1,11 +1,12 @@
 import Banner from "./components/Banner";
-import BannerRight from "./components/BannerRight";
+import BannerConsultant from "./components/BannerConsultant";
 import BannerLeft from "./components/BannerLeft";
+import BannerRight from "./components/BannerRight";
+import CarrosselFotos from "./components/CarrosselFotos";
+import CarrosselInfo from "./components/CarrosselInfo";
 import MobilePresentation from "./components/MobilePresentation";
 import TextCenter from "./components/TextCenter";
-import CarrosselInfo from "./components/CarrosselInfo";
-import BannerConsultant from "./components/BannerConsultant";
-import CarrosselFotos from "./components/CarrosselFotos";
+
 
 export default function Home() {
   return (

@@ -1,11 +1,10 @@
+import BannerCarrossel from "./components/BannerCarrossel";
 import BannerContato from "./components/BannerContato";
 import BannerPlanos from "./components/BannerPlanos";
 import CardGratis from "./components/CardGratis";
 import CarrosselPlanos from "./components/CarrosselPlanos";
-import FuncSiadBanner from "./components/FuncSiadBanner";
 import CommonQuestion from "./components/CommonQuestion";
-import BannerCarrossel from "./components/BannerCarrossel";
-
+import FuncSiadBanner from "./components/FuncSiadBanner";
 
 const Planos = () => {
     return (

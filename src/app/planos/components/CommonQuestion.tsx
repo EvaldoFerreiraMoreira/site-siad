@@ -1,74 +1,28 @@
-import {
-    Accordion,
-    AccordionContent,
-    AccordionItem,
-    AccordionTrigger,
-} from "@/components/ui/accordion"
+"use client";
+
+import React, { useState, useEffect } from "react";
+import CommonQuestionMobile from "./componentsMobile/CommonQuestionMonbile";
 
 
-const CommonQuestion = () => {
-    return (
-        <div >
-            <div className="flex w-72 font-bold text-2xl">
-                <h1 className="text-[#3D5685]">Perguntas Frequentes</h1>
-            </div>
-            <div className=" mt-5 text-[#A7A7A7]">
-                <Accordion type="single" collapsible>
-                    <AccordionItem value="item-1">
-                        <AccordionTrigger className="font-bold text-md text-left hover:text-[#3D5685]"
-                        >
-                            Lorem Ipsum is simply dummy text of the printing and typesetting?
-                        </AccordionTrigger>
-                        <AccordionContent className="font-medium text-sm  text-[#737373]">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting lorem Ipsum is simply dummy text of the printing and typesetting
-                        </AccordionContent>
-                    </AccordionItem>
-                    
-                    <AccordionItem value="item-2">
-                        <AccordionTrigger className="font-bold text-md text-left hover:text-[#3D5685]"
-                        >
-                            Lorem Ipsum is simply dummy text of the printing and typesetting?
-                        </AccordionTrigger>
-                        <AccordionContent className="font-medium text-sm  text-[#737373]">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting lorem Ipsum is simply dummy text of the printing and typesetting
-                        </AccordionContent>
-                    </AccordionItem>
 
-                    <AccordionItem value="item-3">
-                        <AccordionTrigger className="font-bold text-md text-left hover:text-[#3D5685]"
-                        >
-                            Lorem Ipsum is simply dummy text of the printing and typesetting?
-                        </AccordionTrigger>
-                        <AccordionContent className="font-medium text-sm  text-[#737373]">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting lorem Ipsum is simply dummy text of the printing and typesetting
-                        </AccordionContent>
-                    </AccordionItem>
+const TextCenter = () => {
+  const [isMobile, setIsMobile] = useState(false);
 
-                    <AccordionItem value="item-4">
-                        <AccordionTrigger className="font-bold text-md text-left hover:text-[#3D5685]"
-                        >
-                            Lorem Ipsum is simply dummy text of the printing and typesetting?
-                        </AccordionTrigger>
-                        <AccordionContent className="font-medium text-sm  text-[#737373]">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting lorem Ipsum is simply dummy text of the printing and typesetting
-                        </AccordionContent>
-                    </AccordionItem>
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 860);
+    };
 
-                    <AccordionItem value="item-5">
-                        <AccordionTrigger className="font-bold text-md text-left hover:text-[#3D5685]"
-                        >
-                            Lorem Ipsum is simply dummy text of the printing and typesetting?
-                        </AccordionTrigger>
-                        <AccordionContent className="font-medium text-sm  text-[#737373]">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting lorem Ipsum is simply dummy text of the printing and typesetting
-                        </AccordionContent>
-                    </AccordionItem>
+    window.addEventListener("resize", handleResize);
 
-                </Accordion>
+    handleResize();
 
-            </div>
-        </div>
-    );
-}
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
-export default CommonQuestion;
+  return isMobile ? <CommonQuestionMobile /> : " ";
+};
+
+export default TextCenter;

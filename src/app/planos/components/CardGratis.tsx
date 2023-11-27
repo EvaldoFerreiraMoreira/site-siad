@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import CardGratisMobile from "./componentsMobile/CardGratisMobile";
+import CardGratisWeb from "./componentsWeb/CardGratisWeb";
 
 
 
@@ -22,7 +23,7 @@ const TextCenter = () => {
     };
   }, []);
 
-  return isMobile ? <CardGratisMobile /> : " ";
+  return isMobile ? <CardGratisMobile /> : <CardGratisWeb/>;
 };
 
 export default TextCenter;

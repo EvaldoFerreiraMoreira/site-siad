@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import CarrosselInfoMobile from "./componentsMobile/CarrosselInfoMonbile";
+import CarrosselInfoWeb from "./componentsWeb/CarrosselInfoWeb";
 
 
 const CarrosselInfo = () => {
@@ -21,7 +22,7 @@ const CarrosselInfo = () => {
     };
   }, []);
 
-  return isMobile ? <CarrosselInfoMobile /> : " ";
+  return isMobile ? <CarrosselInfoMobile /> : <CarrosselInfoWeb />;
 };
 
 export default CarrosselInfo;

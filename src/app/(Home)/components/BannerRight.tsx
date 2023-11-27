@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import BannerRightMobile from "./componentsMobile/BannerRightMobile";
+import BannerRightWeb from "./componentsWeb/BannerRightWeb";
 
 interface BannerRightProps {
     title: String,
@@ -29,7 +30,7 @@ const BannerRight = ({ title, description, img, colortitle, colordescription, bu
     };
   }, []);
 
-  return isMobile ? <BannerRightMobile title={title} description={description} img={img} colortitle={colortitle} colordescription={colordescription} button={button} /> : " ";
+  return isMobile ? <BannerRightMobile title={title} description={description} img={img} colortitle={colortitle} colordescription={colordescription} button={button} /> : <BannerRightWeb  title={title} description={description} img={img} colortitle={colortitle} colordescription={colordescription} button={button} />;
 };
 
 export default BannerRight;

@@ -14,11 +14,11 @@ export default function Home() {
       <div className="flex w-full justify-around p-10">
         <Banner />
       </div>
-      <div className=" flex w-full p-10">
+      <div className=" flex w-full p-10 mb-20">
         <TextCenter />
       </div>
       <div className="flex w-full p-10">
-        <BannerRight button={"Experimente"} img={"IMG-01.png"} description={"Com a Nota Fiscal do Consumidor eletrônica NFC-e você pode emitir com rapidez e facilidade através do SIAD ,  um ERP de gestão eficiente, sua função consiste em oferecer as informações sobre o produto adquirido, como valor de compra, tributos e demais características. A emissão da NFC-e é fundamental para fins de fiscalização e comprovação tributária e pode ser emitido e armazenado eletronicamente pelo SIAD.  "} title={"Nota fiscal do consumidor eletrônica  NFCe"} colortitle={"3D5685"} colordescription={"666666"} />
+        <BannerRight button={"Experimente"} img={"IMG-01.png"} description={"Com a Nota Fiscal do Consumidor eletrônica NFC-e você pode emitir com rapidez e facilidade através do SIAD ,  um ERP de gestão eficiente, sua função consiste em oferecer as informações sobre o produto adquirido, como valor de compra, tributos e demais características. A emissão da NFC-e é fundamental para fins de fiscalização e comprovação tributária e pode ser emitido e armazenado eletronicamente pelo SIAD.  "} title={"Nota fiscal do consumidor eletrônica  NFCe"} colortitle={"3D5685"} colordescription={"68686F"} />
       </div>
       <div className="flex w-full p-10">
         <BannerLeft title={"Manifestador de Notas Fiscais"} description={"O Software aplicativo de manifestação do destinatário é um programa que, após instalado na máquina do contribuinte, permite a manifestação do destinatário de uma nota fiscal eletrônica , permitindo o download de arquivo XML da NF-e e validação de arquivo XML da NF-e recebido do emitente."} img={"IMG-01.png"} colorTitle={"303666"} colorDescription={"68686F"} />

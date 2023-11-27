@@ -10,10 +10,10 @@ const MobilePresentationWeb = () => {
                 <div className="flex w-72 font-bold text-4xl">
                     <h1 className="text-[#3D5685]">Gestor Mobile</h1>
                 </div>
-                <div className="mt-6 w-2/3 font-semibold text-sm text-justify">
+                <div className="mt-6 w-2/3 font-semibold text-justify">
                     <span className="text-[#3D5685]">Confira a nossa solução mobile com os principais resultados da sua empresa</span>
                 </div>
-                <div className="flex flex-col gap-2 mt-5 text-[#3D5685] text-xs" >
+                <div className="flex flex-col gap-2 mt-5 text-[#3D5685] text-sm" >
                     <ul className="w-full justify-start gap-2" >
                         <li className="flex gap-1 ">
                             <Smartphone size={25} />

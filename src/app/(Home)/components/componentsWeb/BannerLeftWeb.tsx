@@ -30,7 +30,7 @@ const BannerLeftWeb = ({ title, description, img, colorTitle, colorDescription }
                     }}
                 />
             </div>
-            <div className="flex flex-col text-right ml-0  w-[50%] " style={{ color: colordescription }}>
+            <div className="flex flex-col text-right ml-0 w-[50%]" style={{ color: colordescription }}>
                 <h1 className="font-bold text-2xl" style={{ color: colortitle }}>{title}</h1>
                 <p className="text-sm mt-5 ">{description}</p>
                 <Link href="/planos">

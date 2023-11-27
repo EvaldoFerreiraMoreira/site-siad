@@ -157,21 +157,21 @@ const CarrosselInfoWeb = () => {
 
 
     return (
-        <div className='flex flex-col h-auto'>
-            <div className='flex flex-col text-xl items-center text-center my-6 font-bold text-white'>
+        <div className='flex flex-col h-auto items-center'>
+            <div className='flex flex-col text-4xl text-center gap-3 w-1/2 my-8 font-bold text-white'>
                 <h1>Temos a estratégia ideal para o seu negócio e para o seu bolso!</h1>
-                <p className='text-sm mt-2'>Gestão financeira sob medida para a sua empresa a partir de R$119,90</p>
+                <p className='text-base mt-2'>Gestão financeira sob medida para a sua empresa a partir de R$119,90</p>
             </div>
-            <div className="z-0">
-                <AliceCarousel
-                    mouseTracking
-                    keyboardNavigation
-                    items={items}
-                    responsive={responsive}
-                    onSlideChange={onSlideChange}
-                    onSlideChanged={onSlideChanged}
-                />
-            </div>
+
+            <AliceCarousel
+                mouseTracking
+                keyboardNavigation
+                items={items}
+                responsive={responsive}
+                onSlideChange={onSlideChange}
+                onSlideChanged={onSlideChanged}
+            />
+
             <div className='flex justify-center mb-10'>
                 <Link href='/planos'>
                     <Button className='bg-[#26B547]'>

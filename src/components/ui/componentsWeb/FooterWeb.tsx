@@ -13,7 +13,7 @@ import { Separator } from "../separator";
 
 const FooterWeb = () => {
   return (
-    <div className="bg-[#F1F4F9] h-2/3 p-5 pb-20">
+    <div className="bg-[#F1F4F9] h-2/3 p-5 pb-14">
       <div className="flex justify-evenly items-center">
         <div className="flex gap-32">
           <div className="flex flex-col w-80 text-justify">

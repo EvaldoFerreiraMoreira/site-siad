@@ -39,7 +39,7 @@ const BannerRightWeb = ({ title, description, img, colortitle, colordescription,
                     width={0}
                     height={0}
                     sizes="100vw"
-                    className="h-auto w-auto max-w-[80%] max-h-[80%]"
+                    className="h-auto w-auto max-w-[80%] max-h-[80%] shadow-lg rounded-2xl"
                     style={{
                         objectFit: "contain",
                     }}

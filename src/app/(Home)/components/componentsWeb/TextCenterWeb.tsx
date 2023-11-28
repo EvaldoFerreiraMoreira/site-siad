@@ -6,8 +6,8 @@ const TextCenterWeb = () => {
                     Quer um jeito fácil, rápido, prático e seguro de emitir suas notas fiscais ?
                 </h1>
             </div>
-            <div className="mt-5 mx-60 text-center">
-                <p>
+            <div className="mt-5">
+                <p className="text-center font-medium text-sm">
                 Um sistema de gestão completo, que permite emitir de forma descomplicada 
                 diversos tipos de notas fiscais eletrônicas, seja NFe ou NFCe. 
                 E as vantagens não param por aqui! Você não precisa perder tempo calculando 

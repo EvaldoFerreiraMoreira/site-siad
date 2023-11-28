@@ -24,7 +24,7 @@ const CarrosselPlanosWeb = () => {
                     <div className='flex flex-col items-center gap-5 text-[#303666]'>
                         <h1 className='text-lg font-bold'>Gratuito</h1>
                         <div className='flex flex-col text-sm gap-2 text-[#575E69]'>
-                            <p className='w-28'>Lorem Ipsum simplydummy text of the printing</p>
+                            <p className='w-28'>Realize um teste gratuitamente por um periodo de 7 dias</p>
                         </div>
                         <div className='flex flex-col'>
                             <h1 className='text-lg font-bold text-black'>Teste Grátis</h1>

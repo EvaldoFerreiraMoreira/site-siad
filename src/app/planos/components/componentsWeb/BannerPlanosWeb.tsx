@@ -3,10 +3,10 @@ const BannerPlanosWeb = () => {
         <div className="flex flex-col items-center text-center w-full">
             <div className="flex flex-col text-[#A7A7A7] items-center text-center">
                 <div className="flex w-2/3 font-semibold text-3xl">
-                    <h1>Lorem <span className="text-[#3D5685]">Ipsum </span>is simply <span className="text-[#3D5685]">dummy </span>text of <span className="text-[#3D5685]">the </span> printing </h1>
+                <h1><span className="text-[#3D5685]">Temos </span>a estratégia ideal <span className="text-[#3D5685]">para o seu negócio</span> e para o <span className="text-[#3D5685]">seu bolso! </span></h1>
                 </div>
                 <div className="mt-6 text-sm">
-                    <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry</p>
+                    <p> Gestão financeira sob medida para a sua empresa a partir de R$119,90</p>
                 </div>
             </div>
         </div>

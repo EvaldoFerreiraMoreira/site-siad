@@ -19,7 +19,7 @@ const CarrosselPlanosMobile = () => {
 
     const items = [
         <div className="item" data-value="1" key={0}>
-            <div className='flex mt-5 justify-center gap-5 pb-5'>
+            <div className='flex mt-5 justify-center gap-2 pb-5'>
                 <div className='flex flex-col justify-center bg-white h-64 w-40 rounded-3xl shadow-[#23314C] shadow-lg'>
                     <div className='flex flex-col items-center gap-5 text-[#303666]'>
                         <h1 className='text-lg font-bold'>Gratuito</h1>
@@ -109,7 +109,7 @@ const CarrosselPlanosMobile = () => {
             </div>
         </div>,
         <div className="item" data-value="2" key={1}>
-            <div className='flex mt-5 justify-center gap-5'>
+            <div className='flex mt-5 justify-center gap-2'>
 
                 <div className='flex flex-col justify-center bg-white h-1/2 p-4 rounded-3xl shadow-[#23314C] shadow-lg'>
                     <div className='flex flex-col items-center gap-5 text-[#303666]'>

@@ -8,7 +8,7 @@ import {
 
 const CommonQuestionWeb= () => {
     return (
-        <div className="mx-64 w-full">
+        <div className="mx-52 w-full">
             <div className="flex font-bold text-4xl">
                 <h1 className="text-[#3D5685]">Perguntas Frequentes</h1>
             </div>

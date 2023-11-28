@@ -1,6 +1,8 @@
 "use client"
 
+import Formulario from '@/components/ui/Formulario';
 import { Button } from '@/components/ui/button';
+import Link from 'next/link';
 import React, { useState } from 'react';
 import AliceCarousel, { EventObject } from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
@@ -19,7 +21,7 @@ const CarrosselPlanosMobile = () => {
             <div className='flex mt-5 justify-center gap-5 pb-5'>
                 <div className='flex flex-col justify-center bg-white h-64 w-40 rounded-3xl shadow-[#23314C] shadow-lg'>
                     <div className='flex flex-col items-center gap-5 text-[#303666]'>
-                        <h1 className='text-lg font-bold'>Lorem Ipsum</h1>
+                        <h1 className='text-lg font-bold'>Gratuito</h1>
                         <div className='flex flex-col text-sm gap-2 text-[#575E69]'>
                             <p className='w-28'>Lorem Ipsum simplydummy text of the printing</p>
                         </div>
@@ -29,34 +31,44 @@ const CarrosselPlanosMobile = () => {
                                 7 Dias
                             </p>
                         </div>
-                        <Button className='bg-[#26B547] rounded-3xl'>
-                            Obter
-                        </Button>
+                        <div>
+                            <Formulario />
+                        </div>
                     </div>
                 </div>
                 <div className='flex flex-col justify-center bg-white h-64 w-40 rounded-3xl shadow-[#23314C] shadow-lg'>
                     <div className='flex flex-col items-center gap-5 text-[#303666]'>
-                        <h1 className='text-lg font-bold'>Lorem Ipsum</h1>
+                        <h1 className='text-lg font-bold'>Básico</h1>
                         <div className='flex flex-col text-sm gap-2 text-[#575E69]'>
                             <p className='w-28'>Lorem Ipsum simplydummy text of the printing</p>
                         </div>
                         <div className='flex flex-col mr-9'>
                             <p className='text-xs left-10 text-red-600 line-through'>
                                 {activeSection === "mensal"
-                                    ? "199,99"
-                                    : "2.399,88"
+                                    ? ""
+                                    : "R$ 149,90"
                                 }
                             </p>
                             <h1 className='text-lg font-bold text-black'>
                                 {activeSection === "mensal"
-                                    ? "89,99"
-                                    : "1.079,88"
+                                    ? "R$ 149,90"
+                                    : "R$ 129,90"
                                 }
                             </h1>
                         </div>
-                        <Button className='bg-[#26B547] rounded-3xl'>
-                            Obter
-                        </Button>
+                        {activeSection === "mensal"
+                            ?
+                            <Link href="https://buy.stripe.com/8wM8zs9pq1wk0FyeUU">
+                                <Button className='bg-[#26B547] rounded-3xl'>
+                                    Obter
+                                </Button>
+                            </Link>
+                            : <Link href="https://buy.stripe.com/cN22b48lm5MAdskdQR">
+                                <Button className='bg-[#26B547] rounded-3xl'>
+                                    Obter
+                                </Button>
+                            </Link>
+                        }
                     </div>
                 </div>
             </div>
@@ -64,15 +76,76 @@ const CarrosselPlanosMobile = () => {
         <div className="item" data-value="2" key={1}>
             <div className='flex mt-5 justify-center gap-5'>
 
-                <div className='bg-white h-56 w-40 rounded-3xl'></div>
-                <div className='bg-white h-56 w-40 rounded-3xl'></div>
-            </div>
-        </div>,
-        <div className="item" data-value="3" key={2} >
-            <div className='flex mt-5 justify-center gap-5'>
-
-                <div className='bg-white h-56 w-40 rounded-3xl'></div>
-                <div className='bg-white h-56 w-40 rounded-3xl'></div>
+                <div className='flex flex-col justify-center bg-white h-64 w-40 rounded-3xl shadow-[#23314C] shadow-lg'>
+                    <div className='flex flex-col items-center gap-5 text-[#303666]'>
+                        <h1 className='text-lg font-bold'>Intermediário</h1>
+                        <div className='flex flex-col text-sm gap-2 text-[#575E69]'>
+                            <p className='w-28'>Lorem Ipsum simplydummy text of the printing</p>
+                        </div>
+                        <div className='flex flex-col mr-9'>
+                            <p className='text-xs left-10 text-red-600 line-through'>
+                                {activeSection === "mensal"
+                                    ? ""
+                                    : "R$ 310,00"
+                                }
+                            </p>
+                            <h1 className='text-lg font-bold text-black'>
+                                {activeSection === "mensal"
+                                    ? "R$ 310,00"
+                                    : "R$ 279,90"
+                                }
+                            </h1>
+                        </div>
+                        {activeSection === "mensal"
+                            ?
+                            <Link href="https://buy.stripe.com/8wM8zs9pq1wk0FyeUU">
+                                <Button className='bg-[#26B547] rounded-3xl'>
+                                    Obter
+                                </Button>
+                            </Link>
+                            : <Link href="https://buy.stripe.com/cN22b48lm5MAdskdQR">
+                                <Button className='bg-[#26B547] rounded-3xl'>
+                                    Obter
+                                </Button>
+                            </Link>
+                        }
+                    </div>
+                </div>
+                <div className='flex flex-col justify-center bg-white h-64 w-40 rounded-3xl shadow-[#23314C] shadow-lg'>
+                    <div className='flex flex-col items-center gap-5 text-[#303666]'>
+                        <h1 className='text-lg font-bold'>Avançado PRO</h1>
+                        <div className='flex flex-col text-sm gap-2 text-[#575E69]'>
+                            <p className='w-28'>Lorem Ipsum simplydummy text of the printing</p>
+                        </div>
+                        <div className='flex flex-col mr-9'>
+                            <p className='text-xs left-10 text-red-600 line-through'>
+                                {activeSection === "mensal"
+                                    ? ""
+                                    : "R$ 529,90"
+                                }
+                            </p>
+                            <h1 className='text-lg font-bold text-black'>
+                                {activeSection === "mensal"
+                                    ? "R$ 529,90"
+                                    : "R$ 489,00"
+                                }
+                            </h1>
+                        </div>
+                        {activeSection === "mensal"
+                            ?
+                            <Link href="https://buy.stripe.com/8wM8zs9pq1wk0FyeUU">
+                                <Button className='bg-[#26B547] rounded-3xl'>
+                                    Obter
+                                </Button>
+                            </Link>
+                            : <Link href="https://buy.stripe.com/cN22b48lm5MAdskdQR">
+                                <Button className='bg-[#26B547] rounded-3xl'>
+                                    Obter
+                                </Button>
+                            </Link>
+                        }
+                    </div>
+                </div>
             </div>
         </div>,
 

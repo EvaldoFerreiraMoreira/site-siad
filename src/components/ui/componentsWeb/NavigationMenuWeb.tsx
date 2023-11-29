@@ -62,35 +62,57 @@ export function NavigationMenuSegmentoWeb() {
                         Segmentos
                     </NavigationMenuTrigger>
                     <NavigationMenuContent>
-                        <ul className="grid gap-3 p-6 w-[500px] text-xs">
-                            <div className="grid grid-cols-5">
-                                <ListItem href="/" title="Casa de Ração" />
-                                <ListItem href="/" title="Loja de Roupas" />
-                                <ListItem href="/" title="Padarias" />
-                                <ListItem href="/" title="Funerárias" />
-                                <ListItem href="/" title="Material de Construção" />
-                                <ListItem href="/" title="Oficinas" />
-                                <ListItem href="/" title="Bares" />
-                                <ListItem href="/" title="Madeireiras" />
-                                <ListItem href="/" title="Marmorarias" />
-                                <ListItem href="/" title="Supermercados" />
-                                <ListItem href="/" title="Mercearias" />
-                                <ListItem href="/" title="Lojas de Roupas e Acessórios" />
-                                <ListItem href="/" title="Loja de Calçados" />
-                                <ListItem href="/" title="Funerárias" />
-                                <ListItem href="/" title="Material de Construção" />
-                                <ListItem href="/" title="Eletrodomésticos e Eletrônicos" />
-                                <ListItem href="/" title="Móveis e Decoração" />
-                                <ListItem href="/" title="Papelarias" />
-                                <ListItem href="/" title="Óticas" />
-                                <ListItem href="/" title="Joalherias" />
-                                <ListItem href="/" title="Restaurantes" />
-                                <ListItem href="/" title="Distribuidora" />
-                                <ListItem href="/" title="Açougues" />
-                                <ListItem href="/" title="Atacado em Geral" />
-                                <ListItem href="/" title="Joalherias" />
-                            </div>
-                        </ul>
+                        <div className="p-5">
+
+                            <NavigationMenuItem className="font-bold">Comércio:</NavigationMenuItem>
+                            <ul className="w-[800px] text-xs p-4">
+                                <div className="grid grid-cols-6">
+                                    <ListItem href="/" title="Casa de Ração" />
+                                    <ListItem href="/" title="Loja de Roupas" />
+                                    <ListItem href="/" title="Supermercados" />
+                                    <ListItem href="/" title="Mercearias" />
+                                    <ListItem href="/" title="Lojas de Roupas e Acessórios" />
+                                    <ListItem href="/" title="Loja de Calçados" />
+                                    <ListItem href="/" title="Eletrodomésticos e Eletrônicos" />
+                                    <ListItem href="/" title="Móveis e Decoração" />
+                                    <ListItem href="/" title="Papelarias" />
+                                    <ListItem href="/" title="Óticas" />
+                                    <ListItem href="/" title="Joalherias" />
+                                </div>
+                            </ul>
+                            <NavigationMenuItem className="font-bold">Serviços:</NavigationMenuItem>
+                            <ul className="w-[800px] text-xs p-4">
+                                <div className="grid grid-cols-6">
+                                    <ListItem href="/" title="Funerárias" />
+                                    <ListItem href="/" title="Oficinas" />
+                                    <ListItem href="/" title="Bares" />
+                                    <ListItem href="/" title="Distribuidora" />
+                                </div>
+                            </ul>
+                            <NavigationMenuItem className="font-bold">Alimentação:</NavigationMenuItem>
+                            <ul className="w-[800px] text-xs p-4">
+                                <div className="grid grid-cols-6">
+                                    <ListItem href="/" title="Padarias" />
+                                    <ListItem href="/" title="Restaurantes" />
+                                    <ListItem href="/" title="Açougues" />
+                                </div>
+                            </ul>
+                            <NavigationMenuItem className="font-bold">Construção e Reforma:</NavigationMenuItem>
+                            <ul className="w-[800px] text-xs p-4">
+                                <div className="grid grid-cols-6">
+                                    <ListItem href="/" title="Material de Construção" />
+                                    <ListItem href="/" title="Madeireiras" />
+                                    <ListItem href="/" title="Marmorarias" />
+                                </div>
+                            </ul>
+                            <NavigationMenuItem className="font-bold">Varejo e Atacado:</NavigationMenuItem>
+                            <ul className="w-[800px] text-xs p-4">
+                                <div className="grid grid-cols-6">
+                                    <ListItem href="/" title="Atacado em Geral" />
+                                    <ListItem href="/" title="Varejo em Geral" />
+                                </div>
+                            </ul>
+                        </div>
                     </NavigationMenuContent>
                 </NavigationMenuItem>
             </NavigationMenuList>

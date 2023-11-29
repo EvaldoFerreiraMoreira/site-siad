@@ -24,13 +24,13 @@ const BannerLeftWeb = ({ title, description, img, colorTitle, colorDescription }
                     width={0}
                     height={0}
                     sizes="100vw"
-                    className="h-auto w-auto max-w-[80%] max-h-[80%]"
+                    className="h-auto w-auto max-w-[80%] max-h-[80%] shadow-lg rounded-2xl"
                     style={{
                         objectFit: "contain",
                     }}
                 />
             </div>
-            <div className="flex flex-col text-right ml-0  w-[50%] " style={{ color: colordescription }}>
+            <div className="flex flex-col text-right ml-0 w-[50%]" style={{ color: colordescription }}>
                 <h1 className="font-bold text-2xl" style={{ color: colortitle }}>{title}</h1>
                 <p className="text-sm mt-5 ">{description}</p>
                 <Link href="/planos">

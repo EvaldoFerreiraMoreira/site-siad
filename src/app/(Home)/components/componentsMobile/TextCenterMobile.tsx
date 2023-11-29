@@ -1,6 +1,6 @@
 const TextCenterMobile = () => {
     return (
-        <div className="text-[#A7A7A7]">
+        <div className="text-[#68686F]">
             <div className="mt-10 font-semibold text-2xl">
                 <h1 className="text-center font-bold text-[#3D5685]">
                     Quer um jeito fácil, rápido, prático e seguro de emitir suas notas fiscais ?

@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import CarrosselPlanosMobile from "./componentsMobile/CarrosselPlanosMobile";
+import CarrosselPlanosWeb from "./componentsWeb/CarrosselPlanosWeb";
 
 
 
@@ -22,7 +23,7 @@ const TextCenter = () => {
     };
   }, []);
 
-  return isMobile ? <CarrosselPlanosMobile /> : " ";
+  return isMobile ? <CarrosselPlanosMobile /> : <CarrosselPlanosWeb />;
 };
 
 export default TextCenter;

@@ -10,21 +10,21 @@ const CardGratisWeb = () => {
                 <div className=" flex flex-col w-[70%]">
 
                     <div className="flex flex-col  justify-center ml-6 mr-6 ">
-                    <h1 className="text-[#000] text-left font-bold text-2xl">Lorem Ipsum is simply dummy text of the printing</h1>
-                </div>
-                <div className="flex  mt-6 items-center gap-4 ml-6 mr-6 ">
-                    <p className=" text-[#A7A7A7] text-justify text-sm  ">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply
-                     dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy 
-                     text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <h1 className="text-[#000] text-left font-bold text-2xl">Lorem Ipsum is simply dummy text of the printing</h1>
+                    </div>
+                    <div className="flex  mt-6 items-center gap-4 ml-6 mr-6 ">
+                        <p className=" text-[#A7A7A7] text-justify text-sm  ">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply
+                            dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy
+                            text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+
+                    </div>
 
                 </div>
-
-                </div>
-                    <Link href="#carrosselPlanos">
+                <Link href="#carrosselPlanos">
                     <Button className="bg-[#E4F0FC] border border-[#2687E9] text-[#2687E9]">
                         Experimente
                     </Button>
-                    </Link>
+                </Link>
 
             </div>
             <div className="flex flex-col items-center text-center w-80 h-20 gap-2 ">

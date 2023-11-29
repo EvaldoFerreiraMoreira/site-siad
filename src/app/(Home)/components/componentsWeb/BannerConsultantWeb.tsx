@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 const BannerConsultantWeb = () => {
     return ( 
         <div className="mx-64">
-            <div className=" flex font-semibold text-4xl">
+            <div className=" flex font-semibold justify-center text-4xl">
                 <h1 className="text-center font-bold text-[#3D5685]">Como a SIAD pode ajudar o seu negócio?</h1>
             </div>
             <div className=" flex  justify-center mt-10 text-sm text-center">

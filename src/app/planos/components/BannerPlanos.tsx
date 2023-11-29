@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import BannerPlanosMobile from "./componentsMobile/BannerPlanosMobile";
+import BannerPlanosWeb from "./componentsWeb/BannerPlanosWeb";
 
 
 
@@ -22,7 +23,7 @@ const TextCenter = () => {
     };
   }, []);
 
-  return isMobile ? <BannerPlanosMobile /> : " ";
+  return isMobile ? <BannerPlanosMobile /> : <BannerPlanosWeb />;
 };
 
 export default TextCenter;

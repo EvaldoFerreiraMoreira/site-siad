@@ -8,19 +8,19 @@ import React, { useState } from 'react';
 import AliceCarousel, { EventObject } from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 
-const CarrosselPlanosMobile = () => {
+const CarrosselPlanosWeb = () => {
     const [activeSection, setActiveSection] = useState("mensal");
 
     const responsive = {
         0: { items: 1, },
-        568: { items: 2 },
-        1024: { items: 3 },
+        568: { items: 1 },
+        1024: { items: 1 },
     };
 
     const items = [
         <div className="item" data-value="1" key={0}>
-            <div className='flex mt-5 justify-center gap-2 pb-5'>
-                <div className='flex flex-col justify-center bg-white h-64 w-40 rounded-3xl shadow-[#23314C] shadow-lg'>
+            <div className='flex mt-5 justify-center gap-5 pb-5'>
+                <div className='flex flex-col justify-center bg-white h-64 w-48 rounded-3xl shadow-[#23314C] shadow-lg'>
                     <div className='flex flex-col items-center gap-5 text-[#303666]'>
                         <h1 className='text-lg font-bold'>Gratuito</h1>
                         <div className='flex flex-col text-sm gap-2 text-[#575E69]'>
@@ -37,7 +37,7 @@ const CarrosselPlanosMobile = () => {
                         </div>
                     </div>
                 </div>
-                <div className='flex flex-col justify-center bg-white h-1/2 p-4 rounded-3xl shadow-[#23314C] shadow-lg'>
+                <div className='flex flex-col justify-center bg-white h-1/2 w-56 p-4 rounded-3xl shadow-[#23314C] shadow-lg'>
                     <div className='flex flex-col items-center gap-5 text-[#303666]'>
                         <h1 className='text-lg font-bold'>Básico</h1>
                         <div className='flex flex-col text-sm gap-2 text-[#575E69]'>
@@ -58,7 +58,7 @@ const CarrosselPlanosMobile = () => {
                             </h1>
                         </div>
                         <Separator className='bg-black' />
-                        <div className='flex flex-col text-xs'>
+                        <div className='text-xs'>
                             <p>
                                 - Cadastro de Cliente
                             </p>
@@ -106,12 +106,7 @@ const CarrosselPlanosMobile = () => {
                         }
                     </div>
                 </div>
-            </div>
-        </div>,
-        <div className="item" data-value="2" key={1}>
-            <div className='flex mt-5 justify-center gap-2'>
-
-                <div className='flex flex-col justify-center bg-white h-1/2 p-4 rounded-3xl shadow-[#23314C] shadow-lg'>
+                <div className='flex flex-col justify-center bg-white h-1/2 p-4 w-56 rounded-3xl shadow-[#23314C] shadow-lg'>
                     <div className='flex flex-col items-center gap-5 text-[#303666]'>
                         <h1 className='text-lg font-bold'>Intermediário</h1>
                         <div className='flex flex-col text-sm gap-2 text-[#575E69]'>
@@ -180,7 +175,7 @@ const CarrosselPlanosMobile = () => {
                         }
                     </div>
                 </div>
-                <div className='flex flex-col justify-center bg-white h-1/2 p-4 rounded-3xl shadow-[#23314C] shadow-lg'>
+                <div className='flex flex-col justify-center bg-white h-auto p-4 w-56 rounded-3xl shadow-[#23314C] shadow-lg'>
                     <div className='flex flex-col items-center gap-5 text-[#303666]'>
                         <h1 className='text-lg font-bold'>Avançado PRO</h1>
                         <div className='flex flex-col text-sm gap-2 text-[#575E69]'>
@@ -269,7 +264,6 @@ const CarrosselPlanosMobile = () => {
                 </div>
             </div>
         </div>,
-
     ];
 
     const onSlideChange = (e: EventObject) => {
@@ -305,7 +299,7 @@ const CarrosselPlanosMobile = () => {
                 </div>
             </div>
 
-            <div className='text-white '>
+            <div className='text-white'>
                 <AliceCarousel
                     mouseTracking
                     disableButtonsControls
@@ -320,4 +314,4 @@ const CarrosselPlanosMobile = () => {
     );
 }
 
-export default CarrosselPlanosMobile;
+export default CarrosselPlanosWeb;

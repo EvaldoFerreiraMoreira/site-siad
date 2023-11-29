@@ -8,7 +8,7 @@ import FuncSiadBanner from "./components/FuncSiadBanner";
 
 const Planos = () => {
     return (
-        <div className="flex flex-col pt-24">
+        <div className="flex flex-col pt-16">
             <div className=" flex w-full p-10 bg-[#f1f4f9]">
                 <BannerPlanos />
             </div>
@@ -18,8 +18,8 @@ const Planos = () => {
                         <CarrosselPlanos />
                     </div>
                 </div>
-                <div className=" relative w-full bg-[#3D5685] h-96">
-                    <div className="pt-64">
+                <div className=" relative w-full bg-[#3D5685] h-[35rem]">
+                    <div className="pt-[30rem]">
                         <CardGratis />
                     </div>
                 </div>

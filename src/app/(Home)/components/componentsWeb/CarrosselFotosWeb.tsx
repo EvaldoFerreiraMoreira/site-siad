@@ -65,7 +65,7 @@ const CarrosselFotosWeb = () => {
             </div>
         </div>,
         <div className="item" data-value="2" key={1}>
-            <div className='flex mt-5 justify-center gap-2 pb-5'>
+            <div className='flex mt-5 justify-center gap-6 pb-5'>
 
                 <Image
                     src={"/FEED-LOJA-DE-ROUPAS.png"}

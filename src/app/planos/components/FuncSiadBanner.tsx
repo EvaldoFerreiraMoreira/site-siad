@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import FuncSiadBannerMobile from "./componentsMobile/FuncSiadBannerMobile";
+import FuncSiadBannerWeb from "./componentsWeb/FuncSiadBannerWeb";
 
 
 
@@ -22,7 +23,7 @@ const TextCenter = () => {
     };
   }, []);
 
-  return isMobile ? <FuncSiadBannerMobile /> : " ";
+  return isMobile ? <FuncSiadBannerMobile /> : <FuncSiadBannerWeb />;
 };
 
 export default TextCenter;

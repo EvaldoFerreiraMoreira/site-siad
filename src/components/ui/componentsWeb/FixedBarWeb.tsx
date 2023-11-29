@@ -14,15 +14,14 @@ const FixedBarWeb = () => {
         </div>
       </div>
 
-      <div className="flex items-center gap-20 h-12 bg-[#6387C4] rounded-lg">
-        <p className="flex text-sm text-center items-center font-semibold">
-          <Smartphone size={35} />
+      <div className="flex items-center gap-20 h-12 bg-[#6387C4] w-[20%] rounded-lg">
+        <p className="flex justify-center text-sm text-center items-center font-semibold">
+          <Smartphone size={35} className="ml-5"/>
           Fale com a gente no Whatsapp
         </p>
-        <Button className="bg-[#242858] gap-2"> 
-        <MessageCircle />
-        Fale conosco</Button>
+        
       </div>
+        <script src="//code.jivosite.com/widget/pasrKoKcWR" async></script>
     </div>
   );
 };

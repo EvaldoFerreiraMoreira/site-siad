@@ -21,7 +21,7 @@ const CardGratisMobile = () => {
                 </div>
             </div>
             <div className="flex flex-col items-center text-center w-80 h-20 gap-2 ">
-                <h1 className="text-[#A7A7A7]  font-bold text-xl">Lorem <span className="text-[#303666]">Ipsum</span> Ipsum is simply <span className="text-[#303666]">dummy</span> text of <span className="text-[#303666]">the</span> printing</h1>
+            <h1 className="text-[#A7A7A7]  font-bold text-xl">Seu negócio terá mais <span className="text-[#303666]">controle financeiro</span>, reduzirá <span className="text-[#303666]"> custos</span> e aumentará as<span className="text-[#303666]"> vendas!</span> </h1>
             </div>
         </div>
 

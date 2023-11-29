@@ -137,7 +137,7 @@ const ComboSeguimentos = () => {
                         
                         role="combobox"
                         aria-expanded={open}
-                        className="w-[21rem] justify-between border border-[#A7A7A7]"
+                        className=" h-10 w-full rounded-md px-3 py-2 justify-between border border-[#A7A7A7]"
                     >
                         {value
                             ? segmentos.find((segmentos) => segmentos.value === value)?.label

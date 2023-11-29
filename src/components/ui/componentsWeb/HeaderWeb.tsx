@@ -43,7 +43,7 @@ const HeaderWeb = () => {
         </div>
         <div className="flex flex-col font-bold">
           <h1>Fale Conosco</h1>
-          <p className="flex text-[#5576B3]">
+          <p className="flex gap-2 text-[#5576B3]">
             Whatsapp  
             <FaWhatsapp size={20}/>
           </p>

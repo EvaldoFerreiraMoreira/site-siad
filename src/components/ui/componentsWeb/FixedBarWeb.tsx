@@ -16,7 +16,7 @@ const FixedBarWeb = () => {
       </div>
 
       <div className="flex items-center gap-20 h-12 bg-[#6387C4] w-[20%] rounded-lg">
-        <p className="flex justify-center text-sm text-center items-center font-semibold">
+        <p className="flex justify-center px-5 gap-3 text-sm text-center items-center font-semibold">
           <FaWhatsapp size={30} />
           Fale com a gente no Whatsapp
         </p>

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const CardGratisWeb = () => {
     return (
-        <div className="flex flex-col items-center text-center gap-8 h-96 z-8">
+        <div className="flex flex-col items-center text-center gap-10 h-96 z-8 ">
 
 
             <div className="flex  items-center justify-center text-center bg-white mx-64  h-60 rounded-3xl shadow-lg shadow-[#888B8D] ">
@@ -27,8 +27,8 @@ const CardGratisWeb = () => {
                 </Link>
 
             </div>
-            <div className="flex flex-col items-center text-center w-80 h-20 gap-2 ">
-                <h1 className="text-[#A7A7A7]  font-bold text-xl">Lorem <span className="text-[#303666]">Ipsum</span> Ipsum is simply <span className="text-[#303666]">dummy</span> text of <span className="text-[#303666]">the</span> printing</h1>
+            <div className="flex flex-col items-center mx-64 text-center   gap-2 ">
+                <h1 className="text-[#A7A7A7]  font-bold text-3xl">Seu negócio terá mais <span className="text-[#303666]">controle financeiro</span>, reduzirá <span className="text-[#303666]"> custos</span> e aumentará as<span className="text-[#303666]"> vendas!</span> </h1>
             </div>
         </div>
 

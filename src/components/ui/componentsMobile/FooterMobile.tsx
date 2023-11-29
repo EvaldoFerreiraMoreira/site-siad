@@ -10,6 +10,7 @@ import {
   import Image from "next/image";
   import Link from "next/link";
   import { Separator } from "../separator";
+import { FaWhatsapp } from "react-icons/fa";
   
   const FooterMobile = () => {
     return (
@@ -38,7 +39,7 @@ import {
               <p>Fale Conosco</p>
               <p className="text-[#5576B3] flex items-center gap-2">
                 Whatsapp
-                <Smartphone size={16} />
+                <FaWhatsapp size={20}/>
               </p>
             </div>
           </div>

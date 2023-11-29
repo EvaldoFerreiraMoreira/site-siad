@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Instagram, Phone, Smartphone } from "lucide-react";
 import Link from "next/link";
+import { FaWhatsapp } from "react-icons/fa";
 
 const BannerContatoMobile = () => {
     return (
@@ -9,7 +10,7 @@ const BannerContatoMobile = () => {
             <div className=" text-center  bg-white w-24 h-24 rounded-full shadow-lg shadow-[#23314C] gap-2">
                 <Link href="https://">
                     <p className="flex gap-1 justify-center mt-7 mb-10 ">
-                        <Smartphone size={40} style={{color:"#3D5685"}} />
+                    <FaWhatsapp size={40} style={{color:"#3D5685"}}/>
                     </p>
                 </Link>
                     <h1 className="text-center font-bold text-[#FFFFFF] text-sm" >mande um whastapp</h1>

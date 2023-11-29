@@ -8,6 +8,7 @@ import { Separator } from '../separator';
 import Link from 'next/link';
 import { NavigationMenuSegmentoMobile } from './NavigationMenuMobile';
 import Formulario from '@/components/ui/Formulario';
+import { FaWhatsapp } from 'react-icons/fa';
 
 const HeaderMobile = () => {
   return (
@@ -72,7 +73,7 @@ const HeaderMobile = () => {
                     variant={"outline"}
                     className="w-full justify-start gap-2"
                   >
-                    <Smartphone size={16} />
+                    <FaWhatsapp size={17}/>
                     Fale Conosco
                   </Button>
                 </Link>

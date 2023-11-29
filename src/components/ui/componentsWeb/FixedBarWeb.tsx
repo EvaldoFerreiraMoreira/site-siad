@@ -2,6 +2,7 @@ import { MessageCircle, Smartphone } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "../button";
+import { FaWhatsapp } from "react-icons/fa";
 
 const FixedBarWeb = () => {
   return (
@@ -16,12 +17,12 @@ const FixedBarWeb = () => {
 
       <div className="flex items-center gap-20 h-12 bg-[#6387C4] rounded-lg">
         <p className="flex text-sm text-center items-center font-semibold">
-          <Smartphone size={35} />
+          <FaWhatsapp size={30} />
           Fale com a gente no Whatsapp
         </p>
-        <Button className="bg-[#242858] gap-2"> 
-        <MessageCircle />
-        Fale conosco</Button>
+        <Button className="bg-[#242858] gap-2">
+          <MessageCircle />
+          Fale conosco</Button>
       </div>
     </div>
   );

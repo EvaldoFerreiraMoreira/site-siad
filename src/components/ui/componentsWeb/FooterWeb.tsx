@@ -48,13 +48,15 @@ const FooterWeb = () => {
                   <p>Segmentos</p>
                 </Link>
               </div>
-              <div>
-                <p>Fale Conosco</p>
-                <p className="text-[#5576B3] flex items-center gap-2">
-                  Whatsapp
-                  <FaWhatsapp size={20}/>
-                </p>
-              </div>
+              <Link href="https://api.whatsapp.com/send?phone=553398056488&text=Ol%C3%A1%2C%20vim%20pelo%20Site%20da%20Siad">
+                <div>
+                  <p>Fale Conosco</p>
+                  <p className="text-[#5576B3] flex items-center gap-2">
+                    Whatsapp
+                    <FaWhatsapp size={20} />
+                  </p>
+                </div>
+              </Link>
             </div>
           </div>
         </div>

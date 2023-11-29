@@ -68,12 +68,12 @@ const HeaderMobile = () => {
                 </Link>
               </SheetClose>
               <SheetClose asChild>
-                <Link href="/catalog">
+                <Link href="https://api.whatsapp.com/send?phone=553398056488&text=Ol%C3%A1%2C%20vim%20pelo%20Site%20da%20Siad">
                   <Button
                     variant={"outline"}
                     className="w-full justify-start gap-2"
                   >
-                    <FaWhatsapp size={17}/>
+                    <FaWhatsapp size={17} />
                     Fale Conosco
                   </Button>
                 </Link>

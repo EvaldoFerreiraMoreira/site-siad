@@ -41,6 +41,7 @@ const HeaderWeb = () => {
         <div className="flex items-center">
           <Formulario/>
         </div>
+        <Link href="https://api.whatsapp.com/send?phone=553398056488&text=Ol%C3%A1%2C%20vim%20pelo%20Site%20da%20Siad">
         <div className="flex flex-col font-bold">
           <h1>Fale Conosco</h1>
           <p className="flex gap-2 text-[#5576B3]">
@@ -48,6 +49,7 @@ const HeaderWeb = () => {
             <FaWhatsapp size={20}/>
           </p>
         </div>
+        </Link>
       </div>
     </div>
   );

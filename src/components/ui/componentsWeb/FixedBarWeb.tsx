@@ -16,11 +16,12 @@ const FixedBarWeb = () => {
       </div>
 
       <div className="flex items-center gap-20 h-12 bg-[#6387C4] w-[20%] rounded-lg">
-        <p className="flex justify-center px-5 gap-3 text-sm text-center items-center font-semibold">
-          <FaWhatsapp size={30} />
-          Fale com a gente no Whatsapp
-        </p>
-
+        <Link href="https://api.whatsapp.com/send?phone=553398056488&text=Ol%C3%A1%2C%20vim%20pelo%20Site%20da%20Siad">
+          <p className="flex justify-center px-5 gap-3 text-sm text-center items-center font-semibold">
+            <FaWhatsapp size={30} />
+            Fale com a gente no Whatsapp
+          </p>
+        </Link>
       </div>
       <script src="//code.jivosite.com/widget/pasrKoKcWR" async></script>
     </div>

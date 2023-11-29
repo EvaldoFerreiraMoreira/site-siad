@@ -5,8 +5,8 @@ import Image from "next/image";
 
 const MobilePresentationWeb = () => {
     return (
-        <div className=" flex mx-64 justify-evenly w-full">
-            <div className="flex flex-col justify-center">
+        <div className=" flex mx-64 justify-evenly w-full h-96 ">
+            <div className="flex flex-col justify-center ">
                 <div className="flex w-72 font-bold text-4xl">
                     <h1 className="text-[#3D5685]">Gestor Mobile</h1>
                 </div>
@@ -41,7 +41,7 @@ const MobilePresentationWeb = () => {
             </div>
 
             <div>
-                <div className="flex mt-9 h-72 justify-center">
+                <div className="flex h-96 justify-center">
                     <Image
                         src="/Iphone-mobile.png"
                         alt="SMARTPHONE"

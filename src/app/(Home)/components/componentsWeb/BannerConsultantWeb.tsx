@@ -11,8 +11,8 @@ const BannerConsultantWeb = () => {
             </div>
             <div className="flex mt-10 justify-center">
                 <Button 
-                className="bg-[#FFFFFF] border w-64 hover:bg-[#3D5685]">
-                    <p className="text-center font-semibold text-[#000000] hover:text-[#FFFFFF]">Falar com consultor</p>
+                className="bg-[#FFFFFF] border w-64" variant={"outline"}>
+                    <p className="text-center font-semibold text-[#000000]">Falar com consultor</p>
                 </Button>
             </div>
         </div>

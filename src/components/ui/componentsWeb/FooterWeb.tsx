@@ -10,11 +10,12 @@ import {
 import Image from "next/image";
 import Link from "next/link";
 import { Separator } from "../separator";
+import { FaWhatsapp } from "react-icons/fa";
 
 const FooterWeb = () => {
   return (
     <div className="bg-[#F1F4F9] h-2/3 p-5 pb-14">
-      <div className="flex justify-evenly items-center">
+      <div className="flex justify-around items-center">
         <div className="flex gap-32">
           <div className="flex flex-col w-80 text-justify">
             <div className="relative h-40 w-48">
@@ -47,13 +48,15 @@ const FooterWeb = () => {
                   <p>Segmentos</p>
                 </Link>
               </div>
-              <div>
-                <p>Fale Conosco</p>
-                <p className="text-[#5576B3] flex items-center gap-2">
-                  Whatsapp
-                  <Smartphone size={16} />
-                </p>
-              </div>
+              <Link href="https://api.whatsapp.com/send?phone=553398056488&text=Ol%C3%A1%2C%20vim%20pelo%20Site%20da%20Siad">
+                <div>
+                  <p>Fale Conosco</p>
+                  <p className="text-[#5576B3] flex items-center gap-2">
+                    Whatsapp
+                    <FaWhatsapp size={20} />
+                  </p>
+                </div>
+              </Link>
             </div>
           </div>
         </div>

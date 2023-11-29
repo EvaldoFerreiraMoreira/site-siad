@@ -28,7 +28,7 @@ const MobilePresentationMobile = () => {
                             <p>pranking de vendas</p>
                         </li>
                         <li className="flex gap-1 mt-2" >
-                            <Smartphone size={25} />
+                            <Smartphone size={30} />
                             <p>formas de pagamentos e vendedores</p>
                         </li>
                     </ul>
@@ -41,7 +41,7 @@ const MobilePresentationMobile = () => {
             </div>
 
             <div className="pr-20">
-                <div className="flex mt-16 h-36 w-52 ">
+                <div className="flex mt-16 h-48 w-52 ">
                     <Image
                         src="/Iphone-mobile.png"
                         alt="SMARTPHONE"

@@ -13,7 +13,7 @@ const FuncSiadBannerWeb = () => {
                         width={0}
                         height={0}
                         sizes="100vw"
-                        className="h-auto w-auto max-w-[110%] max-h-[100%] rounded-3xl shadow-xl"
+                        className="h-auto w-auto max-w-[50%] max-h-[50%] rounded-3xl shadow-xl "
                         style={{
                             objectFit: "contain",
                         }}
@@ -21,9 +21,13 @@ const FuncSiadBannerWeb = () => {
                 </div>
                 <div className="flex flex-col font-semibold w-[50%]  text-xs gap-5">
                     <div className="flex font-bold text-2xl">
-                        <h1>Lorem <span className="text-[#3D5685]">Ipsum </span>is simply <span className="text-[#3D5685]">dummy </span>text of <span className="text-[#3D5685]">the </span> printing </h1>
+                        <h1>SIAD <span className="text-[#3D5685]">um jeito fácil </span>de cuidar da sua gestão,<span className="text-[#3D5685]"> um sistema </span> pensado<span className="text-[#3D5685]"> em você </span>e sua <span className="text-[#3D5685]">empresa </span></h1>
                     </div>
-                    <p className="text-[#575E69]"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type </p>
+                    <p className="text-[#575E69]"> Administre todo a sua empresa de uma forma fácil e sem complicação, com siad, tarefas
+                        passíveis de erros, como cálculo e digitação de preços, quantidades, preenchimento de um
+                        cheque, emissão de nota fiscal, ficam mais seguras e eficientes. Melhorando o trabalho dos
+                        funcionários e o atendimento aos clientes. ou Trabalhe com os planejamentos de recursos empresarial de uma forma fácil, o controle de
+                        toda a sua gestão, bem palma de suas mãos, Agende uma demonstração gratuíta. </p>
                     <Link href="#carrosselPlanos">
                         <Button variant={"default"} size={"sm"} className="bg-[#26B547] rounded-2xl">
                             Experimente

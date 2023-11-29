@@ -23,38 +23,33 @@ const CarrosselInfoWeb = () => {
 
                 <div className='flex flex-col items-center justify-center bg-white h-80 w-56 rounded-3xl shadow-[#23314C] shadow-lg '>
                     <div className='flex flex-col gap-5 text-[#303666]'>
-                        <h1 className='text-lg font-semibold'>Lorem Ipsum</h1>
-                        <div className='flex flex-col text-sm gap-2 text-[#575E69]'>
-                            <p className='flex gap-2'><CheckSquare size={15} className='text-[#5576B3]' /> Lorem Ipsum </p>
-                            <p className='flex gap-2'><CheckSquare size={15} className='text-[#5576B3]' /> simplydummy </p>
-                            <p className='flex gap-2'><CheckSquare size={15} className='text-[#5576B3]' /> text of the </p>
-                            <p className='flex gap-2'><CheckSquare size={15} className='text-[#5576B3]' /> printing</p>
+                        <h1 className='text-lg font-semibold text-center'>Faturamento</h1>
+                        <div className='flex flex-col text-sm gap-3 w-52 text-[#575E69]'>
+                            <p className='flex gap-2'><CheckSquare size={15} className='text-[#5576B3]' /> Acompanhe o faturamento por dia</p>
+                            <p className='flex gap-2'><CheckSquare size={15} className='text-[#5576B3]' /> Faturamento por grupo de produtos com percentual </p>
+                            <p className='flex gap-2'><CheckSquare size={15} className='text-[#5576B3]' /> Faturamento por colaborador mês corrente  </p>
+                            <p className='flex gap-2'><CheckSquare size={15} className='text-[#5576B3]' /> Faturamento mês a mês, ano corrente</p>
+                            <p className='flex gap-2'><CheckSquare size={15} className='text-[#5576B3]' /> Faturamento por hora identificando o horário de pico</p>
                         </div>
                     </div>
                 </div>
                 <div className='flex flex-col items-center justify-center bg-white h-80 w-56 rounded-3xl shadow-[#23314C] shadow-lg '>
-                    <div className='flex flex-col gap-5 text-[#303666]'>
-                        <h1 className='text-lg font-semibold'>Lorem Ipsum</h1>
-                        <div className='flex flex-col text-sm gap-2 text-[#575E69]'>
-                            <p className='flex gap-2'><CheckSquare size={15} className='text-[#5576B3]' /> Lorem Ipsum </p>
-                            <p className='flex gap-2'><CheckSquare size={15} className='text-[#5576B3]' /> simplydummy</p>
-                            <p className='flex gap-2'><CheckSquare size={15} className='text-[#5576B3]' /> text of the </p>
-                            <p className='flex gap-2'><CheckSquare size={15} className='text-[#5576B3]' /> printing</p>
-                            <p className='flex gap-2'><CheckSquare size={15} className='text-[#5576B3]' /> text of the </p>
-                            <p className='flex gap-2'><CheckSquare size={15} className='text-[#5576B3]' /> Lorem Ipsum </p>
+                    <div className='flex flex-col gap-5 mb-14 text-[#303666]'>
+                        <h1 className='text-lg font-semibold text-center '>Financeiro</h1>
+                        <div className='flex flex-col text-sm gap-3 ml-1 w-52 text-[#575E69]'>
+                            <p className='flex gap-2'><CheckSquare size={15} className='text-[#5576B3]' /> Acompanhe a receber do dia, total vencidas e não vencidas </p>
+                            <p className='flex gap-2'><CheckSquare size={15} className='text-[#5576B3]' /> Acompanhe o total a pagar do dia e total a pagar vencidas</p>
+                            <p className='flex gap-2'><CheckSquare size={15} className='text-[#5576B3]' /> Movimento Contábil com total de notas de entradas e saídas </p>
                         </div>
                     </div>
                 </div>
                 <div className='flex flex-col items-center justify-center bg-white h-80 w-56 rounded-3xl shadow-[#23314C] shadow-lg '>
-                    <div className='flex flex-col gap-5 text-[#303666]'>
-                        <h1 className='text-lg font-bold'>Lorem Ipsum</h1>
-                        <div className='flex flex-col text-sm gap-2 text-[#575E69]'>
-                            <p className='flex gap-2'><CheckSquare size={15} className='text-[#5576B3]' /> Lorem Ipsum </p>
-                            <p className='flex gap-2'><CheckSquare size={15} className='text-[#5576B3]' /> simplydummy</p>
-                            <p className='flex gap-2'><CheckSquare size={15} className='text-[#5576B3]' /> text of the </p>
-                            <p className='flex gap-2'><CheckSquare size={15} className='text-[#5576B3]' /> printing</p>
-                            <p className='flex gap-2'><CheckSquare size={15} className='text-[#5576B3]' /> text of the </p>
-                            <p className='flex gap-2'><CheckSquare size={15} className='text-[#5576B3]' /> Lorem Ipsum </p>
+                    <div className='flex flex-col gap-5 mb-20 text-[#303666]'>
+                        <h1 className='text-lg font-bold text-center'>Auditoria</h1>
+                        <div className='flex flex-col text-sm gap-2 ml-2 w-52 text-[#575E69]'>
+                            <p className='flex gap-2'><CheckSquare size={15} className='text-[#5576B3]' /> Regístros críticos, como exclusões e cancelamentos </p>
+                            <p className='flex gap-2'><CheckSquare size={15} className='text-[#5576B3]' /> Auditoria por origem, como vendas, e contas a receber</p>
+                            <p className='flex gap-2'><CheckSquare size={15} className='text-[#5576B3]' /> Filtros por números de documentos por clientes, fornecedores e colaboradores </p>
                         </div>
                     </div>
                 </div>

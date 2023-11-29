@@ -35,37 +35,37 @@ const CarrosselPlanosMobile = () => {
                                 7 Dias
                             </p>
                         </div>
-                     <Separator className='bg-black' />
+                     {/* <Separator className='bg-black' /> */}
                      <div className='flex flex-col text-lg gap-1'>
                          <p>
-                             - Cadastro de Cliente
+                             
                          </p>
                          <p>
-                             - Cadastro de Produtos
+                             
                          </p>
                          <p>
-                             - Cadastro de Fornecedor
+                             
                          </p>
                          <p>
-                             - Cadastro de Grupo
+                             
                          </p>
                          <p>
-                             - Cadastro de Sub grupo
+                             
                          </p>
                          <p>
-                             - Venda Gerencial
+                             
                          </p>
                          <p>
-                             - Ordem de Serviço
+                             
                          </p>
                          <p>
-                             - Controle de Estoque
+                             
                          </p>
                          <p>
-                             - Relatórios Gerenciais
+                             
                          </p>
                          <p>
-                             - Gestor Mobile
+                             
                          </p>
 
                      </div>
@@ -82,7 +82,7 @@ const CarrosselPlanosMobile = () => {
                         <h1 className='text-2xl font-bold'>Básico</h1>
                         <div className='flex flex-col text-center  gap-2 text-[#575E69]'>
                             <p className='w-30'>Plano Básico </p>
-                            <p>Siad Sistemas</p>
+                            <p>Ideal para MEI</p>
                         </div>
                         <div className='flex flex-col justify-center mr-9'>
                             <p className='text-xl left-10 text-red-600 line-through'>
@@ -159,7 +159,7 @@ const CarrosselPlanosMobile = () => {
                             <p className='w-34'>Plano Intermediário
                             </p>
                             <p>
-                                Siad Sistemas</p>
+                            Ideal para Micro Empresa</p>
                         </div>
                         <div className='flex flex-col justify-center mr-9'>
                             <p className='text-xl left-10 text-red-600 line-through'>
@@ -193,13 +193,13 @@ const CarrosselPlanosMobile = () => {
                                 - Cadastro de Sub grupo
                             </p>
                             <p>
-                                - Venda Gerencial
-                            </p>
-                            <p>
                                 - Ordem de Serviço
                             </p>
                             <p>
-                                - Controle de Estoque
+                                - Emissor de NFE
+                            </p>
+                            <p>
+                                - Emissor de NFC-e
                             </p>
                             <p>
                                 - Relatórios Gerenciais
@@ -235,7 +235,7 @@ const CarrosselPlanosMobile = () => {
                         <div className='flex flex-col text-center gap-2 text-[#575E69]'>
                             <p className='w-34'>Plano Avançado PRO
                             </p>
-                            <p>Siad Sistemas</p>
+                            <p>Ideal para Médio Porte</p>
                         </div>
                         <div className='flex flex-col justify-center mr-9'>
                             <p className='text-xl left-10 text-red-600 line-through'>
@@ -253,35 +253,35 @@ const CarrosselPlanosMobile = () => {
                         </div>
                         <Separator className='bg-black' />
                         <div className='flex flex-col text-lg gap-1'>
-                            <p>
-                                - Cadastro de Cliente
+                        <p>
+                                - Tudo do plano Básico
                             </p>
                             <p>
-                                - Cadastro de Produtos
+                                - Tudo do plano Intermediário
                             </p>
                             <p>
-                                - Cadastro de Fornecedor
+                                - Controle de Comissão
                             </p>
                             <p>
-                                - Cadastro de Grupo
+                                - Venda Externa
                             </p>
                             <p>
-                                - Cadastro de Sub grupo
+                                - Recebimento Pix
                             </p>
                             <p>
-                                - Venda Gerencial
+                                - Integração Pix com Banco
                             </p>
                             <p>
-                                - Ordem de Serviço
+                                - Relatório DRE
                             </p>
                             <p>
-                                - Controle de Estoque
+                                - Plano de Conta
                             </p>
                             <p>
-                                - Relatórios Gerenciais
+                                - Fluxo de Caixa
                             </p>
                             <p>
-                                - Gestor Mobile
+                                - Integração com Ecommerce
                             </p>
 
                         </div>

@@ -61,58 +61,27 @@ const Formulario = () => {
     })
     function onSubmit(values: o.infer<typeof formSchema>) {
         console.log("valores que entraram na funcao:", values)
-
-        const contato = {
-            "dados": [
-                {
-                    "nome": values.nome,
-                    "telefone": values.telefone,
-                    "email": values.email,
-                    "segmento": values.segmento,
-                    "texto": values.texto
-                }
-            ]
-        }
-
-        console.log("envio dos dados:", contato)
+  
         const rota = "";
 
-        fetch('https://siad.com.br/vendas/api/post_contato.php?funcao=post_contato', {
-            method: 'POST',
-            body: JSON.stringify({
-                dados: [
-                    {
-                        nome: values.nome,
-                        telefone: values.telefone,
-                        email: values.email,
-                        segmento: values.segmento,
-                        texto: values.texto
-                    }
-                ]
-            }),
+        api.post(rota,values, {
             headers: {
                 'Content-Type': 'application/json',
-                'Authorization': 'Bearer'
+                'Authorization':'Bearer'
+            },
+            validateStatus: status => {
+                return status < 405;
             }
-        });
-        // api.post(rota,contato, {
-        //     headers: {
-        //         'Content-Type': 'application/json',
-        //         'Authorization':'Bearer'
-        //     },
-        //     validateStatus: status => {
-        //         return status < 405;
-        //     }
-        // }
-        // ).then((res) => {
-        //     if (res.status === 404) {
-        //         alert("Erro 404 , erro:"+ res)
-        //     } else {
-        //         console.log("veio:", res)
-        //         alert('Sua mensagem foi enviada');
+        }
+        ).then((res) => {
+            if (res.status === 404) {
+                alert("Erro 404 , erro:"+ res)
+            } else {
+                console.log("veio:", res)
+                alert('Sua mensagem foi enviada');
 
-        //     }
-        // })
+            }
+        })
 
     }
 

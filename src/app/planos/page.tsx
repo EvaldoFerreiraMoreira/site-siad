@@ -18,8 +18,8 @@ const Planos = () => {
                         <CarrosselPlanos />
                     </div>
                 </div>
-                <div className=" relative w-full bg-[#3D5685] h-[35rem]">
-                    <div className="pt-[30rem]">
+                <div className=" relative w-full bg-[#3D5685] h-[40rem]">
+                    <div className="pt-[35rem]">
                         <CardGratis />
                     </div>
                 </div>

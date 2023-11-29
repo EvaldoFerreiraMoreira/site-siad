@@ -20,37 +20,72 @@ const CarrosselPlanosWeb = () => {
     const items = [
         <div className="item" data-value="1" key={0}>
             <div className='flex mt-5 justify-center gap-5 pb-5'>
-                <div className='flex flex-col justify-center bg-white h-64 w-48 rounded-3xl shadow-[#23314C] shadow-lg'>
+
+                <div className='flex flex-col justify-center bg-white w-72 p-4 rounded-3xl shadow-[#23314C] shadow-lg'>
                     <div className='flex flex-col items-center gap-5 text-[#303666]'>
-                        <h1 className='text-lg font-bold'>Gratuito</h1>
-                        <div className='flex flex-col text-sm gap-2 text-[#575E69]'>
-                            <p className='w-28'>Realize um teste gratuitamente por um periodo de 7 dias</p>
+                        <h1 className='text-2xl font-bold'>Grátis</h1>
+                        <div className='flex flex-col text-center  gap-2 text-[#575E69]'>
+                            <p className='w-30'>Realize um teste gratuitamente por um periodo de 7 dias</p>
+
                         </div>
-                        <div className='flex flex-col'>
-                            <h1 className='text-lg font-bold text-black'>Teste Grátis</h1>
-                            <p className='text-xs text-center font-semibold text-red-600'>
+                        <div className='flex flex-col gap-3'>
+                            <h1 className='text-2xl font-bold text-black '>Teste Grátis</h1>
+                            <p className='text-xl text-center font-semibold text-red-600'>
                                 7 Dias
                             </p>
                         </div>
-                        <div>
-                            <Formulario />
+                        <Separator className='bg-black' />
+                        <div className='flex flex-col text-base gap-1'>
+                            <p>
+                                - Cadastro de Cliente
+                            </p>
+                            <p>
+                                - Cadastro de Produtos
+                            </p>
+                            <p>
+                                - Cadastro de Fornecedor
+                            </p>
+                            <p>
+                                - Cadastro de Grupo
+                            </p>
+                            <p>
+                                - Cadastro de Sub grupo
+                            </p>
+                            <p>
+                                - Venda Gerencial
+                            </p>
+                            <p>
+                                - Ordem de Serviço
+                            </p>
+                            <p>
+                                - Controle de Estoque
+                            </p>
+                            <p>
+                                - Relatórios Gerenciais
+                            </p>
+                            <p>
+                                - Gestor Mobile
+                            </p>
+
                         </div>
+                        <Formulario />
                     </div>
                 </div>
-                <div className='flex flex-col justify-center bg-white h-1/2 w-56 p-4 rounded-3xl shadow-[#23314C] shadow-lg'>
+                <div className='flex flex-col justify-center bg-white w-72 p-4 rounded-3xl shadow-[#23314C] shadow-lg'>
                     <div className='flex flex-col items-center gap-5 text-[#303666]'>
-                        <h1 className='text-lg font-bold'>Básico</h1>
-                        <div className='flex flex-col text-sm gap-2 text-[#575E69]'>
-                            <p className='w-28'>Plano Básico Siad Sistemas</p>
+                        <h1 className='text-2xl font-bold'>Básico</h1>
+                        <div className='flex flex-col text-center  gap-2 text-[#575E69]'>
+                            <p className='w-30'>Plano Básico </p>
+                            <p>Siad Sistemas</p>
                         </div>
-                        <div className='flex flex-col mr-9'>
-                            <p className='text-xs left-10 text-red-600 line-through'>
+                        <div className='flex flex-col justify-center mr-9'>
+                            <p className='text-xl left-10 text-red-600 line-through'>
                                 {activeSection === "mensal"
                                     ? ""
                                     : "R$ 149,90"
                                 }
                             </p>
-                            <h1 className='text-lg font-bold text-black'>
+                            <h1 className='text-3xl font-bold text-black'>
                                 {activeSection === "mensal"
                                     ? "R$ 149,90"
                                     : "R$ 129,90"
@@ -58,7 +93,7 @@ const CarrosselPlanosWeb = () => {
                             </h1>
                         </div>
                         <Separator className='bg-black' />
-                        <div className='text-xs'>
+                        <div className='flex flex-col text-base gap-1'>
                             <p>
                                 - Cadastro de Cliente
                             </p>
@@ -94,32 +129,35 @@ const CarrosselPlanosWeb = () => {
                         {activeSection === "mensal"
                             ?
                             <Link href="https://buy.stripe.com/8wM8zs9pq1wk0FyeUU">
-                                <Button className='bg-[#26B547] rounded-3xl'>
+                                <Button className='bg-[#26B547] rounded-3xl px-14'>
                                     Obter
                                 </Button>
                             </Link>
                             : <Link href="https://buy.stripe.com/cN22b48lm5MAdskdQR">
-                                <Button className='bg-[#26B547] rounded-3xl'>
+                                <Button className='bg-[#26B547] rounded-3xl px-14'>
                                     Obter
                                 </Button>
                             </Link>
                         }
                     </div>
                 </div>
-                <div className='flex flex-col justify-center bg-white h-1/2 p-4 w-56 rounded-3xl shadow-[#23314C] shadow-lg'>
+                <div className='flex flex-col justify-center bg-white w-72 p-4 rounded-3xl shadow-[#23314C] shadow-lg'>
                     <div className='flex flex-col items-center gap-5 text-[#303666]'>
-                        <h1 className='text-lg font-bold'>Intermediário</h1>
-                        <div className='flex flex-col text-sm gap-2 text-[#575E69]'>
-                            <p className='w-28'>Plano Intermediário Siad Sistemas</p>
+                        <h1 className='text-2xl font-bold'>Intermediário</h1>
+                        <div className='flex flex-col text-center  gap-2 text-[#575E69]'>
+                            <p className='w-34'>Plano Intermediário
+                            </p>
+                            <p>
+                                Siad Sistemas</p>
                         </div>
-                        <div className='flex flex-col mr-9'>
-                            <p className='text-xs left-10 text-red-600 line-through'>
+                        <div className='flex flex-col justify-center mr-9'>
+                            <p className='text-xl left-10 text-red-600 line-through'>
                                 {activeSection === "mensal"
                                     ? ""
                                     : "R$ 310,00"
                                 }
                             </p>
-                            <h1 className='text-lg font-bold text-black'>
+                            <h1 className='text-3xl font-bold text-black'>
                                 {activeSection === "mensal"
                                     ? "R$ 310,00"
                                     : "R$ 279,90"
@@ -127,7 +165,7 @@ const CarrosselPlanosWeb = () => {
                             </h1>
                         </div>
                         <Separator className='bg-black' />
-                        <div className='text-xs'>
+                        <div className='flex flex-col text-base gap-1'>
                             <p>
                                 - Cadastro de Cliente
                             </p>
@@ -144,51 +182,53 @@ const CarrosselPlanosWeb = () => {
                                 - Cadastro de Sub grupo
                             </p>
                             <p>
+                                - Venda Gerencial
+                            </p>
+                            <p>
                                 - Ordem de Serviço
-                            </p>
-                            <p>
-                                - Emissor de NF-e
-                            </p>
-                            <p>
-                                - Emissor de NFC-e
                             </p>
                             <p>
                                 - Controle de Estoque
                             </p>
                             <p>
-                                - Relatórios Contábeis
+                                - Relatórios Gerenciais
+                            </p>
+                            <p>
+                                - Gestor Mobile
                             </p>
 
                         </div>
                         {activeSection === "mensal"
                             ?
-                            <Link href="https://buy.stripe.com/8wM8zs9pq1wk0FyeUU">
-                                <Button className='bg-[#26B547] rounded-3xl'>
+                            <Link href="https://buy.stripe.com/28og1UfNOfnabkc28a">
+                                <Button className='bg-[#26B547] rounded-3xl px-14'>
                                     Obter
                                 </Button>
                             </Link>
-                            : <Link href="https://buy.stripe.com/cN22b48lm5MAdskdQR">
-                                <Button className='bg-[#26B547] rounded-3xl'>
+                            : <Link href="https://buy.stripe.com/dR6aHAeJK0sg9c4dQT">
+                                <Button className='bg-[#26B547] rounded-3xl px-14'>
                                     Obter
                                 </Button>
                             </Link>
                         }
                     </div>
                 </div>
-                <div className='flex flex-col justify-center bg-white h-auto p-4 w-56 rounded-3xl shadow-[#23314C] shadow-lg'>
+                <div className='flex flex-col justify-center bg-white w-72 p-4 rounded-3xl shadow-[#23314C] shadow-lg'>
                     <div className='flex flex-col items-center gap-5 text-[#303666]'>
-                        <h1 className='text-lg font-bold'>Avançado PRO</h1>
-                        <div className='flex flex-col text-sm gap-2 text-[#575E69]'>
-                            <p className='w-28'>Plano Pro Siad Sistemas</p>
+                        <h1 className='text-2xl font-bold'>Avançado PRO</h1>
+                        <div className='flex flex-col text-center gap-2 text-[#575E69]'>
+                            <p className='w-34'>Plano Avançado PRO
+                            </p>
+                            <p>Siad Sistemas</p>
                         </div>
-                        <div className='flex flex-col mr-9'>
-                            <p className='text-xs left-10 text-red-600 line-through'>
+                        <div className='flex flex-col justify-center mr-9'>
+                            <p className='text-xl left-10 text-red-600 line-through'>
                                 {activeSection === "mensal"
                                     ? ""
                                     : "R$ 529,90"
                                 }
                             </p>
-                            <h1 className='text-lg font-bold text-black'>
+                            <h1 className='text-3xl font-bold text-black'>
                                 {activeSection === "mensal"
                                     ? "R$ 529,90"
                                     : "R$ 489,00"
@@ -196,7 +236,7 @@ const CarrosselPlanosWeb = () => {
                             </h1>
                         </div>
                         <Separator className='bg-black' />
-                        <div className='text-xs'>
+                        <div className='flex flex-col text-base gap-1'>
                             <p>
                                 - Cadastro de Cliente
                             </p>
@@ -213,49 +253,31 @@ const CarrosselPlanosWeb = () => {
                                 - Cadastro de Sub grupo
                             </p>
                             <p>
-                            - Ordem de Serviço
+                                - Venda Gerencial
                             </p>
                             <p>
-                            - Emissor de NF-e
+                                - Ordem de Serviço
                             </p>
                             <p>
-                            - Emissor de NFC-e
+                                - Controle de Estoque
                             </p>
                             <p>
-                            - Controle de Estoque
+                                - Relatórios Gerenciais
                             </p>
                             <p>
-                            - Relatórios Gerenciais
-                            </p>
-                            <p>
-                            - Relatórios Contábeis 
-                            </p>
-                            <p>
-                            - Venda Gerencial 
-                            </p>
-                            <p>
-                            - Controle de Comissão 
-                            </p>
-                            <p>
-                            - Recebimento PIX 
-                            </p>
-                            <p>
-                            - Venda Externa
-                            </p>
-                            <p>
-                            - Gestor Mobile
+                                - Gestor Mobile
                             </p>
 
                         </div>
                         {activeSection === "mensal"
                             ?
-                            <Link href="https://buy.stripe.com/8wM8zs9pq1wk0FyeUU">
-                                <Button className='bg-[#26B547] rounded-3xl'>
+                            <Link href="https://buy.stripe.com/00gdTMatu1wk2NGfZ2">
+                                <Button className='bg-[#26B547] rounded-3xl px-14'>
                                     Obter
                                 </Button>
                             </Link>
-                            : <Link href="https://buy.stripe.com/cN22b48lm5MAdskdQR">
-                                <Button className='bg-[#26B547] rounded-3xl'>
+                            : <Link href="https://buy.stripe.com/9AQ4jc59a7UI0Fy005">
+                                <Button className='bg-[#26B547] rounded-3xl px-14'>
                                     Obter
                                 </Button>
                             </Link>

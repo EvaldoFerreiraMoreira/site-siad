@@ -19,31 +19,6 @@ const CarrosselPlanosMobile = () => {
 
 
     const items = [
-        <div className="item" data-value="1" key={0}>
-            <div className='flex mt-5 justify-center gap-2 pb-5'>
-
-                <div className='flex flex-col justify-center bg-white w-72 p-4 rounded-3xl shadow-[#23314C] shadow-lg'>
-                    <div className='flex flex-col items-center gap-5 text-[#303666]'>
-
-                        <h1 className='text-3xl font-bold'>Grátis</h1>
-
-                        <div className='flex flex-col text-lg gap-2 text-[#575E69]'>
-                            <p className='w-28'>Realize um teste gratuitamente por um periodo de 7 dias</p>
-                        </div>
-
-                        <div className='flex flex-col gap-3'>
-                            <h1 className='text-2xl font-bold text-black '>Teste Grátis</h1>
-                            <p className='text-xl text-center font-semibold text-red-600'>
-                                7 Dias
-                            </p>
-                        </div>
-
-                        <Formulario />
-
-                    </div>
-                </div>
-            </div>
-        </div>,
          <div className="item" data-value="1" key={0}>
          <div className='flex mt-5 justify-center gap-2 pb-5'>
 
@@ -99,7 +74,7 @@ const CarrosselPlanosMobile = () => {
              </div>
          </div>
      </div>,
-        <div className="item" data-value="1" key={0}>
+        <div className="item" data-value="1" key={1}>
             <div className='flex mt-5 justify-center gap-2 pb-5'>
 
                 <div className='flex flex-col justify-center bg-white w-72 p-4 rounded-3xl shadow-[#23314C] shadow-lg'>
@@ -174,7 +149,7 @@ const CarrosselPlanosMobile = () => {
                 </div>
             </div>
         </div>,
-        <div className="item" data-value="1" key={0}>
+        <div className="item" data-value="1" key={2}>
             <div className='flex mt-5 justify-center gap-2 pb-5'>
 
                 <div className='flex flex-col justify-center bg-white w-72 p-4 rounded-3xl shadow-[#23314C] shadow-lg'>
@@ -236,12 +211,12 @@ const CarrosselPlanosMobile = () => {
                         </div>
                         {activeSection === "mensal"
                             ?
-                            <Link href="https://buy.stripe.com/8wM8zs9pq1wk0FyeUU">
+                            <Link href="https://buy.stripe.com/28og1UfNOfnabkc28a">
                                 <Button className='bg-[#26B547] rounded-3xl px-14'>
                                     Obter
                                 </Button>
                             </Link>
-                            : <Link href="https://buy.stripe.com/cN22b48lm5MAdskdQR">
+                            : <Link href="https://buy.stripe.com/dR6aHAeJK0sg9c4dQT">
                                 <Button className='bg-[#26B547] rounded-3xl '>
                                     Obter
                                 </Button>
@@ -251,7 +226,7 @@ const CarrosselPlanosMobile = () => {
                 </div>
             </div>
         </div>,
-        <div className="item" data-value="1" key={0}>
+        <div className="item" data-value="1" key={3}>
             <div className='flex mt-5 justify-center gap-2 pb-5'>
 
                 <div className='flex flex-col justify-center bg-white w-72 p-4 rounded-3xl shadow-[#23314C] shadow-lg'>
@@ -312,12 +287,12 @@ const CarrosselPlanosMobile = () => {
                         </div>
                         {activeSection === "mensal"
                             ?
-                            <Link href="https://buy.stripe.com/8wM8zs9pq1wk0FyeUU">
+                            <Link href="https://buy.stripe.com/00gdTMatu1wk2NGfZ2">
                                 <Button className='bg-[#26B547] rounded-3xl px-14'>
                                     Obter
                                 </Button>
                             </Link>
-                            : <Link href="https://buy.stripe.com/cN22b48lm5MAdskdQR">
+                            : <Link href="https://buy.stripe.com/9AQ4jc59a7UI0Fy005">
                                 <Button className='bg-[#26B547] rounded-3xl '>
                                     Obter
                                 </Button>

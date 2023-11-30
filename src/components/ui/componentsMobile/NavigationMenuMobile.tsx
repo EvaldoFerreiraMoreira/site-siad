@@ -20,19 +20,17 @@ export function NavigationMenuSegmentoMobile() {
             <NavigationMenuList>
                 <NavigationMenuItem>
                     <NavigationMenuTrigger className="justify-start w-60 gap-2 border">
-                        <Briefcase size={16} className="left-10"/>
+                        <Briefcase size={16} className="left-10" />
                         Segmentos
                     </NavigationMenuTrigger>
                     <NavigationMenuContent>
-                        <ul className="grid gap-3 p-6 w-[320px]">
-                            <div className="grid grid-cols-2">
-
-                                <ListItem href="/" title="Introduction" />
-                                <ListItem href="/" title="Introduction1" />
-                                <ListItem href="/" title="Introduction2" />
-                                <ListItem href="/" title="Introduction3" />
-                                <ListItem href="/" title="Introduction4" />
-                                <ListItem href="/" title="Introduction5" />
+                        <ul className="grid gap-3 p-6">
+                            <div>
+                                <ListItem href="/" title="Comércios" />
+                                <ListItem href="/" title="Serviços em geral" />
+                                <ListItem href="/" title="Alimentaçao" />
+                                <ListItem href="/" title="Construção e Reforma" />
+                                <ListItem href="/" title="Varejo e Atacado" />
 
                             </div>
 

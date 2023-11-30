@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import { Description } from "@radix-ui/react-dialog";
 import Image from "next/image";
 
 import Link from "next/link";

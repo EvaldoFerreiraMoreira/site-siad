@@ -39,7 +39,7 @@ const BannerLeftMobile = ({ title, description, img, colorTitle, colorDescriptio
                     width={0}
                     height={0}
                     sizes="100vw"
-                    className="h-auto w-auto max-w-[100%] max-h-[90%]"
+                    className="h-auto w-auto max-w-[100%] max-h-[90%] shadow-lg rounded-2xl"
                     style={{
                         objectFit: "contain",
                     }}

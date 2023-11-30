@@ -23,7 +23,7 @@ const CarrosselFotosWeb = () => {
             <div className='flex mt-6  justify-center gap-6 pb-5 '>
 
                 <Image
-                    src={"/FEED-LOJA-DE-CALÇADOS.png"}
+                    src="/FEED-LOJA-DE-CALÇADOS.png"
                     alt="Imagem"
                     width={0}
                     height={0}
@@ -37,7 +37,7 @@ const CarrosselFotosWeb = () => {
                 />
 
                 <Image
-                    src={"/FEED-LOJA-DE-COSMÉTICOS.png"}
+                    src="/FEED-LOJA-DE-COSMÉTICOS.png"
                     alt="Imagem"
                     width={0}
                     height={0}
@@ -49,7 +49,7 @@ const CarrosselFotosWeb = () => {
                 />
                 
                      <Image
-                    src={"/FEED-LOJA-DE-FERRAMENTOS.png"}
+                    src="/FEED-LOJA-DE-FERRAMENTOS.png"
                     alt="Imagem"
                     width={0}
                     height={0}
@@ -68,7 +68,7 @@ const CarrosselFotosWeb = () => {
             <div className='flex mt-5 justify-center gap-6 pb-5'>
 
                 <Image
-                    src={"/FEED-LOJA-DE-ROUPAS.png"}
+                    src="/FEED-LOJA-DE-ROUPAS.png"
                     alt="Imagem"
                     width={0}
                     height={0}
@@ -80,7 +80,7 @@ const CarrosselFotosWeb = () => {
                 />
 
                 <Image
-                    src={"/FEED-MÓVEIS-E-ELETRO.png"}
+                    src="/FEED-MÓVEIS-E-ELETRO.png"
                     alt="Imagem"
                     width={0}
                     height={0}
@@ -92,7 +92,7 @@ const CarrosselFotosWeb = () => {
                 />
 
                  <Image
-                    src={"/FEED-ÓTICAS.png"}
+                    src="/FEED-ÓTICAS.png"
                     alt="Imagem"
                     width={0}
                     height={0}

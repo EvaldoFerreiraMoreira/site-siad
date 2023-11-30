@@ -9,35 +9,64 @@ const BannerCarrosselWeb = () => {
 
     const responsive = {
         0: { items: 1, },
-        568: { items: 2 },
-        1024: { items: 3 },
+        568: { items: 1 },
+        1024: { items: 1 },
     };
-
-    const caract = ">";
+    
     const items = [
         <div className="item" data-value="1" key={0}>
             <div className="flex text-[#A7A7A7] mx-64">
                 <div className="flex flex-col justify-center">
                     <div className="flex font-bold text-4xl">
                         <h1 className="text-[#000000]  font-bold text-4xl">
-                            Lorem Ipsum is simply dummy text of the printing
+                            Tenha um controle melhor das contas a pagar e compras da sua empresa
                         </h1>
                     </div>
                     <div className="mt-6 w-2/3 text-sm font-semibold text-justify">
-                        <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry s standard dummy text ever since the 1500s,
-                            when an unknown printer took a galley of type.
+                        <p> Otimize a gestão de despesas da sua empresa, previna-se contra multas
+                            e atrasos no pagamento aos fornecedores, ganhando tempo e eficiência no processo.
                         </p>
                     </div>
                 </div>
                 <div className="flex mt-10 justify-center">
                     <Image
-                        src="/PC-01.png"
+                        src="/IMG-05.jpg"
                         alt="Compiuter"
                         width={0}
                         height={0}
                         sizes="100vw"
-                        className="h-auto w-auto max-w-[100%] max-h-[100%]"
+                        className="h-auto w-auto max-w-[100%] max-h-[100%] rounded-2xl shadow-lg"
+                        style={{
+                            objectFit: "contain",
+                        }}
+                    />
+                </div>
+            </div>
+        </div>,
+        <div className="item" data-value="1" key={0}>
+            <div className="flex text-[#A7A7A7] mx-64">
+                <div className="flex flex-col justify-center">
+                    <div className="flex font-bold text-4xl">
+                        <h1 className="text-[#000000]  font-bold text-4xl">
+                            Agilidade e eficiência na entrada de notas
+                        </h1>
+                    </div>
+                    <div className="mt-6 w-2/3 text-sm font-semibold text-justify">
+                        <p> 
+                            Agilize o processo de entrada e fechamento de notas com o uso do nosso manifestador de notas
+                            fiscais de entrada e manutenção de itens, sem a necessidade de redigitar a nota ou
+                            os itens para acrescentá-los ao estoque.
+                        </p>
+                    </div>
+                </div>
+                <div className="flex mt-10 justify-center">
+                    <Image
+                        src="/IMG-06.jpg"
+                        alt="Compiuter"
+                        width={0}
+                        height={0}
+                        sizes="100vw"
+                        className="h-auto w-auto max-w-[100%] max-h-[100%] rounded-2xl shadow-lg"
                         style={{
                             objectFit: "contain",
                         }}

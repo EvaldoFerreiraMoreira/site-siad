@@ -13,70 +13,58 @@ const BannerCarrosselMobile = () => {
         1024: { items: 3 },
     };
 
-    const caract = ">";
     const items = [
         <div className="item" data-value="1" key={0}>
             <div className="flex items-center text-center mt-9">
                 <h1 className="text-[#333333]  font-bold text-xl p-6">
-                    Lorem Ipsum is simply dummy text of the printing
+                    Tenha um controle melhor das contas a pagar e compras da sua empresa
                 </h1>
             </div>
             <div className="flex mt-1 ">
                 <p className="text-[#A7A7A7]  font-semibold  text-md text-justify p-6">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum has been the industry s standard dummy text ever since the 1500s,
-                    when an unknown printer took a galley of type.
+                    Otimize a gestão de despesas da sua empresa, previna-se contra multas e atrasos no
+                    pagamento aos fornecedores, ganhando tempo e eficiência no processo.
                 </p>
             </div>
             <div className='flex mt-5 justify-center gap-2 pb-5 '>
                 <Image
-                    src={"/PC-01.png"}
+                    src={"/IMG-05.jpg"}
                     alt="Imagem"
                     width={0}
                     height={0}
                     sizes="auto"
-                    className="h-56 w-auto max-w-[100%] max-h-[100%]"
+                    className="h-56 w-auto max-w-[100%] max-h-[100%] rounded-2xl shadow-lg"
                     style={{
                         objectFit: "contain",
                     }}
                 />
-            </div>
-            <div className="flex mt-1 justify-center">
-                <p className="text-[#3D5685]  font-bold text-sm text-center hover:text-[#333333] ">
-                    Lorem Ipsum is simply dummy text of
-                </p>
             </div>
         </div>,
         <div className="item" data-value="2" key={1}>
             <div className="flex items-center text-center mt-9">
                 <h1 className="text-[#333333]  font-bold text-xl p-6">
-                    Lorem Ipsum is simply dummy text of the printing
+                    Agilidade e eficiência na entrada de notas
                 </h1>
             </div>
             <div className="flex mt-1 ">
                 <p className="text-[#A7A7A7]  font-semibold  text-md text-justify p-6">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                    Lorem Ipsum has been the industry s standard dummy text ever since the 1500s,
-                    when an unknown printer took a galley of type.
+                Agilize o processo de entrada e fechamento de notas com o uso do nosso manifestador de notas 
+                fiscais de entrada e manutenção de itens, sem a necessidade de redigitar a nota ou 
+                os itens para acrescentá-los ao estoque.
                 </p>
             </div>
             <div className='flex mt-5 justify-center gap-2 pb-5 '>
                 <Image
-                    src={"/PC-01.png"}
+                    src={"/IMG-06.jpg"}
                     alt="Imagem"
                     width={0}
                     height={0}
                     sizes="auto"
-                    className="h-56 w-auto max-w-[100%] max-h-[100%]"
+                    className="h-56 w-auto max-w-[100%] max-h-[100%] rounded-2xl shadow-lg"
                     style={{
                         objectFit: "contain",
                     }}
                 />
-            </div>
-            <div className="flex mt-1 justify-center">
-                <p className="text-[#3D5685]  font-bold text-sm text-center hover:text-[#333333] ">
-                    Lorem Ipsum is simply dummy text of
-                </p>
             </div>
         </div>,
 

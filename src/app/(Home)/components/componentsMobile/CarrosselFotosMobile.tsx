@@ -23,7 +23,7 @@ const CarrosselFotosMobile = () => {
             <div className='flex mt-5 justify-center gap-2 pb-5 '>
 
                 <Image
-                    src={"/carrossel01.png"}
+                    src="/FEED-LOJA-DE-CALÇADOS.png"
                     alt="Imagem"
                     width={0}
                     height={0}
@@ -37,7 +37,7 @@ const CarrosselFotosMobile = () => {
                 />
 
                 <Image
-                    src={"/carrossel02.png"}
+                    src="/FEED-LOJA-DE-COSMÉTICOS.png"
                     alt="Imagem"
                     width={0}
                     height={0}
@@ -55,7 +55,7 @@ const CarrosselFotosMobile = () => {
             <div className='flex mt-5 justify-center gap-2 pb-5'>
 
                 <Image
-                    src={"/carrossel03.png"}
+                    src="/FEED-LOJA-DE-FERRAMENTOS.png"
                     alt="Imagem"
                     width={0}
                     height={0}
@@ -67,7 +67,35 @@ const CarrosselFotosMobile = () => {
                 />
 
                 <Image
-                    src={"/carrossel04.png"}
+                    src="/FEED-LOJA-DE-ROUPAS.png"
+                    alt="Imagem"
+                    width={0}
+                    height={0}
+                    sizes="auto"
+                    className="h-44 w-auto max-w-[100%] max-h-[100%] rounded-3xl shadow-lg shadow-[#23314C]"
+                    style={{
+                        objectFit: "contain",
+                    }}
+                />
+            </div>
+        </div>,
+        <div className="item" data-value="2" key={1}>
+            <div className='flex mt-5 justify-center gap-2 pb-5'>
+
+                <Image
+                    src="/FEED-MÓVEIS-E-ELETRO.png"
+                    alt="Imagem"
+                    width={0}
+                    height={0}
+                    sizes="auto"
+                    className="h-44 w-auto max-w-[100%] max-h-[100%] rounded-3xl shadow-lg shadow-[#23314C]"
+                    style={{
+                        objectFit: "fill",
+                    }}
+                />
+
+                <Image
+                    src="/FEED-ÓTICAS.png"
                     alt="Imagem"
                     width={0}
                     height={0}

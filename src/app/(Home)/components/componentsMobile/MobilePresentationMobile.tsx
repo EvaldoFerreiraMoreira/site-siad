@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Smartphone } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 
 const MobilePresentationMobile = () => {
@@ -34,9 +35,11 @@ const MobilePresentationMobile = () => {
                     </ul>
                 </div>
                 <div className="flex mt-8  ml-3">
-                    <Button className="bg-[#26B547]">
-                        <p>Experimente</p>
-                    </Button>
+                    <Link href="/planos">
+                        <Button className="bg-[#26B547]">
+                            <p>Experimente</p>
+                        </Button>
+                    </Link>
                 </div>
             </div>
 

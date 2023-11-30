@@ -11,8 +11,8 @@ const roboto = Roboto({
 })
 
 export const metadata: Metadata = {
-  title: 'Siad Vendas',
-  description: 'Siad sales page',
+  title: 'Siad Sistemas',
+  description: 'Siad systems',
 }
 
 export default function RootLayout({

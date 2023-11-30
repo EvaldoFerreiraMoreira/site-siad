@@ -3,8 +3,6 @@ import Link from "next/link";
 import {
     Dialog,
     DialogContent,
-    DialogDescription,
-    DialogFooter,
     DialogHeader,
     DialogTitle,
     DialogTrigger,
@@ -27,11 +25,17 @@ import {
     SelectTrigger,
     SelectValue,
 } from "@/components/ui/select"
-import { toast } from "@/components/ui/use-toast"
+import { toast, useToast } from "@/components/ui/use-toast"
 import api from "@/api/api";
+import React from "react";
+import { ToastAction } from "./toast";
 
 const Formulario = () => {
-    const formSchema = o.object({  // Jovens, a letra "o" se refere ao objeto que esta sendo utilizado na restrição
+    const { toast } = useToast()
+    const [mostrarCampoInputSegmento, setMostrarCampoInputSegmento] = React.useState(false);
+
+
+    const formSchema = o.object({
         nome: o.string().min(3, {
             message: "Campo `Nome Completo` precisa ter mais que 3 caracteres.",
         }),
@@ -57,32 +61,36 @@ const Formulario = () => {
             email: "",
             segmento: "",
             texto: "",
+
         },
     })
     function onSubmit(values: o.infer<typeof formSchema>) {
-        console.log("valores que entraram na funcao:", values)
-  
         const rota = "";
+        console.log("valores que entraram na funcao:", values)
 
-        api.post(rota,values, {
+        const valores1 = {
+            "nome": values.nome,
+            "telefone": values.telefone,
+            "email": values.email,
+            "segmento": values.segmento,
+            "texto": values.texto,
+        }
+        api.post(rota, valores1, {
             headers: {
                 'Content-Type': 'application/json',
-                'Authorization':'Bearer'
+                'Authorization': 'Bearer'
             },
-            validateStatus: status => {
-                return status < 405;
-            }
+
         }
         ).then((res) => {
-            if (res.status === 404) {
-                alert("Erro 404 , erro:"+ res)
-            } else {
-                console.log("veio:", res)
-                alert('Sua mensagem foi enviada');
+            form.reset()
+            alert("mensagem enviada com Sucesso!")
+        }).catch((error) => {
+            console.log("deu erro na api" + error)
+            form.reset()
+            alert("Erro inesperado, tente mais tarde.")
 
-            }
         })
-
     }
 
     return (
@@ -156,13 +164,19 @@ const Formulario = () => {
                                     render={({ field }) => (
                                         <FormItem>
 
-                                            <Select onValueChange={field.onChange} defaultValue={field.value} >
+                                            <Select onValueChange={(value) => {
+                                                form.setValue('segmento', value);
+                                                setMostrarCampoInputSegmento(value === 'outros');
+                                                field.onChange(value);
+                                            }} defaultValue={form.getValues('segmento')}>
+
+
                                                 <FormControl>
                                                     <SelectTrigger>
                                                         <SelectValue placeholder="selecione um segmento" />
                                                     </SelectTrigger>
                                                 </FormControl>
-                                                <SelectContent  >
+                                                <SelectContent >
                                                     <SelectGroup >
 
                                                         <SelectLabel>Comércio:</SelectLabel>
@@ -189,11 +203,14 @@ const Formulario = () => {
                                                         <SelectItem value="distribuidora">Distribuidora</SelectItem>
                                                     </SelectGroup>
                                                     <SelectGroup>
-
                                                         <SelectLabel>Alimentação:</SelectLabel>
                                                         <SelectItem value="padarias">Padarias</SelectItem>
                                                         <SelectItem value="restaurantes">Restaurantes</SelectItem>
                                                         <SelectItem value="acougues">Açougues</SelectItem>
+                                                    </SelectGroup>
+                                                    <SelectGroup>
+                                                        <SelectLabel>Outros:</SelectLabel>
+                                                        <SelectItem value="outros">Outros</SelectItem>
                                                     </SelectGroup>
                                                 </SelectContent>
                                             </Select>
@@ -203,6 +220,22 @@ const Formulario = () => {
                                     )}
                                 />
                             </FormControl>
+                            {mostrarCampoInputSegmento && (
+                                <FormField
+                                    control={form.control}
+                                    name="segmento"
+
+                                    render={({ field }) => (
+                                        <FormItem>
+                                            <FormLabel className="text-[#3D5685]">Nome do segmento:</FormLabel>
+                                            <FormControl>
+                                                <Input className="border border-[#A7A7A7]" placeholder="Digite outros segmentos" {...field} />
+                                            </FormControl>
+                                            <FormMessage />
+                                        </FormItem>
+                                    )}
+                                />
+                            )}
 
                             <FormField
                                 control={form.control}

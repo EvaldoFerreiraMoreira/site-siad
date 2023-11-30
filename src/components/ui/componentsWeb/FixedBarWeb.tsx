@@ -8,7 +8,7 @@ const FixedBarWeb = () => {
   return (
     <div className="fixed bg-[#5576B3] shadow-md mx-auto w-full p-5 bottom-0 h-[60px] z-10 flex items-center gap-96 justify-center text-white">
       <div className="flex items-center gap-2">
-        <p>Quer falar com um especialista?</p>
+        <p>Quer falar com um consultor?</p>
         <div className="flex items-center ">
           <Smartphone size={35} />
           <p></p>

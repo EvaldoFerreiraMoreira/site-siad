@@ -35,7 +35,7 @@ const FooterWeb = () => {
               de desenvolvimento de software. Presente desde 1999 no ramo, SIAD
               Sistemas vem se dedicando à melhoria dos processos organizacionais
               de empresas, com softwares que auxiliam na gestão e domínio do
-              seus negócios.NOSSA MISSÃO é fornecer automatização dos processos{" "}
+              seus negócios.{" "}
             </p>
           </div>
           <div className="flex justify-between">

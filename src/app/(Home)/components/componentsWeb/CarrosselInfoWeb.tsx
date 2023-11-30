@@ -71,7 +71,7 @@ const CarrosselInfoWeb = () => {
         <div className='flex flex-col h-auto items-center'>
             <div className='flex flex-col text-4xl text-center gap-3 w-1/2 my-8 font-bold text-white'>
                 <h1>Temos a estratégia ideal para o seu negócio e para o seu bolso!</h1>
-                <p className='text-base mt-2'>Gestão financeira sob medida para a sua empresa a partir de R$119,90</p>
+                <p className='text-base mt-2'>Gestão financeira sob medida para a sua empresa a partir de R$129,90</p>
             </div>
 
             <AliceCarousel

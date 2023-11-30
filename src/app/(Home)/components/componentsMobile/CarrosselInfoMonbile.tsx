@@ -77,7 +77,7 @@ const CarrosselInfoMobile = () => {
         <div className='flex flex-col h-auto'>
             <div className='flex flex-col text-xl items-center text-center my-6 font-bold text-white'>
                 <h1>Temos a estratégia ideal para o seu negócio e para o seu bolso!</h1>
-                <p className='text-sm mt-2'>Gestão financeira sob medida para a sua empresa a partir de R$119,90</p>
+                <p className='text-sm mt-2'>Gestão financeira sob medida para a sua empresa a partir de R$129,90</p>
             </div>
             <div className="z-0">
                 <AliceCarousel

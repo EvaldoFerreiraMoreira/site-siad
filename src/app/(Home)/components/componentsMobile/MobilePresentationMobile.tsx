@@ -18,19 +18,19 @@ const MobilePresentationMobile = () => {
                     <ul className="w-full justify-start gap-2" >
                         <li className="flex gap-1 ">
                             <Smartphone size={25} />
-                            <p> Melhor horário das vendas</p>
+                            <p>Melhor horário das vendas</p>
                         </li>
                         <li className="flex gap-1 mt-2">
                             <Smartphone size={25} />
-                            <p>mês a mês</p>
+                            <p>Mês a mês</p>
                         </li>
                         <li className="flex gap-1 mt-2">
                             <Smartphone size={25} />
-                            <p>pranking de vendas</p>
+                            <p>Ranking de vendas</p>
                         </li>
                         <li className="flex gap-1 mt-2" >
                             <Smartphone size={30} />
-                            <p>formas de pagamentos e vendedores</p>
+                            <p>Formas de pagamentos e vendedores</p>
                         </li>
                     </ul>
                 </div>

@@ -7,16 +7,14 @@ const FixedBarMobile = () => {
             <div className="flex items-center ">
                 <FaWhatsapp size={35} />
             </div>
-                <Link href="https://api.whatsapp.com/send?phone=553398056488&text=Ol%C3%A1%2C%20vim%20pelo%20Site%20da%20Siad">
-            <div>
+            <Link href="https://api.whatsapp.com/send?phone=553398056488&text=Ol%C3%A1%2C%20vim%20pelo%20Site%20da%20Siad">
+                <div>
                     <p className="text-sm w-36 text-center font-semibold">
                         Fale com a gente no
-
                         Whatsapp
-
                     </p>
-            </div>
-                </Link>
+                </div>
+            </Link>
             <div className="flex w-2 h-4 left-full ">
                 <script src="//code.jivosite.com/widget/pasrKoKcWR" async></script>
             </div>

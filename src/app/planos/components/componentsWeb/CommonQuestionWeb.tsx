@@ -15,7 +15,7 @@ const CommonQuestionWeb= () => {
             <div className=" mt-5 text-[#A7A7A7]">
                 <Accordion type="single" collapsible>
                 <AccordionItem value="item-1">
-                        <AccordionTrigger className="font-bold text-md text-left hover:text-[#3D5685]"
+                        <AccordionTrigger className="font-medium text-md text-left hover:text-[#3D5685]"
                         >
                             Como posso controlar o estoque de forma eficiente no sistema?
                         </AccordionTrigger>
@@ -25,7 +25,7 @@ const CommonQuestionWeb= () => {
                     </AccordionItem>
 
                     <AccordionItem value="item-2">
-                        <AccordionTrigger className="font-bold text-md text-left hover:text-[#3D5685]"
+                        <AccordionTrigger className="font-medium text-md text-left hover:text-[#3D5685]"
                         >
                             Posso cadastrar diferentes usuários e definir permissões específicas para cada um no sistema?
                         </AccordionTrigger>
@@ -35,7 +35,7 @@ const CommonQuestionWeb= () => {
                     </AccordionItem>
 
                     <AccordionItem value="item-3">
-                        <AccordionTrigger className="font-bold text-md text-left hover:text-[#3D5685]"
+                        <AccordionTrigger className="font-medium text-md text-left hover:text-[#3D5685]"
                         >
                             Como funciona o processo de emissão de notas fiscais no sistema?
                         </AccordionTrigger>
@@ -46,7 +46,7 @@ const CommonQuestionWeb= () => {
                     </AccordionItem>
 
                     <AccordionItem value="item-4">
-                        <AccordionTrigger className="font-bold text-md text-left hover:text-[#3D5685]"
+                        <AccordionTrigger className="font-medium text-md text-left hover:text-[#3D5685]"
                         >
                             É possível acompanhar as vendas em tempo real no sistema?
 
@@ -57,7 +57,7 @@ const CommonQuestionWeb= () => {
                     </AccordionItem>
 
                     <AccordionItem value="item-5">
-                        <AccordionTrigger className="font-bold text-md text-left hover:text-[#3D5685]"
+                        <AccordionTrigger className="font-medium text-md text-left hover:text-[#3D5685]"
                         >
                             Como realizar a gestão de clientes no sistema?
                         </AccordionTrigger>
@@ -67,7 +67,7 @@ const CommonQuestionWeb= () => {
                     </AccordionItem>
 
                     <AccordionItem value="item-6">
-                        <AccordionTrigger className="font-bold text-md text-left hover:text-[#3D5685]"
+                        <AccordionTrigger className="font-medium text-md text-left hover:text-[#3D5685]"
                         >
                            É possível importar dados de outro sistema, como listas de produtos e clientes, para facilitar o cadastro?
                         </AccordionTrigger>
@@ -77,7 +77,7 @@ const CommonQuestionWeb= () => {
                     </AccordionItem>
 
                     <AccordionItem value="item-7">
-                        <AccordionTrigger className="font-bold text-md text-left hover:text-[#3D5685]"
+                        <AccordionTrigger className="font-medium text-md text-left hover:text-[#3D5685]"
                         >
                           Como o sistema lida com promoções e descontos?
                         </AccordionTrigger>
@@ -87,7 +87,7 @@ const CommonQuestionWeb= () => {
                     </AccordionItem>
                     
                     <AccordionItem value="item-8">
-                        <AccordionTrigger className="font-bold text-md text-left hover:text-[#3D5685]"
+                        <AccordionTrigger className="font-medium text-md text-left hover:text-[#3D5685]"
                         >
                          Qual é a segurança oferecida para os dados armazenados no sistema?
                         </AccordionTrigger>

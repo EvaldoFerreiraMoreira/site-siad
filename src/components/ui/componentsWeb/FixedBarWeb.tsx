@@ -11,7 +11,7 @@ const FixedBarWeb = () => {
         <p>Quer falar com um especialista?</p>
         <div className="flex items-center ">
           <Smartphone size={35} />
-          <p>0800 000 0000</p>
+          <p></p>
         </div>
       </div>
 

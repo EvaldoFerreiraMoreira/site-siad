@@ -22,7 +22,7 @@ const BannerCarrosselWeb = () => {
                             Tenha um controle melhor das contas a pagar e compras da sua empresa
                         </h1>
                     </div>
-                    <div className="mt-6 w-2/3 text-sm font-semibold text-justify">
+                    <div className="mt-6 w-2/3 text-sm text-justify">
                         <p> Otimize a gestão de despesas da sua empresa, previna-se contra multas
                             e atrasos no pagamento aos fornecedores, ganhando tempo e eficiência no processo.
                         </p>
@@ -51,7 +51,7 @@ const BannerCarrosselWeb = () => {
                             Agilidade e eficiência na entrada de notas
                         </h1>
                     </div>
-                    <div className="mt-6 w-2/3 text-sm font-semibold text-justify">
+                    <div className="mt-6 w-2/3 text-sm text-justify">
                         <p>
                             Agilize o processo de entrada e fechamento de notas com o uso do nosso manifestador de notas
                             fiscais de entrada e manutenção de itens, sem a necessidade de redigitar a nota ou
@@ -82,7 +82,7 @@ const BannerCarrosselWeb = () => {
                             Ordem de serviço
                         </h1>
                     </div>
-                    <div className="mt-6 w-2/3 text-sm font-semibold text-justify">
+                    <div className="mt-6 w-2/3 text-sm text-justify">
                         <p>
                             Gerencie seus serviços prestados pela empresa com nosso módulo de Ordem de Serviço e gere comprovantes dos mesmos.
                         </p>
@@ -95,7 +95,7 @@ const BannerCarrosselWeb = () => {
                         width={0}
                         height={0}
                         sizes="100vw"
-                        className="h-auto w-auto max-w-[100%] max-h-[100%]"
+                        className="h-auto w-auto max-w-[100%] max-h-[100%] rounded-2xl shadow-lg"
                         style={{
                             objectFit: "contain",
                         }}
@@ -111,7 +111,7 @@ const BannerCarrosselWeb = () => {
                             Amplie seu empreendimento com uma gestão financeira estruturada
                         </h1>
                     </div>
-                    <div className="mt-6 w-2/3 text-sm font-semibold text-justify">
+                    <div className="mt-6 w-2/3 text-sm text-justify">
                         <p>
                             Um sistema centralizado de informações que integra procedimentos burocráticos com análises de saúde do negócio, proporcionando uma previsão mais precisa de lucros e uma tomada de decisão mais transparente. Oferece backups automáticos recorrentes e otimizados, garantindo máxima segurança dos dados.
                         </p>
@@ -124,7 +124,7 @@ const BannerCarrosselWeb = () => {
                         width={0}
                         height={0}
                         sizes="450vw"
-                        className="h-auto w-auto max-w-[100%] max-h-[100%]"
+                        className="h-auto w-auto max-w-[100%] max-h-[100%] rounded-2xl shadow-lg"
                         style={{
                             objectFit: "contain",
                         }}
@@ -140,7 +140,7 @@ const BannerCarrosselWeb = () => {
                             Envie suas Notas Fiscais de Forma Mais Simples e Prática
                         </h1>
                     </div>
-                    <div className="mt-6 w-2/3 text-sm font-semibold text-justify">
+                    <div className="mt-6 w-2/3 text-sm text-justify">
                         <p>
                             Ao administrar seu empreendimento com o SIAD, você economiza tempo e elimina retrabalhos ao gerar suas notas fiscais diretamente a partir das vendas, eliminando a necessidade de reintroduzir produtos, serviços e informações dos clientes nos portais governamentais.
                         </p>
@@ -153,7 +153,7 @@ const BannerCarrosselWeb = () => {
                         width={0}
                         height={0}
                         sizes="100vw"
-                        className="h-auto w-auto max-w-[100%] max-h-[100%]"
+                        className="h-auto w-auto max-w-[100%] max-h-[100%] rounded-2xl shadow-lg"
                         style={{
                             objectFit: "contain",
                         }}

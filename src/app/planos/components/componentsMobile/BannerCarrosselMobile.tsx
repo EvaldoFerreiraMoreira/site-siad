@@ -21,7 +21,7 @@ const BannerCarrosselMobile = () => {
                 </h1>
             </div>
             <div className="flex mt-1 ">
-                <p className="text-[#A7A7A7]  font-semibold  text-md text-justify p-6">
+                <p className="text-[#A7A7A7] text-md text-justify p-6">
                     Otimize a gestão de despesas da sua empresa, previna-se contra multas e atrasos no
                     pagamento aos fornecedores, ganhando tempo e eficiência no processo.
                 </p>
@@ -47,7 +47,7 @@ const BannerCarrosselMobile = () => {
                 </h1>
             </div>
             <div className="flex mt-1 ">
-                <p className="text-[#A7A7A7]  font-semibold  text-md text-justify p-6">
+                <p className="text-[#A7A7A7] text-md text-justify p-6">
                     Agilize o processo de entrada e fechamento de notas com o uso do nosso manifestador de notas
                     fiscais de entrada e manutenção de itens, sem a necessidade de redigitar a nota ou
                     os itens para acrescentá-los ao estoque.
@@ -74,7 +74,7 @@ const BannerCarrosselMobile = () => {
                 </h1>
             </div>
             <div className="flex mt-1 ">
-                <p className="text-[#A7A7A7]  font-semibold  text-md text-justify p-6">
+                <p className="text-[#A7A7A7] text-md text-justify p-6">
                     Gerencie seus serviços prestados pela empresa com nosso módulo de Ordem de Serviço e gere comprovantes dos mesmos.
                 </p>
             </div>
@@ -85,7 +85,7 @@ const BannerCarrosselMobile = () => {
                     width={0}
                     height={0}
                     sizes="auto"
-                    className="h-56 w-auto max-w-[100%] max-h-[100%]"
+                    className="h-56 w-auto max-w-[100%] max-h-[100%] rounded-2xl shadow-lg"
                     style={{
                         objectFit: "contain",
                     }}
@@ -99,7 +99,7 @@ const BannerCarrosselMobile = () => {
                 </h1>
             </div>
             <div className="flex mt-1 ">
-                <p className="text-[#A7A7A7]  font-semibold  text-md text-justify p-6">
+                <p className="text-[#A7A7A7] text-md text-justify p-6">
                     Um sistema centralizado de informações que integra procedimentos burocráticos com análises de saúde do negócio, proporcionando uma previsão mais precisa de lucros e uma tomada de decisão mais transparente. Oferece backups automáticos recorrentes e otimizados, garantindo máxima segurança dos dados.
                 </p>
             </div>
@@ -110,7 +110,7 @@ const BannerCarrosselMobile = () => {
                     width={0}
                     height={0}
                     sizes="auto"
-                    className="h-56 w-auto max-w-[100%] max-h-[100%]"
+                    className="h-56 w-auto max-w-[100%] max-h-[100%] rounded-2xl shadow-lg"
                     style={{
                         objectFit: "contain",
                     }}
@@ -124,7 +124,7 @@ const BannerCarrosselMobile = () => {
                 </h1>
             </div>
             <div className="flex mt-1 ">
-                <p className="text-[#A7A7A7]  font-semibold  text-md text-justify p-6">
+                <p className="text-[#A7A7A7] text-md text-justify p-6">
                 Ao administrar seu empreendimento com o SIAD, você economiza tempo e elimina retrabalhos ao gerar suas notas fiscais diretamente a partir das vendas, eliminando a necessidade de reintroduzir produtos, serviços e informações dos clientes nos portais governamentais.
                 </p>
             </div>
@@ -135,7 +135,7 @@ const BannerCarrosselMobile = () => {
                     width={0}
                     height={0}
                     sizes="auto"
-                    className="h-56 w-auto max-w-[100%] max-h-[100%]"
+                    className="h-56 w-auto max-w-[100%] max-h-[100%] rounded-2xl shadow-lg"
                     style={{
                         objectFit: "contain",
                     }}

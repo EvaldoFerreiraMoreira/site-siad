@@ -123,7 +123,7 @@ const BannerCarrosselWeb = () => {
                         alt="Compiuter"
                         width={0}
                         height={0}
-                        sizes="100vw"
+                        sizes="450vw"
                         className="h-auto w-auto max-w-[100%] max-h-[100%]"
                         style={{
                             objectFit: "contain",

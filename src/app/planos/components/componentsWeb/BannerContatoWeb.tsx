@@ -22,7 +22,7 @@ const BannerContatoWeb = () => {
                         <Phone size={40} style={{ color: "#3D5685" }} />
                     </p>
                 </div>
-                <h1 className="mt-2 ml-5 font-bold text-[#FFFFFF] text-sm" >0800 000 000</h1>
+                <h1 className="mt-2 ml-5 font-bold text-[#FFFFFF] text-sm" >Contato</h1>
             </div>
         </div>
     );

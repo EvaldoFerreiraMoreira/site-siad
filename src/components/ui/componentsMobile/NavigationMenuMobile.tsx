@@ -31,9 +31,7 @@ export function NavigationMenuSegmentoMobile() {
                                 <ListItem href="/" title="Alimentaçao" />
                                 <ListItem href="/" title="Construção e Reforma" />
                                 <ListItem href="/" title="Varejo e Atacado" />
-
                             </div>
-
                         </ul>
                     </NavigationMenuContent>
                 </NavigationMenuItem>

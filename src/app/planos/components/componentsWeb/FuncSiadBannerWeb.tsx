@@ -19,7 +19,7 @@ const FuncSiadBannerWeb = () => {
                         }}
                     />
                 </div>
-                <div className="flex flex-col font-semibold w-[50%]  text-xs gap-5">
+                <div className="flex flex-col font-semibold w-[50%]  text-sm gap-5">
                     <div className="flex font-bold text-2xl">
                         <h1>SIAD <span className="text-[#3D5685]">um jeito fácil </span>de cuidar da sua gestão,<span className="text-[#3D5685]"> um sistema </span> pensado<span className="text-[#3D5685]"> em você </span>e sua <span className="text-[#3D5685]">empresa </span></h1>
                     </div>

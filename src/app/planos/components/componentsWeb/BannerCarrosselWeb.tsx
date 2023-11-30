@@ -35,7 +35,7 @@ const BannerCarrosselWeb = () => {
                         width={0}
                         height={0}
                         sizes="100vw"
-                        className="h-auto w-auto max-w-[100%] max-h-[100%]"
+                        className="h-auto w-auto max-w-[100%] max-h-[100%] rounded-2xl shadow-lg"
                         style={{
                             objectFit: "contain",
                         }}
@@ -66,7 +66,7 @@ const BannerCarrosselWeb = () => {
                         width={0}
                         height={0}
                         sizes="100vw"
-                        className="h-auto w-auto max-w-[100%] max-h-[100%]"
+                        className="h-auto w-auto max-w-[100%] max-h-[100%] rounded-2xl shadow-lg"
                         style={{
                             objectFit: "contain",
                         }}

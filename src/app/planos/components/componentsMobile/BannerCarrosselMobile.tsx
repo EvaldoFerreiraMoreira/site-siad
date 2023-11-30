@@ -33,7 +33,7 @@ const BannerCarrosselMobile = () => {
                     width={0}
                     height={0}
                     sizes="auto"
-                    className="h-56 w-auto max-w-[100%] max-h-[100%]"
+                    className="h-56 w-auto max-w-[100%] max-h-[100%] rounded-2xl shadow-lg"
                     style={{
                         objectFit: "contain",
                     }}
@@ -60,7 +60,7 @@ const BannerCarrosselMobile = () => {
                     width={0}
                     height={0}
                     sizes="auto"
-                    className="h-56 w-auto max-w-[100%] max-h-[100%]"
+                    className="h-56 w-auto max-w-[100%] max-h-[100%] rounded-2xl shadow-lg"
                     style={{
                         objectFit: "contain",
                     }}

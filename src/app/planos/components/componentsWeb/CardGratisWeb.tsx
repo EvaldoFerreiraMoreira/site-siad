@@ -1,3 +1,4 @@
+import Formulario from "@/components/ui/Formulario";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
@@ -10,20 +11,17 @@ const CardGratisWeb = () => {
                 <div className=" flex flex-col w-[70%]">
 
                     <div className="flex flex-col  justify-center ml-6 mr-6 ">
-                        <h1 className="text-[#000] text-left font-bold text-2xl">Lorem Ipsum is simply dummy text of the printing</h1>
+                        <h1 className="text-[#000] text-left font-bold text-2xl">Você sabia que agora é possível processar pedidos em partes com o SIAD ?</h1>
                     </div>
                     <div className="flex  mt-6 items-center gap-4 ml-6 mr-6 ">
-                        <p className=" text-[#A7A7A7] text-justify text-sm  ">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply
-                            dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy
-                            text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <p className=" text-[#A7A7A7] text-justify text-sm  ">
+                            O nome disso é faturamento parcial, é quando um pedido não pode ser concluído de uma vez só, seja por falta de produtos em estoque para concluir a venda, ou quando ocorre o envio antecipado de uma parcela.</p>
 
                     </div>
 
                 </div>
                 <Link href="#carrosselPlanos">
-                    <Button className="bg-[#E4F0FC] border border-[#2687E9] text-[#2687E9]">
-                        Experimente
-                    </Button>
+                    <Formulario />
                 </Link>
 
             </div>

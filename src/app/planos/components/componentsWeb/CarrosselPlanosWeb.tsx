@@ -196,7 +196,6 @@ const CarrosselPlanosWeb = () => {
                             <p>
                                 - Gestor Mobile
                             </p>
-
                         </div>
                         {activeSection === "mensal"
                             ?

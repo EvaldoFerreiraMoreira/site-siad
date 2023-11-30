@@ -37,13 +37,13 @@ const CarrosselPlanosWeb = () => {
                         {/* <Separator className='bg-black' /> */}
                         <div className='flex flex-col text-base gap-1'>
                             <p>
-                                
+
                             </p>
                             <p>
-                                
+
                             </p>
                             <p>
-                                
+
                             </p>
                             <p>
 
@@ -141,7 +141,10 @@ const CarrosselPlanosWeb = () => {
                         }
                     </div>
                 </div>
-                <div className='flex flex-col justify-center bg-white w-72 p-4 rounded-3xl shadow-[#23314C] shadow-lg'>
+                <div className='flex flex-col bg-white w-72 rounded-3xl shadow-[#23314C] shadow-lg'>
+                    <div className='flex bg-[#5576B3] w-40 h-7 mb-1 justify-center items-center mx-16 rounded-b-2xl'>
+                        <h1 className='text-center text-sm'>Mais Vendido</h1>
+                    </div>
                     <div className='flex flex-col items-center gap-5 text-[#303666]'>
                         <h1 className='text-2xl font-bold'>Intermediário</h1>
                         <div className='flex flex-col text-center  gap-2 text-[#575E69]'>
@@ -164,7 +167,7 @@ const CarrosselPlanosWeb = () => {
                                 }
                             </h1>
                         </div>
-                        <Separator className='bg-black' />
+                        <Separator className='bg-black w-64' />
                         <div className='flex flex-col text-base gap-1'>
                             <p>
                                 - Cadastro de Cliente
@@ -200,19 +203,22 @@ const CarrosselPlanosWeb = () => {
                         {activeSection === "mensal"
                             ?
                             <Link href="https://buy.stripe.com/28og1UfNOfnabkc28a">
-                                <Button className='bg-[#26B547] rounded-3xl px-14'>
+                                <Button className='bg-[#26B547] rounded-3xl px-14 mb-5'>
                                     Obter
                                 </Button>
                             </Link>
                             : <Link href="https://buy.stripe.com/dR6aHAeJK0sg9c4dQT">
-                                <Button className='bg-[#26B547] rounded-3xl px-14'>
+                                <Button className='bg-[#26B547] rounded-3xl px-14 mb-5'>
                                     Obter
                                 </Button>
                             </Link>
                         }
                     </div>
                 </div>
-                <div className='flex flex-col justify-center bg-white w-72 p-4 rounded-3xl shadow-[#23314C] shadow-lg'>
+                <div className='flex flex-col bg-white w-72 rounded-3xl shadow-[#23314C] shadow-lg'>
+                    <div className='flex bg-[#242858] w-44 h-7 mb-1 justify-center items-center mx-14 rounded-b-2xl'>
+                        <h1 className='text-center text-sm'>Mais Recomendado</h1>
+                    </div>
                     <div className='flex flex-col items-center gap-5 text-[#303666]'>
                         <h1 className='text-2xl font-bold'>Avançado PRO</h1>
                         <div className='flex flex-col text-center gap-2 text-[#575E69]'>
@@ -234,7 +240,7 @@ const CarrosselPlanosWeb = () => {
                                 }
                             </h1>
                         </div>
-                        <Separator className='bg-black' />
+                        <Separator className='bg-black w-64' />
                         <div className='flex flex-col text-base gap-1'>
                             <p>
                                 - Tudo do plano Básico
@@ -271,12 +277,12 @@ const CarrosselPlanosWeb = () => {
                         {activeSection === "mensal"
                             ?
                             <Link href="https://buy.stripe.com/00gdTMatu1wk2NGfZ2">
-                                <Button className='bg-[#26B547] rounded-3xl px-14'>
+                                <Button className='bg-[#26B547] rounded-3xl px-14 mb-5'>
                                     Obter
                                 </Button>
                             </Link>
                             : <Link href="https://buy.stripe.com/9AQ4jc59a7UI0Fy005">
-                                <Button className='bg-[#26B547] rounded-3xl px-14'>
+                                <Button className='bg-[#26B547] rounded-3xl px-14 mb-5'>
                                     Obter
                                 </Button>
                             </Link>

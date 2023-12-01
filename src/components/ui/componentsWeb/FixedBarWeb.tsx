@@ -7,13 +7,15 @@ import { FaWhatsapp } from "react-icons/fa";
 const FixedBarWeb = () => {
   return (
     <div className="fixed bg-[#5576B3] shadow-md mx-auto w-full p-5 bottom-0 h-[60px] z-10 flex items-center gap-96 justify-center text-white">
-      <div className="flex items-center gap-2">
-        <p>Quer falar com um consultor?</p>
-        <div className="flex items-center ">
-          <Smartphone size={35} />
-          <p></p>
+      <Link href="https://api.whatsapp.com/send?phone=553398056488&text=Ol%C3%A1%2C%20vim%20pelo%20Site%20da%20Siad">
+        <div className="flex items-center gap-2">
+          <p>Quer falar com um consultor?</p>
+          <div className="flex items-center ">
+            <Smartphone size={35} />
+            <p></p>
+          </div>
         </div>
-      </div>
+      </Link>
 
       <div className="flex items-center gap-20 h-12 bg-[#6387C4] w-[20%] rounded-lg">
         <Link href="https://api.whatsapp.com/send?phone=553398056488&text=Ol%C3%A1%2C%20vim%20pelo%20Site%20da%20Siad">

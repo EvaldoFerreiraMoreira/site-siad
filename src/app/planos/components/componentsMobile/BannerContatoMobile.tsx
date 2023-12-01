@@ -20,7 +20,7 @@ const BannerContatoMobile = () => {
                 <p className="flex gap-1 justify-center mt-7 mb-10 ">
                     <Phone size={40} style={{ color: "#3D5685" }} />
                 </p>
-                <h1 className="text-center font-bold text-[#FFFFFF] text-sm" >Contato</h1>
+                <h1 className="text-center font-bold text-[#FFFFFF] text-sm" >(33) 32673797</h1>
             </div>
 
         </div>

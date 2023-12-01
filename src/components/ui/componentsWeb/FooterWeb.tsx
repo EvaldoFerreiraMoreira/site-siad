@@ -73,7 +73,7 @@ const FooterWeb = () => {
             </p>
             <p className="flex gap-1">
               <Phone size={15} />
-              (33) 99805-6488
+              (33) 9 9805-6488
             </p>
             <p className="flex gap-1">
               <Mail size={15} />

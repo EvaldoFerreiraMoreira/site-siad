@@ -6,11 +6,22 @@ import CarrosselFotos from "./components/CarrosselFotos";
 import CarrosselInfo from "./components/CarrosselInfo";
 import MobilePresentation from "./components/MobilePresentation";
 import TextCenter from "./components/TextCenter";
+import Script from 'next/script';
 
 
 export default function Home() {
   return (
     <div className="flex flex-col pt-24">
+      <Script src="https://www.googletagmanager.com/gtag/js?id=G-MVERPN3YT0" />
+      <Script id="google-analytics">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+ 
+          gtag('config', 'GA_MEASUREMENT_ID');
+        `}
+      </Script>
       <div className="flex w-full justify-around p-10">
         <Banner />
       </div>
@@ -36,10 +47,10 @@ export default function Home() {
         <CarrosselInfo />
       </div>
       <div className="p-10 bg-[#F1F4F9]">
-        <BannerConsultant/>
+        <BannerConsultant />
       </div>
       <div className="border bg-[#3D5685]">
-      <CarrosselFotos/>
+        <CarrosselFotos />
       </div>
     </div>
   )

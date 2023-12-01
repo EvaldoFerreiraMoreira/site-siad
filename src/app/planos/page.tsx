@@ -5,10 +5,21 @@ import CardGratis from "./components/CardGratis";
 import CarrosselPlanos from "./components/CarrosselPlanos";
 import CommonQuestion from "./components/CommonQuestion";
 import FuncSiadBanner from "./components/FuncSiadBanner";
+import Script from 'next/script';
 
 const Planos = () => {
     return (
         <div className="flex flex-col pt-16">
+            <Script src="https://www.googletagmanager.com/gtag/js?id=G-MVERPN3YT0" />
+            <Script id="google-analytics">
+                {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+ 
+          gtag('config', 'GA_MEASUREMENT_ID');
+        `}
+            </Script>
             <div className=" flex w-full p-10 bg-[#f1f4f9]">
                 <BannerPlanos />
             </div>
@@ -27,9 +38,9 @@ const Planos = () => {
             <div className=" flex w-full p-10  bg-[#f1f4f9] h-56 ">
 
             </div>
-        
+
             <div className="bg-[#f1f4f9] pt-20 h-auto">
-                <BannerCarrossel/>
+                <BannerCarrossel />
             </div>
             <div className=" flex w-full p-10 bg-white">
                 <CommonQuestion />
@@ -37,9 +48,9 @@ const Planos = () => {
             <div className=" flex w-full p-10 bg-[#f1f4f9]">
                 <FuncSiadBanner />
             </div>
-            
+
             <div className="flex w-full p-10 bg-[#3D5685]  ">
-                <BannerContato/>
+                <BannerContato />
             </div>
         </div>
     );

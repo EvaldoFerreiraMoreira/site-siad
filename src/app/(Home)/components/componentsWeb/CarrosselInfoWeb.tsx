@@ -35,7 +35,7 @@ const CarrosselInfoWeb = () => {
                 </div>
                 <div className='flex flex-col items-center justify-center bg-white h-80 w-56 rounded-3xl shadow-[#23314C] shadow-lg '>
                     <div className='flex flex-col gap-5 mb-14 text-[#303666]'>
-                        <h1 className='text-lg font-semibold text-center '>Financeiro</h1>
+                        <h1 className='text-lg font-semibold text-center mb-5'>Financeiro</h1>
                         <div className='flex flex-col text-sm gap-3 ml-1 w-52 text-[#575E69]'>
                             <p className='flex gap-2'><CheckSquare size={28} className='text-[#5576B3]' /> Acompanhe a receber do dia, total vencidas e não vencidas </p>
                             <p className='flex gap-2'><CheckSquare size={28} className='text-[#5576B3]' /> Acompanhe o total a pagar do dia e total a pagar vencidas</p>

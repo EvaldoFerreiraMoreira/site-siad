@@ -51,7 +51,7 @@ const MobilePresentationMobile = () => {
                         width={0}
                         height={0}
                         sizes="100vw"
-                        className=" absolute h-auto w-auto max-w-[100%] max-h-[100%]"
+                        className=" absolute h-auto w-auto max-w-[30%] max-h-[25%]"
                         style={{
                             objectFit: "cover",
                         }}

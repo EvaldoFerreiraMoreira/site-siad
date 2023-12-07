@@ -43,15 +43,15 @@ const MobilePresentationMobile = () => {
                 </div>
             </div>
 
-            <div className="pr-20">
-                <div className="flex mt-16 h-48 w-52 ">
+            <div>
+                <div className="flex mt-16 h-48 w-[7.5rem]">
                     <Image
                         src="/Iphone-mobile.png"
                         alt="SMARTPHONE"
                         width={0}
                         height={0}
                         sizes="100vw"
-                        className="h-auto w-auto max-w-[100%] max-h-[100%]"
+                        className=" absolute h-auto w-auto max-w-[100%] max-h-[100%]"
                         style={{
                             objectFit: "cover",
                         }}

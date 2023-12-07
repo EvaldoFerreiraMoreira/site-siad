@@ -13,7 +13,7 @@ const BannerContatoMobile = () => {
                         <FaWhatsapp size={40} style={{ color: "#3D5685" }} />
                     </p>
                 </Link>
-                <h1 className="text-center font-normal text-[#FFFFFF] text-sm" >mande um whastapp</h1>
+                <h1 className="text-center font-normal text-[#FFFFFF] text-sm" >Mande um whastapp</h1>
             </div>
 
             <div className=" text-center  bg-white w-24 h-24 rounded-full shadow-lg shadow-[#23314C] gap-2">
@@ -21,7 +21,7 @@ const BannerContatoMobile = () => {
                     <Phone size={40} style={{ color: "#3D5685" }} />
                 </p>
                 <Link href={"tel:32673797"}>
-                <h1 className="text-center text-[#FFFFFF] font-medium text-sm" >(33) 32673797</h1>
+                <h1 className="text-center text-[#FFFFFF] font-medium text-sm" >(33) 3267-3797</h1>
                 </Link>
             </div>
 

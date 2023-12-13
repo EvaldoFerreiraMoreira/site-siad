@@ -22,7 +22,7 @@ const BannerContatoWeb = () => {
                         <Phone size={40} style={{ color: "#3D5685" }} />
                     </p>
                 </div>
-                <h1 className="text-center  ml-5 mt-2 font-medium  text-[#FFFFFF] text-sm" >(33) 3267-3797</h1>
+                <h1 className="text-center  ml-5 mt-2 font-medium  text-[#FFFFFF] text-sm" >0800 878 0383</h1>
             </div>
         </div>
     );

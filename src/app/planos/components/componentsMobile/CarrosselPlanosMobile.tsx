@@ -60,11 +60,12 @@ const CarrosselPlanosMobile = () => {
                                     : "R$ 149,90"
                                 }
                             </p>
-                            <h1 className='text-3xl font-bold text-black'>
+                            <h1 className='flex gap-1 items-center text-3xl font-bold text-black'>
                                 {activeSection === "mensal"
                                     ? "R$ 149,90"
                                     : "R$ 129,90"
                                 }
+                                <p className='text-xs mt-3 font-light text-gray-500'>/mês</p>
                             </h1>
                         </div>
                         <Separator className='bg-black' />
@@ -140,11 +141,12 @@ const CarrosselPlanosMobile = () => {
                                     : "R$ 310,00"
                                 }
                             </p>
-                            <h1 className='text-3xl font-bold text-black'>
+                            <h1 className='flex gap-1 items-center text-3xl font-bold text-black'>
                                 {activeSection === "mensal"
                                     ? "R$ 310,00"
                                     : "R$ 279,90"
                                 }
+                                 <p className='text-xs mt-3 font-light text-gray-500'>/mês</p>
                             </h1>
                         </div>
                         <Separator className='bg-black w-64' />
@@ -219,11 +221,12 @@ const CarrosselPlanosMobile = () => {
                                     : "R$ 529,90"
                                 }
                             </p>
-                            <h1 className='text-3xl font-bold text-black'>
+                            <h1 className='flex gap-1 items-center text-3xl font-bold text-black'>
                                 {activeSection === "mensal"
                                     ? "R$ 529,90"
                                     : "R$ 489,00"
                                 }
+                                 <p className='text-xs mt-3 font-light text-gray-500'>/mês</p>
                             </h1>
                         </div>
                         <Separator className='bg-black w-64' />

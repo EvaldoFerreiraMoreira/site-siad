@@ -74,13 +74,13 @@ const FooterMobile = () => {
         <Link href="https://www.facebook.com/siadsistemasbr">
           <p className="flex gap-1">
             <Facebook />
-            @siadsistemasbr
+            siadsistemasbr
           </p>
         </Link>
         <Link href="https://www.instagram.com/siad_sistemas/">
           <p className="flex gap-1">
             <Instagram />
-            @siad_sistemas
+            @siadsistemasbr
           </p>
         </Link>
       </div>

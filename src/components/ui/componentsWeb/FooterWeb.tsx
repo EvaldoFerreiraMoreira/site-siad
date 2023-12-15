@@ -96,7 +96,7 @@ const FooterWeb = () => {
         <Link href="https://www.instagram.com/siad_sistemas/">
           <p className="flex gap-1">
             <Instagram />
-            @siad_sistemas
+            @siadsistemasbr
           </p>
         </Link>
       </div>

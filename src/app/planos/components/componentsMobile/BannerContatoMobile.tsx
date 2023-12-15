@@ -17,7 +17,7 @@ const BannerContatoMobile = () => {
             </div>
 
             <div className=" text-center bg-white w-24 h-24 rounded-full shadow-lg shadow-[#23314C] gap-2">
-                <Link href={"tel:08008780383"}>
+                <Link href={"tel:0800 878 0383"}>
                     <p className="flex gap-1 justify-center mt-7 mb-10 ">
                         <Phone size={40} style={{ color: "#3D5685" }} />
                     </p>

@@ -54,10 +54,10 @@ const FooterMobile = () => {
             </p>
             <p className="flex gap-1">
               <Phone size={15} />
-              (33) 3267-3797
+              0800 878 0383
             </p>
             <p className="flex gap-1">
-              <Phone size={15} />
+              <FaWhatsapp size={15} />
               (33) 9 9805-6488
             </p>
             <p className="flex gap-1">
@@ -74,10 +74,10 @@ const FooterMobile = () => {
         <Link href="https://www.facebook.com/siadsistemasbr">
           <p className="flex gap-1">
             <Facebook />
-            @siadsistemasbr
+            siadsistemasbr
           </p>
         </Link>
-        <Link href="https://www.instagram.com/siad_sistemas/">
+        <Link href="https://www.instagram.com/siadsistemasbr/">
           <p className="flex gap-1">
             <Instagram />
             @siadsistemasbr

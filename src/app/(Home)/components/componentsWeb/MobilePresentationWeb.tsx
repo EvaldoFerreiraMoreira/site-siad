@@ -1,11 +1,28 @@
 import { Button } from "@/components/ui/button";
-import { motion } from "framer-motion";
+import { AnimatePresence, Variants, motion } from "framer-motion";
 import { Smartphone } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
 
 const MobilePresentationWeb = () => {
+
+    const cardVariants: Variants = {
+        offscreen: {
+          y: 300
+        },
+        onscreen: {
+          y: 50,
+          rotate: -10,
+          transition: {
+            type: "spring",
+            bounce: 0.4,
+            duration: 0.8
+          }
+        }
+      };
+      
+
     return (
         <div className=" flex mx-64 justify-evenly w-full h-96 ">
             <div className="flex flex-col justify-center ">
@@ -53,18 +70,21 @@ const MobilePresentationWeb = () => {
                         delay: 0.5,
                         ease: [0, 0.71, 0.2, 1.01]
                     }}
+                    variants={cardVariants}
                 >
-                    <Image
-                        src="/Iphone-mobile.png"
-                        alt="SMARTPHONE"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        className="h-auto w-auto max-w-[100%] max-h-[100%]"
-                        style={{
-                            objectFit: "contain",
-                        }}
-                    />
+                    <AnimatePresence>
+                        <Image
+                            src="/Iphone-mobile.png"
+                            alt="SMARTPHONE"
+                            width={0}
+                            height={0}
+                            sizes="100vw"
+                            className="h-auto w-auto max-w-[100%] max-h-[100%]"
+                            style={{
+                                objectFit: "contain",
+                            }}
+                        />
+                    </AnimatePresence>
                 </motion.div>
             </div>
         </div>

@@ -12,14 +12,14 @@ import Script from 'next/script';
 export default function Home() {
   return (
     <div className="flex flex-col pt-24">
-      <Script src="https://www.googletagmanager.com/gtag/js?id=G-MVERPN3YT0" />
+      <Script async src="https://www.googletagmanager.com/gtag/js?id=AW-11426343244" />
       <Script id="google-analytics">
         {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
  
-          gtag('config', 'GA_MEASUREMENT_ID');
+          gtag('config', 'AW-11426343244');
         `}
       </Script>
       <div className="flex w-full justify-around p-10">

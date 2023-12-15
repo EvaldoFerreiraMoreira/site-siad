@@ -21,7 +21,7 @@ const BannerLeftWeb = ({ title, description, img, colorTitle, colorDescription }
            
            <motion.div className="flex w-[50%]"
                 whileHover={{ scale: 1.09 }}
-                whileTap={{ scale: 0.3 }}
+                whileTap={{ scale: 1.05 }}
                 transition={{ type: "spring", stiffness: 400, damping: 16 }}
             >
                 <Image

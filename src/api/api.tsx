@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-   baseURL: 'https://siad.com.br/vendas/api/post_contato.php',
+   baseURL: 'https://fvendas.ddns.net/api',
 });
 
 export default api;

@@ -65,16 +65,16 @@ const Formulario = () => {
         },
     })
     function onSubmit(values: o.infer<typeof formSchema>) {
-        const rota = "";
-        console.log("valores que entraram na funcao:", values)
+        const rota = "/contato/1";
 
         const valores1 = {
             "nome": values.nome,
             "telefone": values.telefone,
             "email": values.email,
             "segmento": values.segmento,
-            "texto": values.texto,
+            "informacao": values.texto,
         }
+        
         api.post(rota, valores1, {
             headers: {
                 'Content-Type': 'application/json',
@@ -86,7 +86,7 @@ const Formulario = () => {
             form.reset()
             alert("mensagem enviada com Sucesso!")
         }).catch((error) => {
-            console.log("deu erro na api" + error)
+           
             form.reset()
             alert("Erro inesperado, tente mais tarde.")
 

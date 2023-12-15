@@ -332,7 +332,7 @@ const CarrosselPlanosWeb = () => {
             <div className='text-white'>
             <div className='flex mt-5 justify-center gap-5 pb-5'>
 
-<div className='flex flex-col justify-center h-[60vh] bg-white w-72 p-4 rounded-3xl shadow-[#23314C] shadow-lg'>
+<div className='flex flex-col justify-center h-[570px] bg-white w-72 p-4 rounded-3xl shadow-[#23314C] shadow-lg'>
     <div className='flex flex-col items-center gap-5 text-[#303666]'>
         <h1 className='text-2xl font-bold'>Grátis</h1>
         <div className='flex flex-col text-center  gap-2 text-[#575E69]'>
@@ -382,7 +382,7 @@ const CarrosselPlanosWeb = () => {
         <Formulario />
     </div>
 </div>
-<div className='flex flex-col justify-center h-[60vh] bg-white w-72 p-4 rounded-3xl shadow-[#23314C] shadow-lg'>
+<div className='flex flex-col justify-center h-[570px] bg-white w-72 p-4 rounded-3xl shadow-[#23314C] shadow-lg'>
     <div className='flex flex-col items-center gap-5 text-[#303666]'>
         <h1 className='text-2xl font-bold'>Básico</h1>
         <div className='flex flex-col text-center  gap-2 text-[#575E69]'>
@@ -453,7 +453,7 @@ const CarrosselPlanosWeb = () => {
         }
     </div>
 </div>
-<div className='flex flex-col bg-white h-[61vh] w-72 rounded-3xl shadow-[#23314C] shadow-lg'>
+<div className='flex flex-col bg-white h-[570px] w-72 rounded-3xl shadow-[#23314C] shadow-lg'>
     <div className='flex bg-[#5576B3] w-40 h-7 mb-1 justify-center items-center mx-16 rounded-b-2xl'>
         <h1 className='text-center text-sm'>Mais Vendido</h1>
     </div>
@@ -528,7 +528,7 @@ const CarrosselPlanosWeb = () => {
         }
     </div>
 </div>
-<div className='flex flex-col bg-white h-[61vh] w-72 rounded-3xl shadow-[#23314C] shadow-lg'>
+<div className='flex flex-col bg-white h-[570px] w-72 rounded-3xl shadow-[#23314C] shadow-lg'>
     <div className='flex bg-[#242858] w-44 h-7 mb-1 justify-center items-center mx-14 rounded-b-2xl'>
         <h1 className='text-center text-sm'>Mais Recomendado</h1>
     </div>

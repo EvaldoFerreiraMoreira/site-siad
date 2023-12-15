@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { motion } from "framer-motion";
 import Image from "next/image";
 
 import Link from "next/link";
@@ -31,7 +32,12 @@ const BannerRightWeb = ({ title, description, img, colortitle, colordescription,
                 </Link>
             </div>
 
-            <div className="flex w-[50%] justify-end">
+            <motion.div className="flex w-[50%] justify-end"
+                whileHover={{ scale: 1.09 }}
+                whileTap={{ scale: 0.3 }}
+                transition={{ type: "spring", stiffness: 400, damping: 16 }}
+            >
+
                 <Image
                     src={imagem}
                     alt="Imagem"
@@ -43,7 +49,7 @@ const BannerRightWeb = ({ title, description, img, colortitle, colordescription,
                         objectFit: "contain",
                     }}
                 />
-            </div>
+            </motion.div>
         </div>
     );
 }

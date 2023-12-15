@@ -33,7 +33,7 @@ const BannerRightWeb = ({ title, description, img, colortitle, colordescription,
             </div>
 
             <motion.div className="flex w-[50%] justify-end"
-                whileHover={{ scale: 1.09 }}
+                whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 1.05 }}
                 transition={{ type: "spring", stiffness: 400, damping: 16 }}
             >

@@ -10,6 +10,7 @@ import Script from 'next/script';
 const Planos = () => {
     return (
         <div className="flex flex-col pt-16">
+            {/* Google Analytics */}
             <Script async src="https://www.googletagmanager.com/gtag/js?id=AW-11426343244" />
             <Script id="google-analytics">
                 {`
@@ -19,6 +20,19 @@ const Planos = () => {
  
           gtag('config', 'AW-11426343244');
         `}
+            </Script>
+
+            {/* SmartLook */}
+            <Script async type="text/javascript" src="https://web-sdk.smartlook.com/recorder.js" />
+            <Script id="smartlook-analytics">
+                {`
+        window.smartlook||(function(d) {
+          var o=smartlook=function(){ o.api.push(arguments); },h=d.getElementsByTagName('head')[0];
+          var c=d.createElement('script'); o.api=new Array(); c.async=true; c.type='text/javascript';
+          c.charset='utf-8'; c.src='https://web-sdk.smartlook.com/recorder.js'; h.appendChild(c);
+        })(document);
+        smartlook('init', '81f55b3a5310a59c1d072225aa149505d4f1dfd2', { region: 'eu' });
+      `}
             </Script>
             <div className=" flex w-full p-10 bg-[#f1f4f9]">
                 <BannerPlanos />

@@ -20,8 +20,8 @@ const BannerLeftWeb = ({ title, description, img, colorTitle, colorDescription }
         <div className=" flex justify-evenly items-center gap-10 mx-64">
            
            <motion.div className="flex w-[50%]"
-                whileHover={{ scale: 1.09 }}
-                whileTap={{ scale: 0.3 }}
+                whileHover={{ scale: 1.02 }}
+                whileTap={{ scale: 1.05 }}
                 transition={{ type: "spring", stiffness: 400, damping: 16 }}
             >
                 <Image

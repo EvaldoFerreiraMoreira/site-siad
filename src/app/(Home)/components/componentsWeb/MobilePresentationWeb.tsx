@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { motion } from "framer-motion";
 import { Smartphone } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -44,7 +45,15 @@ const MobilePresentationWeb = () => {
             </div>
 
             <div>
-                <div className="flex h-96 justify-center">
+                <motion.div className="flex h-96 justify-center"
+                    initial={{ opacity: 0, scale: 0.5 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    transition={{
+                        duration: 0.8,
+                        delay: 0.5,
+                        ease: [0, 0.71, 0.2, 1.01]
+                    }}
+                >
                     <Image
                         src="/Iphone-mobile.png"
                         alt="SMARTPHONE"
@@ -56,7 +65,7 @@ const MobilePresentationWeb = () => {
                             objectFit: "contain",
                         }}
                     />
-                </div>
+                </motion.div>
             </div>
         </div>
     );

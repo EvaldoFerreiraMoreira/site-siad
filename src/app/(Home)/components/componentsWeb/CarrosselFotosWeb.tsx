@@ -47,8 +47,8 @@ const CarrosselFotosWeb = () => {
                         objectFit: "contain",
                     }}
                 />
-                
-                     <Image
+
+                <Image
                     src="/FEED-LOJA-DE-FERRAMENTOS.png"
                     alt="Imagem"
                     width={0}
@@ -59,7 +59,7 @@ const CarrosselFotosWeb = () => {
                         objectFit: "contain",
                     }}
                 />
-           
+
 
 
             </div>
@@ -91,7 +91,7 @@ const CarrosselFotosWeb = () => {
                     }}
                 />
 
-                 <Image
+                <Image
                     src="/FEED-ÓTICAS.png"
                     alt="Imagem"
                     width={0}
@@ -118,25 +118,27 @@ const CarrosselFotosWeb = () => {
 
 
     return (
-        <div className='flex flex-col justify-center  mx-64'>
-            <div className='flex text-2xl items-start text-justify my-1 font-bold mt-6 ml-10 gap-2 text-white '>
-                <h1>Explorando possibilidades, </h1> <span className='text-black'> elevando resultados </span>
-            </div>
-            <div className='flex items-start text-justify my-1 font-medium  ml-10 text-white'>
-                <p className='text-sm'>Descubra como nossa tecnologia impulsiona o sucesso em múltiplos setores</p>
+        <div className='flex flex-col justify-center mx-64'>
+            <div className='flex flex-col items-center p-5'>
+                <div className='flex text-2xl text-justify my-1 font-bold mt-6 ml-10 gap-2 text-white '>
+                    <h1>Explorando possibilidades, </h1> <span className='text-black'> elevando resultados </span>
+                </div>
+                <div className='flex items-start text-justify my-1 font-medium  ml-10 text-white'>
+                    <p className='text-sm'>Descubra como nossa tecnologia impulsiona o sucesso em múltiplos setores</p>
+                </div>
             </div>
             <div className='ml-6 items-center'>
 
-            <AliceCarousel
-                mouseTracking
-                keyboardNavigation
-                items={items}
-                responsive={responsive}
-                onSlideChange={onSlideChange}
-                onSlideChanged={onSlideChanged}
-                
+                <AliceCarousel
+                    mouseTracking
+                    keyboardNavigation
+                    items={items}
+                    responsive={responsive}
+                    onSlideChange={onSlideChange}
+                    onSlideChanged={onSlideChanged}
+
                 />
-                </div>
+            </div>
         </div>
     );
 }

@@ -10,14 +10,14 @@ import Script from 'next/script';
 const Planos = () => {
     return (
         <div className="flex flex-col pt-16">
-            <Script src="https://www.googletagmanager.com/gtag/js?id=G-MVERPN3YT0" />
+            <Script async src="https://www.googletagmanager.com/gtag/js?id=AW-11426343244" />
             <Script id="google-analytics">
                 {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
  
-          gtag('config', 'GA_MEASUREMENT_ID');
+          gtag('config', 'AW-11426343244');
         `}
             </Script>
             <div className=" flex w-full p-10 bg-[#f1f4f9]">

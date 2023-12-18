@@ -9,12 +9,12 @@ import {
 } from "@/components/ui/dialog"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
-import { Textarea } from "./textarea";
-import { Form, FormControl, FormDescription, FormField, FormItem, FormLabel, FormMessage } from "./form";
+import { Textarea } from "../textarea";
+import { Form, FormControl, FormDescription, FormField, FormItem, FormLabel, FormMessage } from "../form";
 import { useForm } from "react-hook-form";
 import * as o from "zod"
 import { zodResolver } from "@hookform/resolvers/zod"
-import ComboSeguimentos from "./ComboSeguimento";
+import ComboSeguimentos from "../ComboSeguimento";
 
 import {
     Select,
@@ -28,11 +28,11 @@ import {
 import { toast, useToast } from "@/components/ui/use-toast"
 import api from "@/api/api";
 import React from "react";
-import { ToastAction } from "./toast";
+import { ToastAction } from "../toast";
 import { DialogDescription } from "@radix-ui/react-dialog";
 import Image from "next/image";
 
-const Formulario = () => {
+const FormularioWeb = () => {
     const { toast } = useToast()
     const [mostrarCampoInputSegmento, setMostrarCampoInputSegmento] = React.useState(false);
 
@@ -102,10 +102,12 @@ const Formulario = () => {
                 <Button variant="outline" className="bg-[#7AA4F1] text-white rounded-3xl">Demonstração</Button>
             </DialogTrigger>
 
-            <DialogContent className="sm:max-w-[70%] bg-gradient-to-b from-[#E4F0FC] via-[#F1F4F9] to-[#FFFF]">
+            <DialogContent className="sm:max-w-[70%] bg-white {
+                
+            }]">
                 <div className="flex items-center gap-10  ">
 
-                    <div className=" flex flex-col justify-center align-center  w-[40%] h-[100%]">
+                    <div className=" flex flex-col justify-center align-center ml-6 w-[40%] h-[100%]">
                         
                             <Image
                             src="/logoform.png"
@@ -113,17 +115,18 @@ const Formulario = () => {
                             width={0}
                             height={0}
                             sizes="350vw"
-                            className="h-auto w-auto absolute max-w-[80%] max-h-[80%] opacity-10 "
+                            className="h-auto w-auto absolute max-w-[80%] max-h-[80%] opacity-5 "
                             style={{
                                 objectFit: "contain",
                             }}
                             />
                             
-                        <DialogHeader className=" gap-4 alir text-center  ">
-                            <DialogTitle className=" text-[#6F6E6E]  font-light font-seriftext-4xl">Entre em contato</DialogTitle>
-                            <DialogTitle className="text-3xl text-[#1B254F] ">Agende sua Demonstação!</DialogTitle>
+                        <DialogHeader className="  alir text-center ml-9  ">
+                            <DialogTitle className=" text-2xl text-[#6F6E6E]  font-light font-sans ">Entre em contato</DialogTitle>
+                            <DialogTitle className="text-4xl text-black font-extralight tracking-wide font-sans ">AGENDE SUA</DialogTitle>
+                            <DialogTitle className="text-4xl font-light  tracking-wider text-black  ">DEMONSTRAÇÃO</DialogTitle>
                             <DialogDescription className="text-[#6F6E6E] " >Gostaria de saber mais sobre os produtos da Siad Sistemas?</DialogDescription>
-                            <DialogDescription className=" text-sm text-[#A7A7A7] " >Agente agora uma demonstração com um de nossos consultores.</DialogDescription>
+                            <DialogDescription className=" text-m text-[#A7A7A7] font-light font-sans  " >Agente agora uma demonstração com um de nossos consultores.</DialogDescription>
                         </DialogHeader>
                     </div>
                     <div className="felx flex-col grid gap-6 py-4 w-[60%]">
@@ -287,4 +290,4 @@ const Formulario = () => {
         </Dialog >
     );
 }
-export default Formulario;
+export default FormularioWeb;

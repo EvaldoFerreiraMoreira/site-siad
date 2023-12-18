@@ -1,6 +1,7 @@
-import Formulario from "@/components/ui/Formulario";
+
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import FormularioMobile from "@/components/ui/componentsMobile/FormularioMobile";
 
 const CardGratisMobile = () => {
     return (
@@ -14,7 +15,7 @@ const CardGratisMobile = () => {
                     <p className=" text-[#A7A7A7] text-left text-xs  ">O nome disso é faturamento parcial, é uma forma de atender ao cliente mesmo quando não é possível concluir a venda de uma só vez.</p>
 
                     <Link href="#carrosselPlanos">
-                    <Formulario />
+                    <FormularioMobile/>
                     </Link>
 
                 </div>

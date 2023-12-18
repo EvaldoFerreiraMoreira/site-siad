@@ -7,8 +7,9 @@ import { MenuIcon, HomeIcon, GanttChartSquare, Smartphone } from 'lucide-react';
 import { Separator } from '../separator';
 import Link from 'next/link';
 import { NavigationMenuSegmentoMobile } from './NavigationMenuMobile';
-import Formulario from '@/components/ui/Formulario';
+import Formulario from '@/components/ui/componentsWeb/FormularioWeb';
 import { FaWhatsapp } from 'react-icons/fa';
+import FormularioMobile from './FormularioMobile';
 
 const HeaderMobile = () => {
   return (
@@ -80,7 +81,7 @@ const HeaderMobile = () => {
               </SheetClose>
               <NavigationMenuSegmentoMobile />
               <SheetDescription className='text-black'>
-                <Formulario />
+                <FormularioMobile/>
               </SheetDescription>
             </div>
           </SheetContent>

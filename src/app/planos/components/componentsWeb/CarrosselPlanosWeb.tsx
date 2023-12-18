@@ -1,12 +1,12 @@
 "use client"
 
-import Formulario from '@/components/ui/Formulario';
 import { Button } from '@/components/ui/button';
 import { Separator } from '@/components/ui/separator';
 import Link from 'next/link';
 import React, { useState } from 'react';
 import AliceCarousel, { EventObject } from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
+import FormularioWeb from '@/components/ui/componentsWeb/FormularioWeb';
 
 const CarrosselPlanosWeb = () => {
     const [activeSection, setActiveSection] = useState("mensal");
@@ -379,7 +379,7 @@ const CarrosselPlanosWeb = () => {
             </p>
 
         </div>
-        <Formulario />
+        <FormularioWeb/>
     </div>
 </div>
 <div className='flex flex-col justify-center  bg-white w-72 p-4 rounded-3xl shadow-[#23314C] shadow-lg'>

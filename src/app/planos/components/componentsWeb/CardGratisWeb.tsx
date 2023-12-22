@@ -1,6 +1,5 @@
-import Formulario from "@/components/ui/Formulario";
-import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import FormularioWeb from "@/components/ui/componentsWeb/FormularioWeb";
 
 const CardGratisWeb = () => {
     return (
@@ -21,7 +20,7 @@ const CardGratisWeb = () => {
 
                 </div>
                 <Link href="#carrosselPlanos">
-                    <Formulario />
+                    <FormularioWeb/>
                 </Link>
 
             </div>

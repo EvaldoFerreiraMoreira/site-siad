@@ -9,7 +9,7 @@ import {
 import { Separator } from "../separator";
 import Link from "next/link";
 import { NavigationMenuSegmentoWeb } from "./NavigationMenuWeb";
-import Formulario from "@/components/ui/Formulario";
+import FormularioWeb from "@/components/ui/componentsWeb/FormularioWeb";
 
 
 const HeaderWeb = () => {
@@ -39,7 +39,7 @@ const HeaderWeb = () => {
       </div>
       <div className="flex gap-20">
         <div className="flex items-center">
-          <Formulario/>
+          <FormularioWeb/>
         </div>
         <Link href="https://api.whatsapp.com/send?phone=553398056488&text=Ol%C3%A1%2C%20vim%20pelo%20Site%20da%20Siad">
         <div className="flex flex-col font-bold">

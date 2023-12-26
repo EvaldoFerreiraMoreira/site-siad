@@ -53,7 +53,7 @@ const Planos = () => {
 
             </div>
 
-            <div className="bg-[#f1f4f9] w-full  flex justify-center  items-center align-center pt-10 h-auto">
+            <div className="bg-[#f1f4f9] w-full flex justify-center items-center align-center pt-24 pb-10">
                 <BannerCarrossel />
             </div>
             <div className=" flex w-full p-10 bg-white">

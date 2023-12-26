@@ -90,8 +90,7 @@ const BannerCarrosselMobile = () => {
                         </CarouselItem>
                     ))}
                 </CarouselContent>
-                <CarouselPrevious />
-                <CarouselNext />
+               
             </Carousel>
         </div>
     );

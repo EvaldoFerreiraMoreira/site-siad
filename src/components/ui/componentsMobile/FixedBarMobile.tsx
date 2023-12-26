@@ -5,7 +5,9 @@ const FixedBarMobile = () => {
     return (
         <div className="fixed bg-[#5576B3] container shadow-md mx-auto p-5 bottom-0 h-[70px] flex items-center text-white z-20">
             <div className="flex items-center ">
+            <Link href="https://api.whatsapp.com/send?phone=553398056488&text=Ol%C3%A1%2C%20vim%20pelo%20Site%20da%20Siad">
                 <FaWhatsapp size={35} />
+            </Link>
             </div>
             <Link href="https://api.whatsapp.com/send?phone=553398056488&text=Ol%C3%A1%2C%20vim%20pelo%20Site%20da%20Siad">
                 <div>

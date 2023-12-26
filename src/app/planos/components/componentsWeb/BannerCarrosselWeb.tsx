@@ -1,6 +1,6 @@
 "use client"
 import React from 'react';
-import AliceCarousel, { EventObject } from 'react-alice-carousel';
+
 import 'react-alice-carousel/lib/alice-carousel.css';
 import Image from 'next/image';
 import { Card, CardContent } from "@/components/ui/card"
@@ -13,7 +13,6 @@ import {
 } from "@/components/ui/carousel"
 
 const BannerCarrosselWeb = () => {
-
     const test = [
         {
             title: "Tenha um controle melhor das contas a pagar e compras da sua empresa",
@@ -44,21 +43,13 @@ const BannerCarrosselWeb = () => {
 
     return (
         <div className='flex items-center justify-center bg-transparent'>
-            {/* <AliceCarousel
-                mouseTracking
-                disableButtonsControls
-                items={items}
-                responsive={responsive}
-                onSlideChange={onSlideChange}
-                onSlideChanged={onSlideChanged}
-            /> */}
             <Carousel className="w-full max-w-[90%]">
                 <CarouselContent>
                     {test.map((item, index) => (
                         <CarouselItem key={index}>
-                            <div className="p-1 bg-transparent">
+                            <div className="p-1">
                                 <Card>
-                                    <CardContent className="flex items-center justify-center p-4 border-none">
+                                    <CardContent className="flex items-center justify-center p-4 border-none bg-[#f1f4f9]">
                                         <div className='flex flex-col w-[50%]'>
                                             <div className="flex items-center text-center mt-9">
                                                 <h1 className="text-[#333333]  font-bold text-lg p-6">

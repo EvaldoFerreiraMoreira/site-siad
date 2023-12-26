@@ -11,7 +11,7 @@ const BannerWeb = () => {
                     className="flex flex-col items-center justify-center w-8 h-8 bg-[#5576B3] rounded-md"
                     animate={{
                         x: "70vw",
-                        y:"-1rem",
+                        y: "-1rem",
                         opacity: 0.5,
                     }}
                     initial={{
@@ -26,7 +26,7 @@ const BannerWeb = () => {
                     className="flex flex-col items-center justify-center w-20 h-20 bg-[#5576B3] rounded-md z-10"
                     animate={{
                         x: "79vw",
-                        y:"-3rem",
+                        y: "-3rem",
                         opacity: 0.5,
                     }}
                     initial={{
@@ -41,7 +41,7 @@ const BannerWeb = () => {
                     className="flex flex-col items-center justify-center w-8 h-8 bg-[#F1F4F9]  rounded-md"
                     animate={{
                         x: "46vw",
-                        y:"-6rem",
+                        y: "-6rem",
                         opacity: 1,
                     }}
                     initial={{
@@ -56,7 +56,7 @@ const BannerWeb = () => {
                     className="flex flex-col items-center justify-center w-20 h-20 bg-[#F1F4F9] rounded-md"
                     animate={{
                         x: "77vw",
-                        y:"-8rem",
+                        y: "-8rem",
                         opacity: 0.8,
                     }}
                     initial={{
@@ -71,7 +71,7 @@ const BannerWeb = () => {
                     className="flex flex-col items-center justify-center w-5 h-5 bg-[#5576B3]  rounded-md"
                     animate={{
                         x: "40vw",
-                        y:"-5rem",
+                        y: "-5rem",
                         opacity: 0.5,
                     }}
                     initial={{
@@ -86,7 +86,7 @@ const BannerWeb = () => {
                     className="flex flex-col items-center justify-center w-8 h-8 bg-[#F1F4F9]  rounded-md"
                     animate={{
                         x: "48vw",
-                        y:"-3rem",
+                        y: "-3rem",
                         opacity: 1,
                     }}
                     initial={{
@@ -101,7 +101,7 @@ const BannerWeb = () => {
                     className="flex flex-col items-center justify-center w-20 h-20 bg-[#5576B3]  rounded-md"
                     animate={{
                         x: "77vw",
-                        y:"2rem",
+                        y: "2rem",
                         opacity: 0.5,
                     }}
                     initial={{
@@ -119,7 +119,7 @@ const BannerWeb = () => {
                     }}
                     animate={{
                         x: "60vw",
-                        y:"-0.8rem",
+                        y: "-0.8rem",
                         opacity: 0.5,
                     }}
 
@@ -135,7 +135,7 @@ const BannerWeb = () => {
                     className="flex flex-col items-center justify-center w-5 h-5 bg-[#F1F4F9]  rounded-md"
                     animate={{
                         x: "25vw",
-                        y:"-4rem",
+                        y: "-4rem",
                         opacity: 1,
                     }}
                     initial={{
@@ -157,10 +157,7 @@ const BannerWeb = () => {
                     </div>
                 </div>
                 <div className="flex mt-10 h-80 justify-center">
-                <DialogImageWEB imagem={"PC-01.png"}/>
-
-                    
-                   
+                    <DialogImageWEB imagem={"PC-01.png"} />
                 </div>
             </div>
         </>

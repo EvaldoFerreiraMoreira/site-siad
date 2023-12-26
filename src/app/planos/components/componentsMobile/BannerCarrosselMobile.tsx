@@ -1,6 +1,5 @@
 "use client"
 import React from 'react';
-import AliceCarousel, { EventObject } from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 import Image from 'next/image';
 import { Card, CardContent } from "@/components/ui/card"
@@ -8,12 +7,9 @@ import {
     Carousel,
     CarouselContent,
     CarouselItem,
-    CarouselNext,
-    CarouselPrevious,
+
 } from "@/components/ui/carousel"
-
 const BannerCarrosselMobile = () => {
-
     const test = [
         {
             title: "Tenha um controle melhor das contas a pagar e compras da sua empresa",
@@ -44,14 +40,6 @@ const BannerCarrosselMobile = () => {
 
     return (
         <div className='flex'>
-            {/* <AliceCarousel
-                mouseTracking
-                disableButtonsControls
-                items={items}
-                responsive={responsive}
-                onSlideChange={onSlideChange}
-                onSlideChanged={onSlideChanged}
-            /> */}
             <Carousel className="w-full max-w-xs">
                 <CarouselContent>
                     {test.map((item, index) => (

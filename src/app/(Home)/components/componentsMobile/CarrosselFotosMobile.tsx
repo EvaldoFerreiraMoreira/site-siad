@@ -121,7 +121,7 @@ const CarrosselFotosMobile = () => {
 
 
     return (
-        <div className='flex flex-col h-auto'>
+        <div className='flex flex-col h-auto pb-10'>
             <div className='flex text-xl items-start text-justify my-1 font-bold mt-6 ml-3 gap-2 text-white'>
                 <h1>Acompanhe nossas</h1> <span className='text-black'> Redes</span>
             </div>
@@ -131,6 +131,7 @@ const CarrosselFotosMobile = () => {
             <AliceCarousel
                 mouseTracking
                 keyboardNavigation
+                disableButtonsControls
                 items={items}
                 responsive={responsive}
                 onSlideChange={onSlideChange}

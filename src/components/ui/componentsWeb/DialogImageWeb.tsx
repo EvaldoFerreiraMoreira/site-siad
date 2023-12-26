@@ -39,9 +39,7 @@ const DialogImageWEB = (prop: img) => {
                 </Button>
             </DialogTrigger>
 
-            <DialogContent className="sm:max-w-[70%] bg-white {
-                
-            }]">
+            <DialogContent className="sm:max-w-[70%] bg-white">
 
                 <div className=" flex flex-col justify-center align-center  w-[100%] h-[100%]  ">
 

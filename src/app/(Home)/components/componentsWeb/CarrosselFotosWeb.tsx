@@ -1,11 +1,14 @@
 "use client"
-
-import { Button } from '@/components/ui/button';
-import { CheckSquare } from 'lucide-react';
+import * as React from "react"
+import { Card, CardContent } from "@/components/ui/card"
+import {
+    Carousel,
+    CarouselContent,
+    CarouselItem,
+    CarouselNext,
+    CarouselPrevious,
+} from "@/components/ui/carousel"
 import Image from 'next/image';
-import Link from 'next/link';
-import React from 'react';
-import AliceCarousel, { EventObject } from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 
 
@@ -18,104 +21,26 @@ const CarrosselFotosWeb = () => {
         1024: { items: 1 },
     };
 
-    const items = [
-        <div className=" item justify-center" data-value="0" key={0}>
-            <div className='flex mt-6  justify-center gap-6 pb-5 '>
-
-                <Image
-                    src="/FEED-LOJA-DE-CALÇADOS.png"
-                    alt="Imagem"
-                    width={0}
-                    height={0}
-                    sizes="auto"
-                    className="h-60 w-auto max-w-[100%] max-h-[100%] rounded-3xl shadow-lg shadow-[#23314C]"
-                    style={{
-                        objectFit: "contain",
-
-
-                    }}
-                />
-
-                <Image
-                    src="/FEED-LOJA-DE-COSMÉTICOS.png"
-                    alt="Imagem"
-                    width={0}
-                    height={0}
-                    sizes="auto"
-                    className="h-60 w-auto max-w-[100%] max-h-[100%] rounded-3xl shadow-lg shadow-[#23314C]"
-                    style={{
-                        objectFit: "contain",
-                    }}
-                />
-
-                <Image
-                    src="/FEED-LOJA-DE-FERRAMENTOS.png"
-                    alt="Imagem"
-                    width={0}
-                    height={0}
-                    sizes="auto"
-                    className="h-60 w-auto max-w-[100%] max-h-[100%] rounded-3xl shadow-lg shadow-[#23314C]"
-                    style={{
-                        objectFit: "contain",
-                    }}
-                />
-
-
-
-            </div>
-        </div>,
-        <div className="item" data-value="2" key={1}>
-            <div className='flex mt-5 justify-center gap-6 pb-5'>
-
-                <Image
-                    src="/FEED-LOJA-DE-ROUPAS.png"
-                    alt="Imagem"
-                    width={0}
-                    height={0}
-                    sizes="auto"
-                    className="h-60 w-auto max-w-[100%] max-h-[100%] rounded-3xl shadow-lg shadow-[#23314C]"
-                    style={{
-                        objectFit: "fill",
-                    }}
-                />
-
-                <Image
-                    src="/FEED-MÓVEIS-E-ELETRO.png"
-                    alt="Imagem"
-                    width={0}
-                    height={0}
-                    sizes="auto"
-                    className="h-60 w-auto max-w-[100%] max-h-[100%] rounded-3xl shadow-lg shadow-[#23314C]"
-                    style={{
-                        objectFit: "contain",
-                    }}
-                />
-
-                <Image
-                    src="/FEED-ÓTICAS.png"
-                    alt="Imagem"
-                    width={0}
-                    height={0}
-                    sizes="auto"
-                    className="h-60 w-auto max-w-[100%] max-h-[100%] rounded-3xl shadow-lg shadow-[#23314C]"
-                    style={{
-                        objectFit: "contain",
-                    }}
-                />
-            </div>
-        </div>,
-
-
-    ];
-
-    const onSlideChange = (e: EventObject) => {
-        console.debug(`onSlideChange => Item's position before a change: ${e.item}. Event:`, e);
-    };
-
-    const onSlideChanged = (e: EventObject) => {
-        console.debug(`onSlideChanged => Item's position after changes: ${e.item}. Event:`, e);
-    };
-
+    const test = [
+        {
+            image: "/FEED-LOJA-DE-CALÇADOS.png",
+        },
+        {
+            image: "/FEED-LOJA-DE-COSMÉTICOS.png",
+        },
+        {
+            image: "/FEED-LOJA-DE-FERRAMENTOS.png",
+        },
+        {
+            image: "/FEED-LOJA-DE-ROUPAS.png",
+        },
+        {
+            image: "/FEED-MÓVEIS-E-ELETRO.png",
+        },
+        {
+            image: "/FEED-ÓTICAS.png",
+        }
+    ]
 
     return (
         <div className='flex flex-col justify-center mx-64'>
@@ -128,16 +53,33 @@ const CarrosselFotosWeb = () => {
                 </div>
             </div>
             <div className='ml-6 items-center'>
-
-                <AliceCarousel
-                    mouseTracking
-                    keyboardNavigation
-                    items={items}
-                    responsive={responsive}
-                    onSlideChange={onSlideChange}
-                    onSlideChanged={onSlideChanged}
-
-                />
+                <Carousel className="w-full pb-10 ">
+                    <CarouselContent className="-ml-1">
+                        {test.map((item, index) => (
+                            <CarouselItem key={index} className="pl-1 md:basis-1/2 lg:basis-1/3 ">
+                                <div className="p-1">
+                                    <Card>
+                                        <CardContent className="flex aspect-square items-center justify-center p-6 bg-[#3D5685] ">
+                                            <Image
+                                                src={item?.image}
+                                                alt="Imagem"
+                                                width={0}
+                                                height={0}
+                                                sizes="auto"
+                                                className="h-auto w-auto max-w-[100%] max-h-[100%] rounded-3xl shadow-lg shadow-[#23314C]"
+                                                style={{
+                                                    objectFit: "contain",
+                                                }}
+                                            />
+                                        </CardContent>
+                                    </Card>
+                                </div>
+                            </CarouselItem>
+                        ))}
+                    </CarouselContent>
+                    <CarouselPrevious />
+                    <CarouselNext />
+                </Carousel>
             </div>
         </div>
     );

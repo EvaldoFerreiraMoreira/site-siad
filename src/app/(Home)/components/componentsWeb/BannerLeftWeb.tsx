@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import DialogImageWEB from "@/components/ui/componentsWeb/DialogImageWeb";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
@@ -13,7 +14,7 @@ interface BannerLeftProps {
 
 const BannerLeftWeb = ({ title, description, img, colorTitle, colorDescription }: BannerLeftProps) => {
 
-    const imagem = "/" + img;
+
     const colortitle = "#" + colorTitle;
     const colordescription = "#" + colorDescription;
     return (
@@ -24,16 +25,7 @@ const BannerLeftWeb = ({ title, description, img, colorTitle, colorDescription }
                 whileTap={{ scale: 1.05 }}
                 transition={{ type: "spring", stiffness: 400, damping: 16 }}
             >
-                <Image
-                    src={imagem}
-                    alt="Compiuter"
-                    width={0}
-                    height={0}
-                    sizes="100vw"
-                    className="h-auto w-auto max-w-[80%] max-h-[80%] shadow-lg rounded-2xl"
-                    style={{
-                        objectFit: "contain",
-                    }}
+              <DialogImageWEB imagem={img}
                 />
             </motion.div>
             <div className="flex flex-col text-right ml-0 w-[50%]" style={{ color: colordescription }}>

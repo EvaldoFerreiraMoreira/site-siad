@@ -1,5 +1,7 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
+import DialogImage from "@/components/ui/componentsWeb/DialogImageWeb";
+import DialogImageWEB from "@/components/ui/componentsWeb/DialogImageWeb";
 
 const BannerWeb = () => {
     return (
@@ -155,17 +157,10 @@ const BannerWeb = () => {
                     </div>
                 </div>
                 <div className="flex mt-10 h-80 justify-center">
-                    <Image
-                        src="/PC-01.png"
-                        alt="Compiuter"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        className="h-auto w-auto max-w-[100%] max-h-[100%]"
-                        style={{
-                            objectFit: "contain",
-                        }}
-                    />
+                <DialogImageWEB imagem={"PC-01.png"}/>
+
+                    
+                   
                 </div>
             </div>
         </>

@@ -1,3 +1,4 @@
+import DialogZoomMobile from "@/components/ui/componentsMobile/DialogZoomMobile";
 import Image from "next/image";
 
 const BannerMobile = () => {
@@ -10,6 +11,8 @@ const BannerMobile = () => {
                 <p> Emita suas notas fiscais de forma simples e rápida e sem limite de NF-e e NFC-e, enviando o xml e o pdf para seu cliente sem dificuldade.  </p>
             </div>
             <div className="flex mt-10 h-56 justify-center">
+               
+           
                 <Image
                     src="/PC-01.png"
                     alt="Compiuter"

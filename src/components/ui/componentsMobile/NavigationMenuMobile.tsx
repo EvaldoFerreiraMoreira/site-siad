@@ -26,11 +26,11 @@ export function NavigationMenuSegmentoMobile() {
                     <NavigationMenuContent>
                         <ul className="grid gap-3 p-6">
                             <div>
-                                <ListItem href="/" title="Comércios" />
-                                <ListItem href="/" title="Serviços em geral" />
-                                <ListItem href="/" title="Alimentaçao" />
-                                <ListItem href="/" title="Construção e Reforma" />
-                                <ListItem href="/" title="Varejo e Atacado" />
+                                <ListItem  title="Comércios" />
+                                <ListItem  title="Serviços em geral" />
+                                <ListItem  title="Alimentaçao" />
+                                <ListItem  title="Construção e Reforma" />
+                                <ListItem  title="Varejo e Atacado" />
                             </div>
                         </ul>
                     </NavigationMenuContent>

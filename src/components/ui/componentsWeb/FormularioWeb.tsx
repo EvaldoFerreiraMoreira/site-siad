@@ -126,7 +126,7 @@ const FormularioWeb = () => {
                             <DialogTitle className="text-4xl text-black font-extralight tracking-wide font-sans ">AGENDE SUA</DialogTitle>
                             <DialogTitle className="text-4xl font-light  tracking-wider text-black  ">DEMONSTRAÇÃO</DialogTitle>
                             <DialogDescription className="text-[#6F6E6E] " >Gostaria de saber mais sobre os produtos da Siad Sistemas?</DialogDescription>
-                            <DialogDescription className=" text-m text-[#A7A7A7] font-light font-sans  " >Agente agora uma demonstração com um de nossos consultores.</DialogDescription>
+                            <DialogDescription className=" text-m text-[#A7A7A7] font-light font-sans  " >Agende agora uma demonstração com um de nossos consultores.</DialogDescription>
                         </DialogHeader>
                     </div>
                     <div className="felx flex-col grid gap-6 py-4 w-[60%]">

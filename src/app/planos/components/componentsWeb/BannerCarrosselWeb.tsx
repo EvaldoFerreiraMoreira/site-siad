@@ -17,7 +17,7 @@ const BannerCarrosselWeb = () => {
     const items = [
         <div className="item " data-value="1" key={0}>
             <div className="flex text-[#A7A7A7] mx-64">
-                <div className="flex flex-col justify-center w-96">
+                <div className="flex flex-col justify-center w-[50%]">
                     <div className="flex font-bold text-3xl">
                         <h1 className="text-[#000000]  font-bold ">
                             Tenha um controle melhor das contas a pagar e compras da sua empresa
@@ -36,7 +36,7 @@ const BannerCarrosselWeb = () => {
         </div>,
         <div className="item" data-value="1" key={1}>
             <div className="flex text-[#A7A7A7] mx-64">
-                <div className="flex flex-col justify-center w-96">
+                <div className="flex flex-col justify-center w-[50%]">
                     <div className="flex font-bold text-4xl">
                         <h1 className="text-[#000000]  font-bold text-4xl">
                             Agilidade e eficiência na entrada de notas
@@ -58,7 +58,7 @@ const BannerCarrosselWeb = () => {
         </div>,
         <div className="item justify-center" data-value="1" key={2}>
             <div className="flex text-[#A7A7A7] mx-64">
-                <div className="flex flex-col justify-center w-96">
+                <div className="flex flex-col justify-center w-[50%]">
                     <div className="flex font-bold text-4xl">
                         <h1 className="text-[#000000]  font-bold text-4xl">
                             Ordem de serviço
@@ -78,7 +78,7 @@ const BannerCarrosselWeb = () => {
         </div>,
         <div className="item" data-value="1" key={3}>
             <div className="flex text-[#A7A7A7] mx-64">
-                <div className="flex flex-col justify-center w-96">
+                <div className="flex flex-col justify-center w-[50%]">
                     <div className="flex font-bold text-4xl">
                         <h1 className="text-[#000000]  font-bold text-4xl">
                             Amplie seu empreendimento com uma gestão financeira estruturada
@@ -98,7 +98,7 @@ const BannerCarrosselWeb = () => {
         </div>,
         <div className="item" data-value="1" key={4}>
             <div className="flex text-[#A7A7A7] mx-64">
-                <div className="flex flex-col justify-center w-96">
+                <div className="flex flex-col justify-center w-[50%]">
                     <div className="flex font-bold text-4xl">
                         <h1 className="text-[#000000]  font-bold text-4xl">
                             Envie suas Notas Fiscais de Forma Mais Simples e Prática
@@ -130,7 +130,7 @@ const BannerCarrosselWeb = () => {
 
 
     return (
-        <div className=''>
+        <div className='flex items-center justify-center w-[100%]  '>
             <AliceCarousel
                 mouseTracking
                 disableButtonsControls

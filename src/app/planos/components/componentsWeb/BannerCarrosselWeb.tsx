@@ -3,6 +3,7 @@ import React from 'react';
 import AliceCarousel, { EventObject } from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 import Image from 'next/image';
+import DialogImageWEB from '@/components/ui/componentsWeb/DialogImageWeb';
 
 
 const BannerCarrosselWeb = () => {
@@ -14,11 +15,11 @@ const BannerCarrosselWeb = () => {
     };
 
     const items = [
-        <div className="item" data-value="1" key={0}>
+        <div className="item " data-value="1" key={0}>
             <div className="flex text-[#A7A7A7] mx-64">
-                <div className="flex flex-col justify-center">
-                    <div className="flex font-bold text-4xl">
-                        <h1 className="text-[#000000]  font-bold text-4xl">
+                <div className="flex flex-col justify-center w-96">
+                    <div className="flex font-bold text-3xl">
+                        <h1 className="text-[#000000]  font-bold ">
                             Tenha um controle melhor das contas a pagar e compras da sua empresa
                         </h1>
                     </div>
@@ -28,24 +29,14 @@ const BannerCarrosselWeb = () => {
                         </p>
                     </div>
                 </div>
-                <div className="flex mt-10 justify-center">
-                    <Image
-                        src="/IMG-05.jpg"
-                        alt="Compiuter"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        className="h-auto w-auto max-w-[100%] max-h-[100%] rounded-2xl shadow-lg"
-                        style={{
-                            objectFit: "contain",
-                        }}
-                    />
+                <div className="flex mt-10 justify-center w-[50%]">
+                    <DialogImageWEB imagem={"IMG-05.jpg"}/>
                 </div>
             </div>
         </div>,
         <div className="item" data-value="1" key={1}>
             <div className="flex text-[#A7A7A7] mx-64">
-                <div className="flex flex-col justify-center">
+                <div className="flex flex-col justify-center w-96">
                     <div className="flex font-bold text-4xl">
                         <h1 className="text-[#000000]  font-bold text-4xl">
                             Agilidade e eficiência na entrada de notas
@@ -59,24 +50,15 @@ const BannerCarrosselWeb = () => {
                         </p>
                     </div>
                 </div>
-                <div className="flex mt-10 justify-center">
-                    <Image
-                        src="/IMG-06.jpg"
-                        alt="Compiuter"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        className="h-auto w-auto max-w-[100%] max-h-[100%] rounded-2xl shadow-lg"
-                        style={{
-                            objectFit: "contain",
-                        }}
-                    />
+                <div className="flex mt-10 justify-center w-[50%]">
+                <DialogImageWEB imagem={"IMG-06.jpg"}/>
+                   
                 </div>
             </div>
         </div>,
-        <div className="item" data-value="1" key={2}>
+        <div className="item justify-center" data-value="1" key={2}>
             <div className="flex text-[#A7A7A7] mx-64">
-                <div className="flex flex-col justify-center">
+                <div className="flex flex-col justify-center w-96">
                     <div className="flex font-bold text-4xl">
                         <h1 className="text-[#000000]  font-bold text-4xl">
                             Ordem de serviço
@@ -88,24 +70,15 @@ const BannerCarrosselWeb = () => {
                         </p>
                     </div>
                 </div>
-                <div className="flex mt-10 justify-center">
-                    <Image
-                        src="/IMG-07.jpg"
-                        alt="Compiuter"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        className="h-auto w-auto max-w-[100%] max-h-[100%] rounded-2xl shadow-lg"
-                        style={{
-                            objectFit: "contain",
-                        }}
-                    />
+                <div className="flex mt-10 justify-center w-[50%]">
+                <DialogImageWEB imagem={"IMG-07.jpg"}/>
+                   
                 </div>
             </div>
         </div>,
         <div className="item" data-value="1" key={3}>
             <div className="flex text-[#A7A7A7] mx-64">
-                <div className="flex flex-col justify-center">
+                <div className="flex flex-col justify-center w-96">
                     <div className="flex font-bold text-4xl">
                         <h1 className="text-[#000000]  font-bold text-4xl">
                             Amplie seu empreendimento com uma gestão financeira estruturada
@@ -117,24 +90,15 @@ const BannerCarrosselWeb = () => {
                         </p>
                     </div>
                 </div>
-                <div className="flex mt-10 justify-center">
-                    <Image
-                        src="/IMG-08.jpg"
-                        alt="Compiuter"
-                        width={0}
-                        height={0}
-                        sizes="450vw"
-                        className="h-auto w-auto max-w-[100%] max-h-[100%] rounded-2xl shadow-lg"
-                        style={{
-                            objectFit: "contain",
-                        }}
-                    />
+                <div className="flex mt-10 justify-center w-[50%]">
+                <DialogImageWEB imagem={"IMG-08.jpg"}/>
+    
                 </div>
             </div>
         </div>,
         <div className="item" data-value="1" key={4}>
             <div className="flex text-[#A7A7A7] mx-64">
-                <div className="flex flex-col justify-center">
+                <div className="flex flex-col justify-center w-96">
                     <div className="flex font-bold text-4xl">
                         <h1 className="text-[#000000]  font-bold text-4xl">
                             Envie suas Notas Fiscais de Forma Mais Simples e Prática
@@ -146,18 +110,9 @@ const BannerCarrosselWeb = () => {
                         </p>
                     </div>
                 </div>
-                <div className="flex mt-10 justify-center">
-                    <Image
-                        src="/IMG-09.jpg"
-                        alt="Compiuter"
-                        width={0}
-                        height={0}
-                        sizes="100vw"
-                        className="h-auto w-auto max-w-[100%] max-h-[100%] rounded-2xl shadow-lg"
-                        style={{
-                            objectFit: "contain",
-                        }}
-                    />
+                <div className="flex mt-10 justify-center w-[50%]">
+                <DialogImageWEB imagem={"IMG-09.jpg"}/>
+                 
                 </div>
             </div>
         </div>,

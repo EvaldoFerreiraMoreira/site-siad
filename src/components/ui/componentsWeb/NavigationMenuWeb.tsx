@@ -67,49 +67,49 @@ export function NavigationMenuSegmentoWeb() {
                             <NavigationMenuItem className="font-bold">Comércio:</NavigationMenuItem>
                             <ul className="w-[800px] text-xs p-4">
                                 <div className="grid grid-cols-6">
-                                    <ListItem href="/" title="Casa de Ração" />
-                                    <ListItem href="/" title="Loja de Roupas" />
-                                    <ListItem href="/" title="Supermercados" />
-                                    <ListItem href="/" title="Mercearias" />
-                                    <ListItem href="/" title="Lojas de Roupas e Acessórios" />
-                                    <ListItem href="/" title="Loja de Calçados" />
-                                    <ListItem href="/" title="Eletrodomésticos e Eletrônicos" />
-                                    <ListItem href="/" title="Móveis e Decoração" />
-                                    <ListItem href="/" title="Papelarias" />
-                                    <ListItem href="/" title="Óticas" />
-                                    <ListItem href="/" title="Joalherias" />
+                                    <ListItem title="Casa de Ração" />
+                                    <ListItem title="Loja de Roupas" />
+                                    <ListItem title="Supermercados" />
+                                    <ListItem title="Mercearias" />
+                                    <ListItem title="Lojas de Roupas e Acessórios" />
+                                    <ListItem title="Loja de Calçados" />
+                                    <ListItem title="Eletrodomésticos e Eletrônicos" />
+                                    <ListItem title="Móveis e Decoração" />
+                                    <ListItem title="Papelarias" />
+                                    <ListItem title="Óticas" />
+                                    <ListItem title="Joalherias" />
                                 </div>
                             </ul>
                             <NavigationMenuItem className="font-bold">Serviços:</NavigationMenuItem>
                             <ul className="w-[800px] text-xs p-4">
                                 <div className="grid grid-cols-6">
-                                    <ListItem href="/" title="Funerárias" />
-                                    <ListItem href="/" title="Oficinas" />
-                                    <ListItem href="/" title="Bares" />
-                                    <ListItem href="/" title="Distribuidora" />
+                                    <ListItem title="Funerárias" />
+                                    <ListItem  title="Oficinas" />
+                                    <ListItem  title="Bares" />
+                                    <ListItem  title="Distribuidora" />
                                 </div>
                             </ul>
                             <NavigationMenuItem className="font-bold">Alimentação:</NavigationMenuItem>
                             <ul className="w-[800px] text-xs p-4">
                                 <div className="grid grid-cols-6">
-                                    <ListItem href="/" title="Padarias" />
-                                    <ListItem href="/" title="Restaurantes" />
-                                    <ListItem href="/" title="Açougues" />
+                                    <ListItem  title="Padarias" />
+                                    <ListItem  title="Restaurantes" />
+                                    <ListItem  title="Açougues" />
                                 </div>
                             </ul>
                             <NavigationMenuItem className="font-bold">Construção e Reforma:</NavigationMenuItem>
                             <ul className="w-[800px] text-xs p-4">
                                 <div className="grid grid-cols-6">
-                                    <ListItem href="/" title="Material de Construção" />
-                                    <ListItem href="/" title="Madeireiras" />
-                                    <ListItem href="/" title="Marmorarias" />
+                                    <ListItem  title="Material de Construção" />
+                                    <ListItem  title="Madeireiras" />
+                                    <ListItem  title="Marmorarias" />
                                 </div>
                             </ul>
                             <NavigationMenuItem className="font-bold">Varejo e Atacado:</NavigationMenuItem>
                             <ul className="w-[800px] text-xs p-4">
                                 <div className="grid grid-cols-6">
-                                    <ListItem href="/" title="Atacado em Geral" />
-                                    <ListItem href="/" title="Varejo em Geral" />
+                                    <ListItem  title="Atacado em Geral" />
+                                    <ListItem  title="Varejo em Geral" />
                                 </div>
                             </ul>
                         </div>

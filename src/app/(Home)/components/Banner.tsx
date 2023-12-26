@@ -5,6 +5,7 @@ import BannerMobile from "./componentsMobile/BannerMobile";
 import BannerWeb from "./componentsWeb/BannerWeb";
 
 
+
 const Banner = () => {
   const [isMobile, setIsMobile] = useState(false);
 
@@ -22,7 +23,7 @@ const Banner = () => {
     };
   }, []);
 
-  return isMobile ? <BannerMobile /> : <BannerWeb />;
+  return isMobile ? <BannerMobile  /> : <BannerWeb  />;
 };
 
 export default Banner;

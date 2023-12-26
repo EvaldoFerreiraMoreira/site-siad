@@ -99,7 +99,7 @@ const FormularioMobile = () => {
         <Dialog>
 
             <DialogTrigger asChild>
-                <Button variant="outline" className="bg-[#7AA4F1] text-white rounded-3xl">Demonstração</Button>
+                <Button variant="outline" className="bg-[#5576B3] text-white rounded-3xl">Demonstração</Button>
             </DialogTrigger>
 
             <DialogContent className="sm:max-w-[425px] bg-white">
@@ -127,6 +127,23 @@ const FormularioMobile = () => {
 
                                     </FormItem>
                                 )}
+                                />
+                                   <FormField
+                                    control={form.control}
+                                    name="telefone"
+                                    render={({ field }) => (
+                                        <FormItem>
+
+
+                                            <FormLabel className="text-[#3D5685]">Telefone:</FormLabel>
+                                            <FormControl>
+                                                <Input className="border border-[#A7A7A7]" placeholder="(27)3700-00000" {...field} />
+                                            </FormControl>
+                                            <FormMessage />
+
+
+                                        </FormItem>
+                                    )}
                                 />
 
                                 <FormField

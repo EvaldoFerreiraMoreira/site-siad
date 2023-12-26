@@ -26,7 +26,7 @@ const FuncSiadBannerMobile = () => {
                 <p className="text-[#575E69]"> Administre todo a sua empresa de uma forma fácil e sem complicação, com siad, tarefas
                         passíveis de erros, como cálculo e digitação de preços, quantidades, preenchimento de um
                         cheque... </p>
-                    <Link href="#carrosselPlanos">
+                    <Link href="/planos">
                         <Button variant={"default"} size={"sm"} className="bg-[#26B547] rounded-2xl">
                             Experimente
                         </Button>

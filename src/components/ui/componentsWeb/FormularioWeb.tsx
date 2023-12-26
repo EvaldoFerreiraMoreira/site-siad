@@ -99,7 +99,7 @@ const FormularioWeb = () => {
         <Dialog>
 
             <DialogTrigger asChild>
-                <Button variant="outline" className="bg-[#7AA4F1] text-white rounded-3xl">Demonstração</Button>
+                <Button variant="outline" className="bg-[#5576B3] text-white rounded-3xl">Demonstração</Button>
             </DialogTrigger>
 
             <DialogContent className="sm:max-w-[70%] bg-white {

@@ -42,7 +42,7 @@ const BannerCarrosselWeb = () => {
     ]
 
     return (
-        <div className='flex items-center justify-center bg-transparent'>
+        <div className='flex items-center justify-center bg-transparent mx-64'>
             <Carousel className="w-full max-w-[90%]">
                 <CarouselContent>
                     {test.map((item, index) => (

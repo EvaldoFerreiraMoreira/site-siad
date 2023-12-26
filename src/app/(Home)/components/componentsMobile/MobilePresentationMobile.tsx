@@ -12,7 +12,7 @@ const MobilePresentationMobile = () => {
                     <h1 className="text-[#3D5685]">Gestor Mobile</h1>
                 </div>
                 <div className="flex mt-2 w-56 font-semibold text-xs">
-                    <span className="text-[#3D5685]">Confira a nossa solução mobile com os principais resultados da sua empresa</span>
+                    <span className="text-[#3D5685]">Confira a nossa solução mobile com os principais resultados das vendas gerenciais</span>
                 </div>
                 <div className="flex flex-col  gap-2 mt-3 text-[#3D5685] text-sm" >
                     <ul className="w-full justify-start gap-2" >

@@ -295,13 +295,13 @@ const CarrosselPlanosMobile = () => {
     return (
         <div className='flex flex-col'>
 
-            <div className='flex justify-center'>
-                <div className='flex bg-slate-500 w-36 h-11 items-center justify-center rounded-3xl'>
+<div className='flex justify-center'>
+                <div className='flex bg-[#3D5685] w-36 h-11 items-center justify-center rounded-3xl'>
                     <div className='flex justify-center gap-1'>
                         <Button variant={'secondary'} size={'sm'} className={
                             activeSection === "mensal"
                                 ? "flex rounded-3xl justify-center items-center"
-                                : "flex rounded-3xl justify-center items-center bg-slate-500 text-black"
+                                : "flex rounded-3xl justify-center items-center bg-[#3D5685] text-white"
                         } onClick={() => setActiveSection("mensal")}>
                             Mensal
                         </Button>
@@ -309,7 +309,7 @@ const CarrosselPlanosMobile = () => {
                         <Button variant={'secondary'} size={'sm'} className={
                             activeSection === "anual"
                                 ? "flex rounded-3xl justify-center items-center"
-                                : "flex rounded-3xl justify-center items-center bg-slate-500 text-black"
+                                : "flex rounded-3xl justify-center items-center bg-[#3D5685] text-white"
                         } onClick={() => setActiveSection("anual")}>
                             Anual
                         </Button>

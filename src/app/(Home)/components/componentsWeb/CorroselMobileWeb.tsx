@@ -14,28 +14,21 @@ import { AnimatePresence, motion, Variants } from "framer-motion";
 
 const test = [
     {
-        title: "Gestor Mobile",
-        description: "Confira a nossa solução mobile com os principais resultados das vendas gerenciais",
         image: "/Iphone-mobile.png",
     },
     {
-        title: "Gestor Mobile",
-        description: "Confira a nossa solução mobile com os principais resultados das vendas gerenciais",
+       
         image: "/Iphone-mobile.png",
     },
     {
-        title: "Gestor Mobile",
-        description: "Confira a nossa solução mobile com os principais resultados das vendas gerenciais",
+        
         image: "/Iphone-mobile.png",
     },
     {
-        title: "Gestor Mobile",
-        description: "Confira a nossa solução mobile com os principais resultados das vendas gerenciais",
+        
         image: "/Iphone-mobile.png",
     },
     {
-        title: "Gestor Mobile",
-        description: "Confira a nossa solução mobile com os principais resultados das vendas gerenciais",
         image: "/Iphone-mobile.png",
     },
 ]
@@ -57,42 +50,42 @@ const CorroselMobileWeb = () => {
     };
     return (
         <div className='flex justify-center items-center w-full'>
-            <Carousel className="w-full max-w-[90%]">
-                <CarouselContent>
-                    {test.map((item, index) => (
-                        <CarouselItem key={index}>
-                            <div className="p-1">
-                                <Card>
-                                    <CardContent className="flex justify-center bg-[#F1F4F9]">
-                                        <div className="flex flex-col ">
-                                            <div className="flex font-bold w-72 text-4xl p-4 ">
-                                                <h1 className="text-[#3D5685]">{item?.title}</h1>
-                                            </div>
-                                            <div className="mt-6 w-2/3 font-semibold text-justify p-4 ">
-                                                <span className="text-[#3D5685]">{item?.description}</span>
-                                            </div>
-                                            <div className="flex gap-2 mt-5 w-96 text-[#3D5685] text-sm p-4 ">
-                                                <ul className="gap-2" >
-                                                    <li className="flex gap-1 ">
-                                                        <Smartphone size={25} />
-                                                        <p> Melhor horário das vendas</p>
-                                                    </li>
-                                                    <li className="flex gap-1 mt-2">
-                                                        <Smartphone size={25} />
-                                                        <p>Mês a mês</p>
-                                                    </li>
-                                                    <li className="flex gap-1 mt-2">
-                                                        <Smartphone size={25} />
-                                                        <p>Ranking de vendas</p>
-                                                    </li>
-                                                    <li className="flex gap-1 mt-2 ">
-                                                        <Smartphone size={25} />
-                                                        <p>Formas de pagamentos e vendedores</p>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div>
+            <div className="flex flex-col ml-10">
+                <div className="flex font-bold w-72 text-4xl p-4 ">
+                    <h1 className="text-[#3D5685]">Gestor Mobile</h1>
+                </div>
+                <div className="mt-6 w-2/3 font-semibold text-justify p-4 ">
+                    <span className="text-[#3D5685]">Confira a nossa solução mobile com os principais resultados das vendas gerenciais</span>
+                </div>
+                <div className="flex gap-2 mt-5 w-96 text-[#3D5685] text-sm p-4 ">
+                    <ul className="gap-2" >
+                        <li className="flex gap-1 ">
+                            <Smartphone size={25} />
+                            <p> Melhor horário das vendas</p>
+                        </li>
+                        <li className="flex gap-1 mt-2">
+                            <Smartphone size={25} />
+                            <p>Mês a mês</p>
+                        </li>
+                        <li className="flex gap-1 mt-2">
+                            <Smartphone size={25} />
+                            <p>Ranking de vendas</p>
+                        </li>
+                        <li className="flex gap-1 mt-2 ">
+                            <Smartphone size={25} />
+                            <p>Formas de pagamentos e vendedores</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div className='flex justify-center w-80'>
+                <Carousel className="w-full max-w-[90%]">
+                    <CarouselContent>
+                        {test.map((item, index) => (
+                            <CarouselItem key={index}>
+                                <div className="p-1">
+                                    <Card>
+                                        <CardContent className="flex justify-center bg-[#F1F4F9]">
                                             <motion.div className="flex h-96 justify-center"
                                                 initial={{ opacity: 0, scale: 0.5 }}
                                                 animate={{ opacity: 1, scale: 1 }}
@@ -117,16 +110,16 @@ const CorroselMobileWeb = () => {
                                                     />
                                                 </AnimatePresence>
                                             </motion.div>
-                                        </div>
-                                    </CardContent>
-                                </Card>
-                            </div>
-                        </CarouselItem>
-                    ))}
-                </CarouselContent>
-                <CarouselPrevious />
-                <CarouselNext />
-            </Carousel>
+                                        </CardContent>
+                                    </Card>
+                                </div>
+                            </CarouselItem>
+                        ))}
+                    </CarouselContent>
+                    <CarouselPrevious />
+                    <CarouselNext />
+                </Carousel>
+            </div>
         </div>
     );
 }

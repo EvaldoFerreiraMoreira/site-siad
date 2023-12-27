@@ -221,12 +221,12 @@ const CarrosselPlanosWeb = () => {
                             </div>
                             {activeSection === "mensal"
                                 ?
-                                <Link href="https://buy.stripe.com/28og1UfNOfnabkc28a">
+                                <Link href="https://buy.stripe.com/8wM02W8lm6QE0Fy7sy">
                                     <Button className='bg-[#26B547] rounded-3xl px-14 mb-5'>
                                         Obter
                                     </Button>
                                 </Link>
-                                : <Link href="https://buy.stripe.com/dR6aHAeJK0sg9c4dQT">
+                                : <Link href="https://buy.stripe.com/bIY9Dw0SU4Iw9c46ov">
                                     <Button className='bg-[#26B547] rounded-3xl px-14 mb-5'>
                                         Obter
                                     </Button>
@@ -296,12 +296,12 @@ const CarrosselPlanosWeb = () => {
                             </div>
                             {activeSection === "mensal"
                                 ?
-                                <Link href="https://buy.stripe.com/00gdTMatu1wk2NGfZ2">
+                                <Link href="https://buy.stripe.com/00gcPI7hi8YMag8eV2">
                                     <Button className='bg-[#26B547] rounded-3xl px-14 mb-5'>
                                         Obter
                                     </Button>
                                 </Link>
-                                : <Link href="https://buy.stripe.com/9AQ4jc59a7UI0Fy005">
+                                : <Link href="https://buy.stripe.com/8wMaHAcBC7UI2NG28h">
                                     <Button className='bg-[#26B547] rounded-3xl px-14 mb-5'>
                                         Obter
                                     </Button>

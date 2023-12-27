@@ -71,7 +71,7 @@ const BannerWeb = () => {
                     className="flex flex-col items-center justify-center w-5 h-5 bg-[#5576B3]  rounded-md"
                     animate={{
                         x: "40vw",
-                        y: "-5rem",
+                        y: "-9rem",
                         opacity: 0.5,
                     }}
                     initial={{
@@ -147,16 +147,16 @@ const BannerWeb = () => {
                 >
                 </motion.div>
             </div>
-            <div className="flex text-[#A7A7A7] mx-64 z-10">
-                <div className="flex flex-col justify-center">
-                    <div className="flex font-bold text-4xl">
-                        <h1><span className="text-[#3D5685]">Nota fiscal</span> do consumidor eletrônica NFCe</h1>
+            <div className="flex text-[#A7A7A7] mx-64 z-10  justify-between ">
+                <div className="flex flex-col justify-center  w-[50%] ">
+                    <div className="flex font-bold text-4xl ">
+                        <h1><span className="text-[#3D5685]">Nota fiscal</span> do consumidor <span className="text-[#3D5685]">eletrônica</span> NFCe</h1>
                     </div>
-                    <div className="mt-6 w-2/3 text-sm text-justify">
-                        <p> Através do SIAD, é possível emitir rapidamente a Nota Fiscal do Consumidor Eletrônica (NFC-e). A emissão da NFC-e é essencial para fins de fiscalização e comprovação tributária. </p>
+                    <div className="mt-6 w-2/3 text-sm text-justify ">
+                        <p> Através do SIAD, é possível emitir rapidamente a Nota Fiscal do Consumidor Eletrônica NFC-e. A emissão da NFC-e é essencial para fins de fiscalização e comprovação tributária. </p>
                     </div>
                 </div>
-                <div className="flex mt-10 h-80 justify-center">
+                <div className="flex mt-10 h-80 justify-center ">
                     <DialogImageWEB imagem={"PC-01.png"} />
                 </div>
             </div>

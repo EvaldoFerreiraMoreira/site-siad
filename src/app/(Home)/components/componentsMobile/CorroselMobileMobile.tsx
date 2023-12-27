@@ -76,42 +76,42 @@ const CorroselMobileMobile = () => {
     };
     return (
         <div className='flex flex-col justify-center items-center w-full'>
-            <Carousel className="w-full max-w-[90%]" setApi={setApi}>
-                <CarouselContent>
-                    {test.map((item, index) => (
-                        <CarouselItem key={index}>
-                            <div className="p-1">
-                                <Card>
-                                    <CardContent className="flex flex-col gap-5 justify-center bg-[#F1F4F9]">
-                                        <div className="flex gap-3 flex-col ">
-                                            <div className="flex font-bold w-72 text-2xl p-4 ">
-                                                <h1 className="text-[#3D5685]">{item?.title}</h1>
-                                            </div>
-                                            <div className="font-semibold text-justify p-4 ">
-                                                <span className="text-[#3D5685]">{item?.description}</span>
-                                            </div>
-                                            <div className="flex gap-2 w-64 text-[#3D5685] text-sm p-4 ">
-                                                <ul className="gap-2" >
-                                                    <li className="flex gap-1 ">
-                                                        <Smartphone size={25} />
-                                                        <p> Melhor horário das vendas</p>
-                                                    </li>
-                                                    <li className="flex gap-1 mt-2">
-                                                        <Smartphone size={25} />
-                                                        <p>Mês a mês</p>
-                                                    </li>
-                                                    <li className="flex gap-1 mt-2">
-                                                        <Smartphone size={25} />
-                                                        <p>Ranking de vendas</p>
-                                                    </li>
-                                                    <li className="flex gap-1 mt-2 ">
-                                                        <Smartphone size={25} />
-                                                        <p>Formas de pagamentos e vendedores</p>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div>
+            <div className="flex gap-3 flex-col ">
+                <div className="flex font-bold w-72 text-2xl p-4 ">
+                    <h1 className="text-[#3D5685]">Gestor Mobile</h1>
+                </div>
+                <div className="font-semibold text-justify p-4 ">
+                    <span className="text-[#3D5685]">Confira a nossa solução mobile com os principais resultados das vendas gerenciais</span>
+                </div>
+                <div className="flex gap-2 w-64 text-[#3D5685] text-sm p-4 ">
+                    <ul className="gap-2" >
+                        <li className="flex gap-1 ">
+                            <Smartphone size={25} />
+                            <p> Melhor horário das vendas</p>
+                        </li>
+                        <li className="flex gap-1 mt-2">
+                            <Smartphone size={25} />
+                            <p>Mês a mês</p>
+                        </li>
+                        <li className="flex gap-1 mt-2">
+                            <Smartphone size={25} />
+                            <p>Ranking de vendas</p>
+                        </li>
+                        <li className="flex gap-1 mt-2 ">
+                            <Smartphone size={25} />
+                            <p>Formas de pagamentos e vendedores</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <Carousel className="w-full max-w-[90%]" setApi={setApi}>
+                    <CarouselContent>
+                        {test.map((item, index) => (
+                            <CarouselItem key={index}>
+                                <div className="p-1">
+                                    <Card>
+                                        <CardContent className="flex flex-col gap-5 justify-center bg-[#F1F4F9]">
                                             <motion.div className="flex h-72 justify-center"
                                                 initial={{ opacity: 0, scale: 0.5 }}
                                                 animate={{ opacity: 1, scale: 1 }}
@@ -136,16 +136,16 @@ const CorroselMobileMobile = () => {
                                                     />
                                                 </AnimatePresence>
                                             </motion.div>
-                                        </div>
-                                    </CardContent>
-                                </Card>
-                            </div>
-                        </CarouselItem>
-                    ))}
-                </CarouselContent>
-            </Carousel>
-            <div className="py-2 text-center text-sm text-muted-foreground">
-                 {current} de {count}
+                                        </CardContent>
+                                    </Card>
+                                </div>
+                            </CarouselItem>
+                        ))}
+                    </CarouselContent>
+                </Carousel>
+                <div className="py-2 text-center text-sm text-muted-foreground">
+                    {current} de {count}
+                </div>
             </div>
         </div>
     );

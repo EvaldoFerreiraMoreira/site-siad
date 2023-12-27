@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import CorroselMobileWeb from "./componentsWeb/CorroselMobileWeb";
+import CorroselMobileMobile from "./componentsMobile/CorroselMobileMobile";
 
 
 
@@ -22,7 +23,7 @@ const CarroselMobile = () => {
     };
   }, []);
 
-  return isMobile ?  <div></div>: <CorroselMobileWeb/> ;
+  return isMobile ?  <CorroselMobileMobile/>: <CorroselMobileWeb/> ;
 };
 
 export default CarroselMobile;

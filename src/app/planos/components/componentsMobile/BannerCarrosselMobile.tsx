@@ -5,11 +5,28 @@ import Image from 'next/image';
 import { Card, CardContent } from "@/components/ui/card"
 import {
     Carousel,
+    CarouselApi,
     CarouselContent,
     CarouselItem,
 
 } from "@/components/ui/carousel"
 const BannerCarrosselMobile = () => {
+    const [api, setApi] = React.useState<CarouselApi>()
+    const [current, setCurrent] = React.useState(0)
+    const [count, setCount] = React.useState(0)
+
+    React.useEffect(() => {
+        if (!api) {
+            return
+        }
+
+        setCount(api.scrollSnapList().length)
+        setCurrent(api.selectedScrollSnap() + 1)
+
+        api.on("select", () => {
+            setCurrent(api.selectedScrollSnap() + 1)
+        })
+    }, [api])
     const test = [
         {
             title: "Tenha um controle melhor das contas a pagar e compras da sua empresa",
@@ -39,14 +56,14 @@ const BannerCarrosselMobile = () => {
     ]
 
     return (
-        <div className='flex'>
-            <Carousel className="w-full max-w-xs">
+        <div className='flex flex-col'>
+            <Carousel className="w-full max-w-xs" setApi={setApi}>
                 <CarouselContent>
                     {test.map((item, index) => (
                         <CarouselItem key={index}>
                             <div className="p-1">
                                 <Card>
-                                    <CardContent className="flex items-center h-[10%] justify-center p-4">
+                                    <CardContent className="flex items-center h-[600px] justify-center p-4 ">
                                         <div className='flex flex-col'>
                                             <div className="flex items-center text-center mt-9">
                                                 <h1 className="text-[#333333]  font-bold text-md p-6">
@@ -65,7 +82,7 @@ const BannerCarrosselMobile = () => {
                                                     width={0}
                                                     height={0}
                                                     sizes="auto"
-                                                    className="h-56 w-auto max-w-[100%] max-h-[100%] rounded-2xl shadow-lg"
+                                                    className="h-56 w-auto max-w-[100%] max-h-[100%] rounded-2xl shadow-l"
                                                     style={{
                                                         objectFit: "contain",
                                                     }}
@@ -78,8 +95,10 @@ const BannerCarrosselMobile = () => {
                         </CarouselItem>
                     ))}
                 </CarouselContent>
-               
             </Carousel>
+            <div className="py-2 text-center text-sm text-muted-foreground">
+                {current} de {count}
+            </div>
         </div>
     );
 }

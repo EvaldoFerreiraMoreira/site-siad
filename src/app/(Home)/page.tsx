@@ -53,7 +53,7 @@ export default function Home() {
         <BannerRight button={"Experimente"} img={"IMG-03.png"} description={"O certificado digital e-CNPJ A1 permite emissão de Nota Fiscal Eletrônica, Nota Fiscal de Serviços Eletrônica e Nota Fiscal de Consumidor."} title={"Certificado Digital"} colortitle={"FFFFFF"} colordescription={"FFFFFF"} />
       </div>
       <div className="flex w-full p-10 bg-[#3D5685] ">
-        <BannerLeft title={"Gráfico Comparativo de Vendas"} description={"O Gráfico de vendas mês a mês te permite fazer um comparativo de faturamento mensal e compara-lo com o mesmo período em outro ano. A representação por cores individuais de cada ano torna a leitura e comparação dos gráficos mais intuitiva."} img={"IMG-04.png"} colorTitle={"FFFF"} colorDescription={"FFFF"} />
+        <BannerLeft title={"Gráfico Comparativo de Vendas"} description={"O Gráfico de vendas mês a mês te permite fazer um comparativo de faturamento mensal e compara-lo com o mesmo período em outro ano."} img={"IMG-04.png"} colorTitle={"FFFF"} colorDescription={"FFFF"} />
       </div>
       <div className="flex w-full p-10 bg-[#F1F4F9]">
         <CarroselMobile />

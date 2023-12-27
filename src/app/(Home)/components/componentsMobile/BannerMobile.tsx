@@ -5,10 +5,10 @@ const BannerMobile = () => {
     return (
         <div className="text-[#A7A7A7]">
             <div className="flex w-60 font-semibold text-2xl">
-                <h1><span className="text-[#3D5685]">Nota fiscal</span> eletrônica</h1>
+                <h1><span className="text-[#3D5685]">Nota fiscal</span> do consumidor eletrônica NFCe</h1>
             </div>
             <div className="mt-6 text-sm text-justify">
-                <p> Emita suas notas fiscais de forma simples e rápida e sem limite de NF-e e NFC-e, enviando o xml e o pdf para seu cliente sem dificuldade.  </p>
+                <p> Através do SIAD, é possível emitir rapidamente a Nota Fiscal do Consumidor Eletrônica (NFC-e). A emissão da NFC-e é essencial para fins de fiscalização e comprovação tributária.</p>
             </div>
             <div className="flex mt-10 h-56 justify-center">
                

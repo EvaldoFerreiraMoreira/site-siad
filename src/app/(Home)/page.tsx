@@ -44,7 +44,7 @@ export default function Home() {
         <TextCenter />
       </div>
       <div className="flex w-full p-10">
-        <BannerRight button={"Experimente"} img={"IMG-01.png"} description={"Através do SIAD,  é possível emitir rapidamente a Nota Fiscal do Consumidor Eletrônica (NFC-e). A emissão da NFC-e é essencial para fins de fiscalização e comprovação tributária."} title={"Nota fiscal do consumidor eletrônica  NFCe"} colortitle={"3D5685"} colordescription={"68686F"} />
+        <BannerRight button={"Experimente"} img={"Notafiscal.png"} description={"Emita suas notas fiscais de forma simples e rápida e sem limite de NF-e e NFC-e, enviando o xml e o pdf para seu cliente sem dificuldade."} title={"Nota fiscal eletrônica"} colortitle={"3D5685"} colordescription={"68686F"} />
       </div>
       <div className="flex w-full p-10">
         <BannerLeft title={"Manifestador de Notas Fiscais"} description={"O Manifestador de Notas Fiscais é um software que permite aos destinatários manifestarem o conhecimento sobre uma NF-e. Facilita o download e validação do arquivo XML da NF-e recebido do emitente."} img={"IMG-02.png"} colorTitle={"3D5685"} colorDescription={"68686F"} />

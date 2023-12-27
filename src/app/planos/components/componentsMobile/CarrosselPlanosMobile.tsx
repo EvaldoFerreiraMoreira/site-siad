@@ -138,13 +138,13 @@ const CarrosselPlanosMobile = () => {
                             <p className='text-xl left-10 text-red-600 line-through'>
                                 {activeSection === "mensal"
                                     ? ""
-                                    : "R$ 310,00"
+                                    : "R$ 284,20"
                                 }
                             </p>
                             <h1 className='flex gap-1 items-center text-3xl font-bold text-black'>
                                 {activeSection === "mensal"
-                                    ? "R$ 310,00"
-                                    : "R$ 279,90"
+                                    ? "R$ 284,20"
+                                    : "R$ 253,20"
                                 }
                                  <p className='text-xs mt-3 font-light text-gray-500'>/mês</p>
                             </h1>
@@ -218,13 +218,13 @@ const CarrosselPlanosMobile = () => {
                             <p className='text-xl left-10 text-red-600 line-through'>
                                 {activeSection === "mensal"
                                     ? ""
-                                    : "R$ 529,90"
+                                    : "R$ 426,30"
                                 }
                             </p>
                             <h1 className='flex gap-1 items-center text-3xl font-bold text-black'>
                                 {activeSection === "mensal"
-                                    ? "R$ 529,90"
-                                    : "R$ 489,00"
+                                    ? "R$ 426,30"
+                                    : "R$ 386,30"
                                 }
                                  <p className='text-xs mt-3 font-light text-gray-500'>/mês</p>
                             </h1>

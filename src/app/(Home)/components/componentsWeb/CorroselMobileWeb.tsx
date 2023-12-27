@@ -14,23 +14,39 @@ import { AnimatePresence, motion, Variants } from "framer-motion";
 
 const test = [
     {
-        image: "/Iphone-mobile.png",
-    },
-    {
        
-        image: "/Iphone-mobile.png",
+        image: "/Iphone-mobile1.png",
     },
     {
         
-        image: "/Iphone-mobile.png",
+        image: "/Iphone-mobile2.png",
     },
     {
         
-        image: "/Iphone-mobile.png",
+        image: "/Iphone-mobile3.png",
     },
     {
-        image: "/Iphone-mobile.png",
+        image: "/Iphone-mobile4.png",
     },
+    {
+        image: "/Iphone-mobile5.png",
+    },
+    {
+        image: "/Iphone-mobile6.png",
+    },
+    {
+        image: "/Iphone-mobile7.png",
+    },
+    {
+        image: "/Iphone-mobile8.png",
+    },
+    {
+        image: "/Iphone-mobile9.png",
+    },
+    {
+        image: "/Iphone-mobile10.png",
+    },
+
 ]
 
 const CorroselMobileWeb = () => {
@@ -78,14 +94,14 @@ const CorroselMobileWeb = () => {
                     </ul>
                 </div>
             </div>
-            <div className='flex justify-center w-80'>
+            <div className='flex justify-center w-96'>
                 <Carousel className="w-full max-w-[90%]">
                     <CarouselContent>
                         {test.map((item, index) => (
                             <CarouselItem key={index}>
                                 <div className="p-1">
                                     <Card>
-                                        <CardContent className="flex justify-center bg-[#F1F4F9]">
+                                        <CardContent className="flex w-full justify-center bg-[#F1F4F9]">
                                             <motion.div className="flex h-96 justify-center"
                                                 initial={{ opacity: 0, scale: 0.5 }}
                                                 animate={{ opacity: 1, scale: 1 }}
@@ -103,7 +119,7 @@ const CorroselMobileWeb = () => {
                                                         width={0}
                                                         height={0}
                                                         sizes="100vw"
-                                                        className="h-auto w-auto max-w-[100%] max-h-[100%]"
+                                                        className="h-auto w-full max-w-[100%] max-h-[100%]"
                                                         style={{
                                                             objectFit: "contain",
                                                         }}

@@ -15,30 +15,39 @@ import { AnimatePresence, motion, Variants } from "framer-motion";
 
 const test = [
     {
-        title: "Gestor Mobile",
-        description: "Confira a nossa solução mobile com os principais resultados das vendas gerenciais",
-        image: "/Iphone-mobile.png",
+       
+        image: "/Iphone-mobile1.png",
     },
     {
-        title: "Gestor Mobile",
-        description: "Confira a nossa solução mobile com os principais resultados das vendas gerenciais",
-        image: "/Iphone-mobile.png",
+        
+        image: "/Iphone-mobile2.png",
     },
     {
-        title: "Gestor Mobile",
-        description: "Confira a nossa solução mobile com os principais resultados das vendas gerenciais",
-        image: "/Iphone-mobile.png",
+        
+        image: "/Iphone-mobile3.png",
     },
     {
-        title: "Gestor Mobile",
-        description: "Confira a nossa solução mobile com os principais resultados das vendas gerenciais",
-        image: "/Iphone-mobile.png",
+        image: "/Iphone-mobile4.png",
     },
     {
-        title: "Gestor Mobile",
-        description: "Confira a nossa solução mobile com os principais resultados das vendas gerenciais",
-        image: "/Iphone-mobile.png",
+        image: "/Iphone-mobile5.png",
     },
+    {
+        image: "/Iphone-mobile6.png",
+    },
+    {
+        image: "/Iphone-mobile7.png",
+    },
+    {
+        image: "/Iphone-mobile8.png",
+    },
+    {
+        image: "/Iphone-mobile9.png",
+    },
+    {
+        image: "/Iphone-mobile10.png",
+    },
+
 ]
 
 const CorroselMobileMobile = () => {
@@ -111,7 +120,7 @@ const CorroselMobileMobile = () => {
                             <CarouselItem key={index}>
                                 <div className="p-1">
                                     <Card>
-                                        <CardContent className="flex flex-col gap-5 justify-center bg-[#F1F4F9]">
+                                        <CardContent className="flex flex-col gap-5  justify-center bg-[#F1F4F9]">
                                             <motion.div className="flex h-72 justify-center"
                                                 initial={{ opacity: 0, scale: 0.5 }}
                                                 animate={{ opacity: 1, scale: 1 }}
@@ -129,7 +138,7 @@ const CorroselMobileMobile = () => {
                                                         width={0}
                                                         height={0}
                                                         sizes="100vw"
-                                                        className="h-auto w-auto max-w-[100%] max-h-[100%]"
+                                                        className="h-auto w-auto max-w-[100%] max-h-[100%] "
                                                         style={{
                                                             objectFit: "contain",
                                                         }}

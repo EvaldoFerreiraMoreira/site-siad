@@ -24,9 +24,9 @@ const FixedBarMobile = () => {
             <div className="flex">
             <FormularioModificadoMobile/>
             </div>
-            {/* <div className="flex w-2 h-4 left-full ">
+            <div className="flex w-2 h-4 left-full ">
                 <script src="//code.jivosite.com/widget/pasrKoKcWR" async></script>
-            </div> */}
+            </div>
         </div>
             </div>
     );

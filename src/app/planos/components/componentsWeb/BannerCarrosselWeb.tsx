@@ -11,33 +11,34 @@ import {
     CarouselNext,
     CarouselPrevious,
 } from "@/components/ui/carousel"
+import DialogImageWEB from '@/components/ui/componentsWeb/DialogImageWeb';
 
 const BannerCarrosselWeb = () => {
     const test = [
         {
             title: "Tenha um controle melhor das contas a pagar e compras da sua empresa",
             description: "Otimize a gestão de despesas da sua empresa, previna-se contra multas e atrasos no pagamento aos fornecedores, ganhando tempo e eficiência no processo",
-            image: "/IMG-05.jpg",
+            image: "IMG-05.jpg",
         },
         {
             title: "Agilidade e eficiência na entrada de notas",
             description: "Agilize o processo de entrada e fechamento de notas com o uso do nosso manifestador de notas fiscais de entrada e manutenção de itens, sem a necessidade de redigitar a nota o os itens para acrescentá-los ao estoque.",
-            image: "/IMG-06.jpg",
+            image: "IMG-06.jpg",
         },
         {
             title: "Ordem de serviço",
             description: "Gerencie seus serviços prestados pela empresa com nosso módulo de Ordem de Serviço e gere comprovantes dos mesmos.",
-            image: "/IMG-07.jpg",
+            image: "IMG-07.jpg",
         },
         {
             title: "Amplie seu empreendimento com uma gestão financeira estruturada",
             description: "Um sistema centralizado de informações que integra procedimentos burocráticos com análises de saúde do negócio, proporcionando uma previsão mais precisa de lucros e uma tomada de decisão mais transparente. Oferece backups automáticos recorrentes e otimizados, garantindo máxima segurança dos dados.",
-            image: "/IMG-08.jpg",
+            image: "IMG-08.jpg",
         },
         {
             title: "Envie suas Notas Fiscais de Forma Mais Simples e Prática",
             description: "Ao administrar seu empreendimento com o SIAD, você economiza tempo e elimina retrabalhos ao gerar suas notas fiscais diretamente a partir das vendas, eliminando a necessidade de reintroduzir produtos, serviços e informações dos clientes nos portais governamentais.",
-            image: "/IMG-09.jpg",
+            image: "IMG-09.jpg",
         },
     ]
 
@@ -63,17 +64,7 @@ const BannerCarrosselWeb = () => {
                                             </div>
                                         </div>
                                         <div className='flex mt-5 justify-center gap-2 pb-5 w-[50%] '>
-                                            <Image
-                                                src={item?.image}
-                                                alt="Imagem"
-                                                width={0}
-                                                height={0}
-                                                sizes="auto"
-                                                className="h-72 w-auto max-w-[100%] max-h-[100%] rounded-2xl shadow-lg"
-                                                style={{
-                                                    objectFit: "contain",
-                                                }}
-                                            />
+                                           <DialogImageWEB imagem={item?.image} />
                                         </div>
                                     </CardContent>
                                 </Card>

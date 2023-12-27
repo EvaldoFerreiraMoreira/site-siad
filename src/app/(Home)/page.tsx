@@ -55,7 +55,7 @@ export default function Home() {
       <div className="flex w-full p-10 bg-[#3D5685] ">
         <BannerLeft title={"Gráfico Comparativo de Vendas"} description={"O Gráfico de vendas mês a mês te permite fazer um comparativo de faturamento mensal e compara-lo com o mesmo período em outro ano. A representação por cores individuais de cada ano torna a leitura e comparação dos gráficos mais intuitiva."} img={"IMG-04.png"} colorTitle={"FFFF"} colorDescription={"FFFF"} />
       </div>
-      <div className=" flex w-full p-10  bg-[#F1F4F9]">
+      <div className="flex w-full p-10 bg-[#F1F4F9]">
         <CarroselMobile />
       </div>
       <div className="border bg-[#3D5685]">

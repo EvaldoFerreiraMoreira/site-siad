@@ -29,7 +29,7 @@ const FixedBarWeb = () => {
         </Link>
       </div>
 
-      <script src="//code.jivosite.com/widget/pasrKoKcWR" async></script>
+      {/* <script src="//code.jivosite.com/widget/pasrKoKcWR" async></script> */}
     </div>
   );
 };

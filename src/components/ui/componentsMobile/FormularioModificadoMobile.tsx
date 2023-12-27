@@ -100,7 +100,7 @@ const FormularioModificadoMobile = () => {
         <Dialog>
 
             <DialogTrigger asChild>
-                <div className="flex gap-2">
+                <div className="flex gap-1 border p-1 rounded-lg items-center">
                     <ClipboardList size={35} />
                     <Button variant="ghost" className="bg-[#5576B3] text-white rounded-3xl">Contato</Button>
                 </div>

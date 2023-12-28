@@ -107,14 +107,14 @@ const CorroselMobileMobile = () => {
                             <p>Ranking de vendas</p>
                         </li>
                         <li className="flex gap-1 mt-2 ">
-                            <Smartphone size={25} />
+                            <Smartphone size={29} />
                             <p>Formas de pagamentos e vendedores</p>
                         </li>
                     </ul>
                 </div>
             </div>
             <div>
-                <Carousel className="w-full max-w-[90%]" setApi={setApi}>
+                <Carousel className="w-96 border border-black" setApi={setApi}>
                     <CarouselContent>
                         {test.map((item, index) => (
                             <CarouselItem key={index}>

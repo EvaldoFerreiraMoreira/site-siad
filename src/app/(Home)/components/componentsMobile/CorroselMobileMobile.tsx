@@ -114,7 +114,7 @@ const CorroselMobileMobile = () => {
                 </div>
             </div>
             <div>
-                <Carousel className="w-96 border border-black" setApi={setApi}>
+                <Carousel className="w-96" setApi={setApi}>
                     <CarouselContent>
                         {test.map((item, index) => (
                             <CarouselItem key={index}>

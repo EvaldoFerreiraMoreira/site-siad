@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import DialogVideoWEB from "@/components/ui/componentsWeb/DialogVideoWeb";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -18,6 +19,7 @@ const FuncSiadBannerWeb = () => {
                             objectFit: "contain",
                         }}
                     />
+                    <DialogVideoWEB video={"https://www.youtube.com/watch?v=rXBbaPidpPM"} />
                 </div>
                 <div className="flex flex-col font-semibold w-[50%]  text-sm gap-5">
                     <div className="flex font-bold text-2xl">

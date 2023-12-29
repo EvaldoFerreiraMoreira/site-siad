@@ -23,7 +23,7 @@ const DialogVideoWEB = ({ video }: DialogVideoWEBProps) => {
             </DialogTrigger>
             <DialogContent className="max-w-[56%] bg-white">
                 <div className=" flex justify-center align-center">
-                    <ReactPlayer url={video} playing={true} loop={true} height={565} width={1000} />
+                    <ReactPlayer url={video} playing={true} loop={true} height={580} width={"100%"} />
                 </div>
 
             </DialogContent>

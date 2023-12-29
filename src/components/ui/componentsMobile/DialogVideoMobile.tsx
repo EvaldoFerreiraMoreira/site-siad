@@ -18,12 +18,12 @@ const DialogVideoMobile = ({ video }: DialogVideoMobileProps) => {
         <Dialog>
             <DialogTrigger asChild>
                 <Button className="w-full h-full" variant={"link"}>
-                    <PlayCircleIcon size={80} className="absolute mb-48 ml-28 text-[#3D5685]" />
+                    <PlayCircleIcon size={80} className="absolute mb-56 text-[#3D5685] opacity-70" />
                 </Button>
             </DialogTrigger>
-            <DialogContent className="max-w-[38%] bg-white">
-                <div className=" flex justify-center align-center">
-                    <ReactPlayer url={video} playing={true} loop={true} style={{width:"1000px"}}/>
+            <DialogContent className="flex justify-center items-center bg-white">
+                <div className="">
+                    <ReactPlayer url={video} playing={true} loop={true} height={230} width={300}/>
                 </div>
 
             </DialogContent>

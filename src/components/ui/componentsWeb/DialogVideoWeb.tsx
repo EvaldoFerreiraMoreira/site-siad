@@ -21,9 +21,9 @@ const DialogVideoWEB = ({ video }: DialogVideoWEBProps) => {
                     <PlayCircleIcon size={200} className="absolute mb-32 text-[#3D5685]" />
                 </Button>
             </DialogTrigger>
-            <DialogContent className="max-w-[38%] bg-white">
+            <DialogContent className="max-w-[56%] bg-white">
                 <div className=" flex justify-center align-center">
-                    <ReactPlayer url={video} playing={true} loop={true} style={{width:"1000px"}}/>
+                    <ReactPlayer url={video} playing={true} loop={true} height={565} width={1000} />
                 </div>
 
             </DialogContent>

@@ -6,7 +6,7 @@ import Link from "next/link";
 const FuncSiadBannerWeb = () => {
     return (
         <div className="flex flex-col mx-56 items-center">
-            <div className="flex mt-10 gap-7 justify-between items-center">
+            <div className="flex mt-10 w-[80%] gap-7 justify-between items-center">
                 <div>
                     <Image
                         src="/IMG-FuncSiad.png"
